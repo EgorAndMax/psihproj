@@ -1,0 +1,29 @@
+﻿<Page
+    x:Class="PsihologicalProject.Templates.PsihologistPage2"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PsihologicalProject"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Height="510" Width="480">
+
+    <Page.Transitions>
+        <EntranceThemeTransition/>
+    </Page.Transitions>
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    	<TextBlock HorizontalAlignment="Left" Height="65" Margin="45,100,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="380" FontSize="40" FontFamily="Georgia">
+    		<Run Text="Психолог"/>
+    		<LineBreak/>
+    		<Run/>
+    	</TextBlock>
+    	<TextBlock HorizontalAlignment="Left" Height="245" Margin="45,195,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="380" FontSize="28" FontFamily="Georgia" TextAlignment="Justify">
+    		<Run Text="Краткое описание его дея-тельности"/>
+    		<LineBreak/>
+    		<Run/>
+    	</TextBlock>
+    	<Ellipse Fill="#FF0B0B0C" HorizontalAlignment="Left" Height="12" Margin="322,480,0,0" VerticalAlignment="Top" Width="12" StrokeDashCap="Round" Stroke="#FFFBF9F9" RequestedTheme="Dark" StrokeStartLineCap="Triangle" StrokeThickness="3"/>
+    	<Ellipse Fill="#FF0B0B0C" HorizontalAlignment="Left" Height="12" Margin="146,480,0,0" VerticalAlignment="Top" Width="12" StrokeDashCap="Square" Stroke="#FFFBF9F9" RequestedTheme="Dark" StrokeStartLineCap="Triangle" StrokeThickness="3"/>
+    	<Ellipse Fill="#FFF1F1F7" HorizontalAlignment="Left" Height="12" Margin="235,480,0,0" VerticalAlignment="Top" Width="12" StrokeDashCap="Round" Stroke="#FFFBF9F9" RequestedTheme="Dark" StrokeStartLineCap="Triangle" StrokeThickness="5" StrokeEndLineCap="Square"/>
+
+    </Grid>
+</Page>
