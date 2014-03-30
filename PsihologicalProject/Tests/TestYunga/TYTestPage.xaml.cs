@@ -21,28 +21,11 @@ namespace PsihologicalProject
     /// <summary>
     /// A basic page that provides characteristics common to most applications.
     /// </summary>
-    
-    
+
+    public delegate void MoveToNextPage(object o);
 
     public sealed partial class TYTestPage : Page
     {
-        private static int Count = 20;
-        public static int[] ArrayOfResults { get; set; }
-
-        public void NextPage(object o)
-        {
-            string buf = o.ToString();
-            int Number = 0;
-            int i = buf.Length - 1;
-            while (Char.IsDigit(buf[i]))
-            {
-                Number = Number * 10 + Int32.Parse(buf[i].ToString());
-            }
-            if (Number < Count)
-                Question.Navigate(Type.GetType("TYQuestion" + (Number.ToString() + 1)));
-            this.Frame.Navigate(typeof(TYResultPage));
-        }
-
         private NavigationHelper navigationHelper;
         private ObservableDictionary defaultViewModel = new ObservableDictionary();
 
@@ -66,7 +49,6 @@ namespace PsihologicalProject
 
         public TYTestPage()
         {
-            ArrayOfResults = new int[20];
             this.InitializeComponent();
             this.navigationHelper = new NavigationHelper(this);
             this.navigationHelper.LoadState += navigationHelper_LoadState;
@@ -123,5 +105,20 @@ namespace PsihologicalProject
         }
 
         #endregion
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(GroupedItemsPage));
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(TYResultPage));
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(TYResultPage));
+        }
     }
 }

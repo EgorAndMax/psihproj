@@ -13,8 +13,8 @@
     		<Run Text="№5. "/>
     		<Run Text="Как вы сходитесь с людьми?"/>
     	</TextBlock>
-    	<Button Content="а) Быстро, легко" HorizontalAlignment="Left" Height="60" Margin="56,282,0,0" VerticalAlignment="Top" Width="275" FontSize="24" FontFamily="Georgia"/>
-    	<Button Content="б) Медленно, осторожно" HorizontalAlignment="Left" Height="60" Margin="57,364,0,0" VerticalAlignment="Top" Width="376" FontSize="24" FontFamily="Georgia"/>
+    	<Button Content="а) Быстро, легко" HorizontalAlignment="Left" Height="60" Margin="56,282,0,0" VerticalAlignment="Top" Width="271" FontSize="24" FontFamily="Georgia" Click="Button_Click"/>
+    	<Button Content="б) Медленно, осторожно" HorizontalAlignment="Left" Height="60" Margin="57,364,0,0" VerticalAlignment="Top" Width="372" FontSize="24" FontFamily="Georgia" Click="Button_Click_1"/>
 
     </Grid>
 </Page>

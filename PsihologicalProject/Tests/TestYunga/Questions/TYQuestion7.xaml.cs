@@ -26,5 +26,17 @@ namespace PsihologicalProject
         {
             this.InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            TY.ArrayOfResults[NumberOfPage.Get(this.GetType()) - 1] = 1;
+            this.Frame.Navigate(typeof(TYQuestion8));
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            TY.ArrayOfResults[NumberOfPage.Get(this.GetType()) - 1] = 0;
+            this.Frame.Navigate(typeof(TYQuestion8));
+        }
     }
 }

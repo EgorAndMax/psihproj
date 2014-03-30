@@ -26,5 +26,19 @@ namespace PsihologicalProject
         {
             this.InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            TY.ArrayOfResults[NumberOfPage.Get(this.GetType()) - 1] = 1;
+            this.Frame.Height = 0;
+            //var mes = new Windows.UI.Popups.MessageDialog(TY.GetContent()).ShowAsync();
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            TY.ArrayOfResults[NumberOfPage.Get(this.GetType()) - 1] = 0;
+            this.Frame.Height = 0;
+            //var mes = new Windows.UI.Popups.MessageDialog(TY.GetContent()).ShowAsync();
+        }
     }
 }

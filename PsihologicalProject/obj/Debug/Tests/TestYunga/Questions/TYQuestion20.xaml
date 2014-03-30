@@ -13,8 +13,8 @@
     		<Run Text="№20."/>
     		<Run Text=" В затруднительных случаях:"/>
     	</TextBlock>
-    	<Button Content="а) Спешите обратиться за помощью к другим" HorizontalAlignment="Left" Height="60" Margin="56,282,0,0" VerticalAlignment="Top" Width="670" FontSize="24" FontFamily="Georgia"/>
-    	<Button Content="б) Не любите обращаться" HorizontalAlignment="Left" Height="60" Margin="56,364,0,0" VerticalAlignment="Top" Width="415" FontSize="24" FontFamily="Georgia"/>
+    	<Button x:ConnectionId='1' Content="а) Спешите обратиться за помощью к другим" HorizontalAlignment="Left" Height="60" Margin="56,282,0,0" VerticalAlignment="Top" Width="643" FontSize="24" FontFamily="Georgia"                     />
+    	<Button x:ConnectionId='2' Content="б) Не любите обращаться" HorizontalAlignment="Left" Height="60" Margin="56,364,0,0" VerticalAlignment="Top" Width="393" FontSize="24" FontFamily="Georgia"                       />
 
     </Grid>
 </Page>

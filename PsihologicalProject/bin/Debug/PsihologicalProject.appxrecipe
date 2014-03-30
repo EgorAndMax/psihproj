@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>ASERASPIREV5</Machine>
-    <WindowsUser>1</WindowsUser>
+    <Machine>WORKINGHARD</Machine>
+    <WindowsUser>Максим</WindowsUser>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>8a1a85ca-478c-403c-af82-76cdd9452c48</PackageIdentityName>
@@ -28,6 +28,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\Assets\FamousPsihologists\WolfMessing.jpg">
       <PackagePath>Assets\FamousPsihologists\WolfMessing.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\Assets\jung.jpg">
+      <PackagePath>Assets\jung.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\DataModel\SampleData.json">
       <PackagePath>DataModel\SampleData.json</PackagePath>
@@ -75,20 +78,95 @@
     <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Psihologists\WolfMessing.xbf">
       <PackagePath>Psihologists\WolfMessing.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Templates\DescriptionPage.xbf">
+      <PackagePath>Templates\DescriptionPage.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Templates\PsihologistPage1.xbf">
       <PackagePath>Templates\PsihologistPage1.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Templates\PsihologistPage2.xbf">
       <PackagePath>Templates\PsihologistPage2.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestYunga.xbf">
-      <PackagePath>Tests\TestYunga.xbf</PackagePath>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Templates\PsihologistPage3.xbf">
+      <PackagePath>Templates\PsihologistPage3.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestYunga\Description.xbf">
-      <PackagePath>Tests\TestYunga\Description.xbf</PackagePath>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Templates\QuestionPage.xbf">
+      <PackagePath>Templates\QuestionPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestYunga\Question1.xbf">
-      <PackagePath>Tests\TestYunga\Question1.xbf</PackagePath>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Templates\ResultPage.xbf">
+      <PackagePath>Templates\ResultPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Templates\TestPage.xbf">
+      <PackagePath>Templates\TestPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion9.xbf">
+      <PackagePath>Tests\TestYunga\Questions\TYQuestion9.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion20.xbf">
+      <PackagePath>Tests\TestYunga\Questions\TYQuestion20.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion19.xbf">
+      <PackagePath>Tests\TestYunga\Questions\TYQuestion19.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion18.xbf">
+      <PackagePath>Tests\TestYunga\Questions\TYQuestion18.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion17.xbf">
+      <PackagePath>Tests\TestYunga\Questions\TYQuestion17.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion16.xbf">
+      <PackagePath>Tests\TestYunga\Questions\TYQuestion16.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion15.xbf">
+      <PackagePath>Tests\TestYunga\Questions\TYQuestion15.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion14.xbf">
+      <PackagePath>Tests\TestYunga\Questions\TYQuestion14.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion13.xbf">
+      <PackagePath>Tests\TestYunga\Questions\TYQuestion13.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion12.xbf">
+      <PackagePath>Tests\TestYunga\Questions\TYQuestion12.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion11.xbf">
+      <PackagePath>Tests\TestYunga\Questions\TYQuestion11.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion10.xbf">
+      <PackagePath>Tests\TestYunga\Questions\TYQuestion10.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion8.xbf">
+      <PackagePath>Tests\TestYunga\Questions\TYQuestion8.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion7.xbf">
+      <PackagePath>Tests\TestYunga\Questions\TYQuestion7.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion6.xbf">
+      <PackagePath>Tests\TestYunga\Questions\TYQuestion6.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion5.xbf">
+      <PackagePath>Tests\TestYunga\Questions\TYQuestion5.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion4.xbf">
+      <PackagePath>Tests\TestYunga\Questions\TYQuestion4.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion3.xbf">
+      <PackagePath>Tests\TestYunga\Questions\TYQuestion3.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion2.xbf">
+      <PackagePath>Tests\TestYunga\Questions\TYQuestion2.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion1.xbf">
+      <PackagePath>Tests\TestYunga\Questions\TYQuestion1.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestYunga\TYDescriptionPage.xbf">
+      <PackagePath>Tests\TestYunga\TYDescriptionPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestYunga\TYResultPage.xbf">
+      <PackagePath>Tests\TestYunga\TYResultPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestYunga\TYTestPage.xbf">
+      <PackagePath>Tests\TestYunga\TYTestPage.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>

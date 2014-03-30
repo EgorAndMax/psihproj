@@ -25,18 +25,16 @@ namespace PsihologicalProject
     /// Provides application-specific behavior to supplement the default Application class.
     /// </summary>
 
-    public delegate void MoveToNextPage(object o);
+
 
     sealed partial class App : Application
     {
-        public static MoveToNextPage Mover;
         /// <summary>
         /// Initializes the singleton Application object.  This is the first line of authored code
         /// executed, and as such is the logical equivalent of main() or WinMain().
         /// </summary>
         public App()
         {
-            Mover = new MoveToNextPage(new TYTestPage().NextPage);
             this.InitializeComponent();
             this.Suspending += OnSuspending;
         }

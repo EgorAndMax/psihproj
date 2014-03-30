@@ -230,6 +230,7 @@
     <Content Include="Assets\FamousPsihologists\UngKarlGustav.jpg" />
     <Content Include="Assets\FamousPsihologists\VictorEmilFrankl.jpg" />
     <Content Include="Assets\FamousPsihologists\WolfMessing.jpg" />
+    <Content Include="Assets\jung.jpg" />
     <Content Include="DataModel\SampleData.json" />
   </ItemGroup>
   <ItemGroup>

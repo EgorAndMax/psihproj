@@ -34,16 +34,15 @@ namespace PsihologicalProject
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            TYTestPage.ArrayOfResults[NumberOfPage.Get(this.GetType()) - 1] = 0;
-            //this.Frame.Navigate(Type.GetType("TYQuestion" + (NumberOfPage.Get(Type.GetType(this.ToString() ) ) +1)));
-            var t = (Frame)this.Parent;
-            t.Navigate(Type.GetType("TYQuestion" + (NumberOfPage.Get(Type.GetType(sender.ToString())) + 1)));
+            TY.ArrayOfResults[NumberOfPage.Get(this.GetType()) - 1] = 0;
+            this.Frame.Navigate(typeof(TYQuestion2));
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            TYTestPage.ArrayOfResults[NumberOfPage.Get(this.GetType()) - 1] = 1;
-            App.Mover(this);
+            TY.ArrayOfResults[NumberOfPage.Get(this.GetType()) - 1] = 1;
+            this.Frame.Navigate(typeof(TYQuestion2));
         }
+
     }
 }
