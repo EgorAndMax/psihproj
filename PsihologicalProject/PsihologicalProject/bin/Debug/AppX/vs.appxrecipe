@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>WORKINGHARD</Machine>
+    <WindowsUser>Максим</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>8a1a85ca-478c-403c-af82-76cdd9452c48</PackageIdentityName>
+    <RegisteredManifestChecksum>8EE0A2C8EDCF8958D565317DC99D1B177F914616177FF3D719FC40A79E645F2E</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>8a1a85ca-478c-403c-af82-76cdd9452c48_1.0.0.0_neutral__5h4a7qf4dtdxc</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>8a1a85ca-478c-403c-af82-76cdd9452c48_5h4a7qf4dtdxc!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>8a1a85ca-478c-403c-af82-76cdd9452c48</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=1</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-30T13:36:40.737</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\PsihologicalProject.exe">
+      <PackagePath>PsihologicalProject.exe</PackagePath>
+      <Modified>2014-03-30T15:01:46.836</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\Assets\FamousPsihologists\HansEysenck.jpg">
+      <PackagePath>Assets\FamousPsihologists\HansEysenck.jpg</PackagePath>
+      <Modified>2014-03-20T17:46:39.920</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\Assets\FamousPsihologists\UngKarlGustav.jpg">
+      <PackagePath>Assets\FamousPsihologists\UngKarlGustav.jpg</PackagePath>
+      <Modified>2014-03-20T16:15:40.135</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\Assets\FamousPsihologists\VictorEmilFrankl.jpg">
+      <PackagePath>Assets\FamousPsihologists\VictorEmilFrankl.jpg</PackagePath>
+      <Modified>2014-03-20T16:15:40.147</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\Assets\FamousPsihologists\WolfMessing.jpg">
+      <PackagePath>Assets\FamousPsihologists\WolfMessing.jpg</PackagePath>
+      <Modified>2014-03-20T16:15:40.196</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\DataModel\SampleData.json">
+      <PackagePath>DataModel\SampleData.json</PackagePath>
+      <Modified>2014-03-29T06:49:10.896</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T02:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T02:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T02:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T02:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\Assets\LightGray.png">
+      <PackagePath>Assets\LightGray.png</PackagePath>
+      <Modified>2013-07-23T02:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\Assets\MediumGray.png">
+      <PackagePath>Assets\MediumGray.png</PackagePath>
+      <Modified>2013-07-23T02:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\Assets\DarkGray.png">
+      <PackagePath>Assets\DarkGray.png</PackagePath>
+      <Modified>2013-07-23T02:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2014-03-30T13:36:39.736</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\GroupedItemsPage.xbf">
+      <PackagePath>GroupedItemsPage.xbf</PackagePath>
+      <Modified>2014-03-30T13:36:39.738</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\GroupDetailPage.xbf">
+      <PackagePath>GroupDetailPage.xbf</PackagePath>
+      <Modified>2014-03-30T13:36:39.740</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\ItemDetailPage.xbf">
+      <PackagePath>ItemDetailPage.xbf</PackagePath>
+      <Modified>2014-03-30T13:36:39.742</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Psihologists\HansEysenck.xbf">
+      <PackagePath>Psihologists\HansEysenck.xbf</PackagePath>
+      <Modified>2014-03-30T13:36:39.744</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Psihologists\WolfMessing.xbf">
+      <PackagePath>Psihologists\WolfMessing.xbf</PackagePath>
+      <Modified>2014-03-30T13:36:39.748</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Templates\DescriptionPage.xbf">
+      <PackagePath>Templates\DescriptionPage.xbf</PackagePath>
+      <Modified>2014-03-30T13:36:39.749</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Templates\PsihologistPage1.xbf">
+      <PackagePath>Templates\PsihologistPage1.xbf</PackagePath>
+      <Modified>2014-03-30T13:36:39.752</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Templates\PsihologistPage2.xbf">
+      <PackagePath>Templates\PsihologistPage2.xbf</PackagePath>
+      <Modified>2014-03-30T13:36:39.754</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Templates\PsihologistPage3.xbf">
+      <PackagePath>Templates\PsihologistPage3.xbf</PackagePath>
+      <Modified>2014-03-30T13:36:39.756</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Templates\QuestionPage.xbf">
+      <PackagePath>Templates\QuestionPage.xbf</PackagePath>
+      <Modified>2014-03-30T13:36:39.759</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Templates\ResultPage.xbf">
+      <PackagePath>Templates\ResultPage.xbf</PackagePath>
+      <Modified>2014-03-30T13:36:39.760</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Templates\TestPage.xbf">
+      <PackagePath>Templates\TestPage.xbf</PackagePath>
+      <Modified>2014-03-30T13:36:39.762</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion9.xbf">
+      <PackagePath>Tests\TestYunga\Questions\TYQuestion9.xbf</PackagePath>
+      <Modified>2014-03-30T13:36:39.763</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion20.xbf">
+      <PackagePath>Tests\TestYunga\Questions\TYQuestion20.xbf</PackagePath>
+      <Modified>2014-03-30T13:36:39.763</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion19.xbf">
+      <PackagePath>Tests\TestYunga\Questions\TYQuestion19.xbf</PackagePath>
+      <Modified>2014-03-30T13:36:39.764</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion18.xbf">
+      <PackagePath>Tests\TestYunga\Questions\TYQuestion18.xbf</PackagePath>
+      <Modified>2014-03-30T13:36:39.764</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion17.xbf">
+      <PackagePath>Tests\TestYunga\Questions\TYQuestion17.xbf</PackagePath>
+      <Modified>2014-03-30T13:36:39.765</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion16.xbf">
+      <PackagePath>Tests\TestYunga\Questions\TYQuestion16.xbf</PackagePath>
+      <Modified>2014-03-30T13:36:39.768</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion15.xbf">
+      <PackagePath>Tests\TestYunga\Questions\TYQuestion15.xbf</PackagePath>
+      <Modified>2014-03-30T13:36:39.769</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion14.xbf">
+      <PackagePath>Tests\TestYunga\Questions\TYQuestion14.xbf</PackagePath>
+      <Modified>2014-03-30T13:36:39.769</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion13.xbf">
+      <PackagePath>Tests\TestYunga\Questions\TYQuestion13.xbf</PackagePath>
+      <Modified>2014-03-30T13:36:39.769</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion12.xbf">
+      <PackagePath>Tests\TestYunga\Questions\TYQuestion12.xbf</PackagePath>
+      <Modified>2014-03-30T13:36:39.770</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion11.xbf">
+      <PackagePath>Tests\TestYunga\Questions\TYQuestion11.xbf</PackagePath>
+      <Modified>2014-03-30T13:36:39.770</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion10.xbf">
+      <PackagePath>Tests\TestYunga\Questions\TYQuestion10.xbf</PackagePath>
+      <Modified>2014-03-30T13:36:39.772</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion8.xbf">
+      <PackagePath>Tests\TestYunga\Questions\TYQuestion8.xbf</PackagePath>
+      <Modified>2014-03-30T13:36:39.773</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion7.xbf">
+      <PackagePath>Tests\TestYunga\Questions\TYQuestion7.xbf</PackagePath>
+      <Modified>2014-03-30T13:36:39.775</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion6.xbf">
+      <PackagePath>Tests\TestYunga\Questions\TYQuestion6.xbf</PackagePath>
+      <Modified>2014-03-30T13:36:39.777</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion5.xbf">
+      <PackagePath>Tests\TestYunga\Questions\TYQuestion5.xbf</PackagePath>
+      <Modified>2014-03-30T13:36:39.778</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion4.xbf">
+      <PackagePath>Tests\TestYunga\Questions\TYQuestion4.xbf</PackagePath>
+      <Modified>2014-03-30T13:36:39.780</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion3.xbf">
+      <PackagePath>Tests\TestYunga\Questions\TYQuestion3.xbf</PackagePath>
+      <Modified>2014-03-30T13:36:39.782</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion2.xbf">
+      <PackagePath>Tests\TestYunga\Questions\TYQuestion2.xbf</PackagePath>
+      <Modified>2014-03-30T13:36:39.785</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion1.xbf">
+      <PackagePath>Tests\TestYunga\Questions\TYQuestion1.xbf</PackagePath>
+      <Modified>2014-03-30T13:36:39.787</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestYunga\TYDescriptionPage.xbf">
+      <PackagePath>Tests\TestYunga\TYDescriptionPage.xbf</PackagePath>
+      <Modified>2014-03-30T13:36:39.789</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestYunga\TYResultPage.xbf">
+      <PackagePath>Tests\TestYunga\TYResultPage.xbf</PackagePath>
+      <Modified>2014-03-30T14:59:21.859</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestYunga\TYTestPage.xbf">
+      <PackagePath>Tests\TestYunga\TYTestPage.xbf</PackagePath>
+      <Modified>2014-03-30T14:59:21.861</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-03-30T13:36:40.385</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

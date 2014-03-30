@@ -1,6 +1,6 @@
 ﻿<Page
     x:Name="pageRoot"
-    x:Class="PsihologicalProject.TYTestPage"
+    x:Class="PsihologicalProject.TYResultPage"
     DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Self}}"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -43,14 +43,28 @@
                         AutomationProperties.Name="Back"
                         AutomationProperties.AutomationId="BackButton"
                         AutomationProperties.ItemType="Navigation Button"/>
-            <TextBlock x:Name="pageTitle" Text="Тест Юнга" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
-                        IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="0,0,30,40" FontFamily="Gabriola" FontSize="75"/>
+            <TextBlock x:Name="pageTitle" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
+                        IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="0,0,30,40" Text="Результат теста"/>
         </Grid>
-        <Frame x:Name="Question" HorizontalAlignment="Left" Height="500" Grid.Row="1" VerticalAlignment="Top" Width="1346" Margin="10,10,0,0">
-        	<Button Content="Перейти к результату" HorizontalAlignment="Left" Height="130" Margin="50,300,0,0" VerticalAlignment="Top" Width="408" FontSize="29.333" FontFamily="Georgia" TabNavigation="Cycle"/>
-        </Frame>
-        <Button Content="Назад" HorizontalAlignment="Left" Height="45" Margin="67,560,0,0" Grid.Row="1" VerticalAlignment="Top" Width="250" FontSize="20"/>
-        <Button Content="Вперед" HorizontalAlignment="Left" Height="45" Margin="362,560,0,0" Grid.Row="1" VerticalAlignment="Top" Width="250" FontSize="20"/>
-        <Button Content="На главную" HorizontalAlignment="Left" Height="45" Margin="1058,560,0,0" Grid.Row="1" VerticalAlignment="Top" Width="250" FontSize="20"/>
+        <Button x:ConnectionId='1' Content="На главную" HorizontalAlignment="Left" Height="45" Margin="1058,560,0,0" Grid.Row="1" VerticalAlignment="Top" Width="250" FontSize="20"                     />
+        <RichTextBlock HorizontalAlignment="Left" Height="445" Margin="65,55,0,0" Grid.Row="1" VerticalAlignment="Top" Width="575" FontSize="30">
+        	<Paragraph>
+        		<Run x:Name="RunResult" Text=""/>
+        	</Paragraph>
+            <Paragraph>
+                <Run x:Name="RunWho" />
+            </Paragraph>
+            <Paragraph>
+                <Run x:Name="RunDescription1"/>
+            </Paragraph>
+            <Paragraph>
+                <Run x:Name="RunDescription2"></Run>
+            </Paragraph>
+            <Paragraph>
+                <Run x:Name="RunDescription3"/>
+            </Paragraph>
+        	<Paragraph/>
+        </RichTextBlock>
     </Grid>
 </Page>
+
