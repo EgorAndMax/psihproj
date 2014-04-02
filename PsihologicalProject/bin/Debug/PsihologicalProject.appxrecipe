@@ -17,6 +17,9 @@
     <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\PsihologicalProject.exe">
       <PackagePath>PsihologicalProject.exe</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\Assets\FamousPsihologists\Frade.jpeg">
+      <PackagePath>Assets\FamousPsihologists\Frade.jpeg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\Assets\FamousPsihologists\HansEysenck.jpg">
       <PackagePath>Assets\FamousPsihologists\HansEysenck.jpg</PackagePath>
     </AppxPackagedFile>
@@ -29,11 +32,14 @@
     <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\Assets\FamousPsihologists\WolfMessing.jpg">
       <PackagePath>Assets\FamousPsihologists\WolfMessing.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\Assets\FamousPsihologists\Yung.jpg">
+      <PackagePath>Assets\FamousPsihologists\Yung.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\Assets\jung.jpg">
       <PackagePath>Assets\jung.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\DataModel\SampleData.json">
-      <PackagePath>DataModel\SampleData.json</PackagePath>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\Assets\FamousPsihologists\PsihologistBackground.png">
+      <PackagePath>Assets\FamousPsihologists\PsihologistBackground.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
@@ -60,8 +66,26 @@
     <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\Assets\DarkGray.png">
       <PackagePath>Assets\DarkGray.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\DataModel\SampleData.json">
+      <PackagePath>DataModel\SampleData.json</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Psihologists\Frade.xbf">
+      <PackagePath>Psihologists\Frade.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Psihologists\Yung.xbf">
+      <PackagePath>Psihologists\Yung.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\BlankPage1.xbf">
+      <PackagePath>BlankPage1.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\HubPage1.xbf">
+      <PackagePath>HubPage1.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Psihologists\Aizenk.xbf">
+      <PackagePath>Psihologists\Aizenk.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\GroupedItemsPage.xbf">
       <PackagePath>GroupedItemsPage.xbf</PackagePath>
@@ -71,12 +95,6 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\ItemDetailPage.xbf">
       <PackagePath>ItemDetailPage.xbf</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Psihologists\HansEysenck.xbf">
-      <PackagePath>Psihologists\HansEysenck.xbf</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Psihologists\WolfMessing.xbf">
-      <PackagePath>Psihologists\WolfMessing.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Templates\DescriptionPage.xbf">
       <PackagePath>Templates\DescriptionPage.xbf</PackagePath>

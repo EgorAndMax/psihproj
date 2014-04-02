@@ -11,12 +11,12 @@
         <EntranceThemeTransition/>
     </Page.Transitions>
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-    	<TextBlock HorizontalAlignment="Left" Height="65" Margin="45,100,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="380" FontSize="40" FontFamily="Georgia">
+    	<TextBlock HorizontalAlignment="Left" Height="65" Margin="45,50,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="380" FontSize="40" FontFamily="Georgia">
     		<Run Text="Психолог"/>
     		<LineBreak/>
     		<Run/>
     	</TextBlock>
-    	<TextBlock HorizontalAlignment="Left" Height="245" Margin="45,195,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="380" FontSize="28" FontFamily="Georgia" TextAlignment="Justify">
+    	<TextBlock HorizontalAlignment="Left" Height="245" Margin="45,150,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="380" FontSize="28" FontFamily="Georgia" TextAlignment="Justify">
     		<Run Text="Краткое описание его дея-тельности"/>
     		<LineBreak/>
     		<Run/>

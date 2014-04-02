@@ -103,14 +103,23 @@
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Psihologists\Aizenk.xaml.cs">
+      <DependentUpon>Aizenk.xaml</DependentUpon>
+    </Compile>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="BlankPage1.xaml.cs">
+      <DependentUpon>BlankPage1.xaml</DependentUpon>
     </Compile>
     <Compile Include="GroupedItemsPage.xaml.cs">
       <DependentUpon>GroupedItemsPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="GroupDetailPage.xaml.cs">
       <DependentUpon>GroupDetailPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="HubPage1.xaml.cs">
+      <DependentUpon>HubPage1.xaml</DependentUpon>
     </Compile>
     <Compile Include="ItemDetailPage.xaml.cs">
       <DependentUpon>ItemDetailPage.xaml</DependentUpon>
@@ -122,12 +131,14 @@
     <Compile Include="Common\NavigationHelper.cs" />
     <Compile Include="Common\RelayCommand.cs" />
     <Compile Include="Common\ObservableDictionary.cs" />
-    <Compile Include="Psihologists\HansEysenck.xaml.cs">
-      <DependentUpon>HansEysenck.xaml</DependentUpon>
+    <Compile Include="Psihologist.cs" />
+    <Compile Include="Psihologists\Frade.xaml.cs">
+      <DependentUpon>Frade.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Psihologists\WolfMessing.xaml.cs">
-      <DependentUpon>WolfMessing.xaml</DependentUpon>
+    <Compile Include="Psihologists\Yung.xaml.cs">
+      <DependentUpon>Yung.xaml</DependentUpon>
     </Compile>
+    <Compile Include="TA.cs" />
     <Compile Include="Templates\DescriptionPage.xaml.cs">
       <DependentUpon>DescriptionPage.xaml</DependentUpon>
     </Compile>
@@ -148,6 +159,12 @@
     </Compile>
     <Compile Include="Templates\TestPage.xaml.cs">
       <DependentUpon>TestPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tests\InternetTest\ITDescriptionPage.xaml.cs">
+      <DependentUpon>ITDescriptionPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tests\InternetTest\ITTestPage.xaml.cs">
+      <DependentUpon>ITTestPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Tests\TestYunga\Questions\TYQuestion9.xaml.cs">
       <DependentUpon>TYQuestion9.xaml</DependentUpon>
@@ -224,12 +241,43 @@
     <AppxManifest Include="Package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
+    <Page Include="Tests\InternetTest\ITTestPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tests\InternetTest\ITDescriptionPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Psihologists\Frade.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Psihologists\Yung.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="BlankPage1.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="HubPage1.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <None Include="Common\ReadMe.txt" />
     <None Include="PsihologicalProject_TemporaryKey.pfx" />
+    <Page Include="Psihologists\Aizenk.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Content Include="Assets\FamousPsihologists\Frade.jpeg" />
     <Content Include="Assets\FamousPsihologists\HansEysenck.jpg" />
+    <Content Include="Assets\FamousPsihologists\PsihologistBackground.png" />
     <Content Include="Assets\FamousPsihologists\UngKarlGustav.jpg" />
     <Content Include="Assets\FamousPsihologists\VictorEmilFrankl.jpg" />
     <Content Include="Assets\FamousPsihologists\WolfMessing.jpg" />
+    <Content Include="Assets\FamousPsihologists\Yung.jpg" />
     <Content Include="Assets\jung.jpg" />
     <Content Include="DataModel\SampleData.json" />
   </ItemGroup>
@@ -258,14 +306,6 @@
     <Page Include="ItemDetailPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Psihologists\HansEysenck.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Psihologists\WolfMessing.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Templates\DescriptionPage.xaml">
       <Generator>MSBuild:Compile</Generator>

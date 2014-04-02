@@ -8,12 +8,12 @@
     mc:Ignorable="d" Height="500" Width="1346">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-    	<TextBlock HorizontalAlignment="Left" Height="100" Margin="60,90,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="1226" FontSize="35" FontFamily="Georgia">
+        <TextBlock HorizontalAlignment="Left" Height="100" Margin="60,90,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="1226" FontSize="35" FontFamily="Georgia" >
     		<Run Text="Вопрос "/>
     		<Run Text="№19. "/>
-    		<Run Text="Вы сильно беспокитесь о возмжных неприятностях?"/>
-    	</TextBlock>
-    	<Button Content="а) Да" HorizontalAlignment="Left" Height="60" Margin="56,282,0,0" VerticalAlignment="Top" Width="120" FontSize="24" FontFamily="Georgia" Click="Button_Click_1"/>
+    		<Run Text="Вы сильно беспокоитесь о возможных неприятностях?"/>
+        </TextBlock>
+        <Button Content="а) Да" HorizontalAlignment="Left" Height="60" Margin="56,282,0,0" VerticalAlignment="Top" Width="120" FontSize="24" FontFamily="Georgia" Click="Button_Click_1"/>
     	<Button Content="б) Нет" HorizontalAlignment="Left" Height="60" Margin="56,364,0,0" VerticalAlignment="Top" Width="138" FontSize="24" FontFamily="Georgia" Click="Button_Click"/>
 
     </Grid>
