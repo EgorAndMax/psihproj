@@ -32,7 +32,7 @@
     			AutomationProperties.Name="Back"
     			AutomationProperties.AutomationId="BackButton"
     			AutomationProperties.ItemType="Navigation Button"/>
-            <TextBlock x:Name="pageTitle" Text="Тест Юнга" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
+            <TextBlock x:Name="pageTitle" Text="Тест на Интернет-зависимость" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
     			IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="0,0,30,40" FontFamily="Gabriola" FontSize="75"/>
         </Grid>
         <Frame Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" x:Name="Question" Content="" HorizontalAlignment="Left" Height="500" Grid.Row="1" VerticalAlignment="Top" Width="1346" Margin="10,10,0,0">

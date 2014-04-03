@@ -29,7 +29,7 @@ namespace PsihologicalProject
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-
+            this.Frame.Navigate(typeof(ITTestPage));
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)

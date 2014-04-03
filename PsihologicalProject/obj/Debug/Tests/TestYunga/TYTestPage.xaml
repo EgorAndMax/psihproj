@@ -24,7 +24,7 @@
         <!-- Back button and page title -->
 
         <!-- Back button and page title -->
-        <Button x:ConnectionId='0' Content="Перейти к результату" HorizontalAlignment="Left" Height="130" Margin="50,220,0,0" VerticalAlignment="Top" Width="408" FontSize="29.333" FontFamily="Georgia" TabNavigation="Cycle" Grid.Row="1"                       />
+        <Button x:ConnectionId='1' Content="Перейти к результату" HorizontalAlignment="Left" Height="130" Margin="50,220,0,0" VerticalAlignment="Top" Width="408" FontSize="29.333" FontFamily="Georgia" TabNavigation="Cycle" Grid.Row="1"                       />
 
         <!-- Back button and page title -->
         <Grid>
@@ -43,7 +43,7 @@
         </Grid>
         <Frame Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" x:Name="Question" Content="" HorizontalAlignment="Left" Height="500" Grid.Row="1" VerticalAlignment="Top" Width="1346" Margin="10,10,0,0">
         </Frame>
-        <Button x:ConnectionId='0' Content="На главную" HorizontalAlignment="Left" Height="45" Margin="1058,560,0,0" Grid.Row="1" VerticalAlignment="Top" Width="250" FontSize="20"                      FontFamily="Georgia"/>
+        <Button x:ConnectionId='2' Content="На главную" HorizontalAlignment="Left" Height="45" Margin="1058,560,0,0" Grid.Row="1" VerticalAlignment="Top" Width="250" FontSize="20"                      FontFamily="Georgia"/>
 
     </Grid>
 </Page>

@@ -103,6 +103,7 @@
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="IT.cs" />
     <Compile Include="Psihologists\Aizenk.xaml.cs">
       <DependentUpon>Aizenk.xaml</DependentUpon>
     </Compile>
@@ -163,8 +164,71 @@
     <Compile Include="Tests\InternetTest\ITDescriptionPage.xaml.cs">
       <DependentUpon>ITDescriptionPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Tests\InternetTest\ITQuestion11.xaml.cs">
+      <DependentUpon>ITQuestion11.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tests\InternetTest\ITQuestion12.xaml.cs">
+      <DependentUpon>ITQuestion12.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tests\InternetTest\ITQuestion13.xaml.cs">
+      <DependentUpon>ITQuestion13.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tests\InternetTest\ITQuestion14.xaml.cs">
+      <DependentUpon>ITQuestion14.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tests\InternetTest\ITQuestion15.xaml.cs">
+      <DependentUpon>ITQuestion15.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tests\InternetTest\ITQuestion16.xaml.cs">
+      <DependentUpon>ITQuestion16.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tests\InternetTest\ITQuestion17.xaml.cs">
+      <DependentUpon>ITQuestion17.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tests\InternetTest\ITQuestion18.xaml.cs">
+      <DependentUpon>ITQuestion18.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tests\InternetTest\ITQuestion19.xaml.cs">
+      <DependentUpon>ITQuestion19.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tests\InternetTest\ITQuestion20.xaml.cs">
+      <DependentUpon>ITQuestion20.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tests\InternetTest\Questions\ITQuestion10.xaml.cs">
+      <DependentUpon>ITQuestion10.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tests\InternetTest\Questions\ITQuestion7.xaml.cs">
+      <DependentUpon>ITQuestion7.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tests\InternetTest\Questions\ITQuestion8.xaml.cs">
+      <DependentUpon>ITQuestion8.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tests\InternetTest\Questions\ITQuestion9.xaml.cs">
+      <DependentUpon>ITQuestion9.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tests\InternetTest\Questions\ITQuestion4.xaml.cs">
+      <DependentUpon>ITQuestion4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tests\InternetTest\Questions\ITQuestion5.xaml.cs">
+      <DependentUpon>ITQuestion5.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tests\InternetTest\Questions\ITQuestion6.xaml.cs">
+      <DependentUpon>ITQuestion6.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tests\InternetTest\ITResultPage.xaml.cs">
+      <DependentUpon>ITResultPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Tests\InternetTest\ITTestPage.xaml.cs">
       <DependentUpon>ITTestPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tests\InternetTest\Questions\ITQuestion1.xaml.cs">
+      <DependentUpon>ITQuestion1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tests\InternetTest\Questions\ITQuestion2.xaml.cs">
+      <DependentUpon>ITQuestion2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tests\InternetTest\Questions\ITQuestion3.xaml.cs">
+      <DependentUpon>ITQuestion3.xaml</DependentUpon>
     </Compile>
     <Compile Include="Tests\TestYunga\Questions\TYQuestion9.xaml.cs">
       <DependentUpon>TYQuestion9.xaml</DependentUpon>
@@ -241,6 +305,90 @@
     <AppxManifest Include="Package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
+    <Page Include="Tests\InternetTest\ITQuestion20.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tests\InternetTest\ITQuestion19.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tests\InternetTest\ITQuestion18.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tests\InternetTest\ITQuestion17.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tests\InternetTest\ITQuestion16.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tests\InternetTest\ITQuestion15.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tests\InternetTest\ITQuestion14.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tests\InternetTest\ITQuestion13.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tests\InternetTest\ITQuestion12.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tests\InternetTest\ITQuestion11.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tests\InternetTest\Questions\ITQuestion10.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tests\InternetTest\Questions\ITQuestion9.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tests\InternetTest\Questions\ITQuestion8.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tests\InternetTest\Questions\ITQuestion7.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tests\InternetTest\Questions\ITQuestion6.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tests\InternetTest\Questions\ITQuestion5.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tests\InternetTest\Questions\ITQuestion4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tests\InternetTest\Questions\ITQuestion3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tests\InternetTest\Questions\ITQuestion2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tests\InternetTest\Questions\ITQuestion1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tests\InternetTest\ITResultPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Tests\InternetTest\ITTestPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

@@ -38,7 +38,7 @@
                         AutomationProperties.Name="Back"
                         AutomationProperties.AutomationId="BackButton"
                         AutomationProperties.ItemType="Navigation Button"/>
-            <TextBlock x:Name="pageTitle" Text="Тест на интернет-зависимость" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
+            <TextBlock x:Name="pageTitle" Text="Тест на Интернет-зависимость" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
                         IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="0,0,30,40" FontFamily="Gabriola" FontSize="75"/>
         </Grid>
         <TextBlock HorizontalAlignment="Left" Height="450" Margin="95,50,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="888" FontSize="25" FontFamily="Georgia" TextAlignment="Justify">
@@ -52,8 +52,8 @@
         	<LineBreak/>
             <Run Text='С.А. Кулаков, автор экспресс-теста на определение зависимости от Интернета или "сетеголизма", постарался учесть все факторы, по которым можно определить Интернет-зависимость.'/>
         </TextBlock>
-        <Button x:ConnectionId='0' Content="На главную" HorizontalAlignment="Left" Height="45" Margin="1058,560,0,0" Grid.Row="1" VerticalAlignment="Top" Width="250" FontSize="20"                        FontFamily="Georgia"/>
-        <Button x:ConnectionId='0' Content="Начать тест" HorizontalAlignment="Left" Height="45" Margin="92,560,0,0" Grid.Row="1" VerticalAlignment="Top" Width="250" FontSize="20"                      FontFamily="Georgia"/>
+        <Button x:ConnectionId='1' Content="На главную" HorizontalAlignment="Left" Height="45" Margin="1058,560,0,0" Grid.Row="1" VerticalAlignment="Top" Width="250" FontSize="20"                        FontFamily="Georgia"/>
+        <Button x:ConnectionId='2' Content="Начать тест" HorizontalAlignment="Left" Height="45" Margin="92,560,0,0" Grid.Row="1" VerticalAlignment="Top" Width="250" FontSize="20"                      FontFamily="Georgia"/>
     </Grid>
 </Page>
 

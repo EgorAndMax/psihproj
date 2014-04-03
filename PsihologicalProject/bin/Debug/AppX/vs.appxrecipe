@@ -6,7 +6,7 @@
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>8a1a85ca-478c-403c-af82-76cdd9452c48</PackageIdentityName>
-    <RegisteredManifestChecksum>221DE5F669CC7662C63912A21B2F20E9768423E79FAF0CCCA9210213CF7E4E01</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>8EE0A2C8EDCF8958D565317DC99D1B177F914616177FF3D719FC40A79E645F2E</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>8a1a85ca-478c-403c-af82-76cdd9452c48_1.0.0.0_neutral__5h4a7qf4dtdxc</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>8a1a85ca-478c-403c-af82-76cdd9452c48_5h4a7qf4dtdxc!App</RegisteredUserModeAppID>
     <RegisteredPackageID>8a1a85ca-478c-403c-af82-76cdd9452c48</RegisteredPackageID>
@@ -17,13 +17,13 @@
     <AppXManifest Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-04-02T11:17:00.699</Modified>
+      <Modified>2014-04-03T05:54:44.229</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\PsihologicalProject.exe">
       <PackagePath>PsihologicalProject.exe</PackagePath>
-      <Modified>2014-04-02T11:55:18.408</Modified>
+      <Modified>2014-04-03T05:54:43.484</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\Assets\FamousPsihologists\Frade.jpeg">
       <PackagePath>Assets\FamousPsihologists\Frade.jpeg</PackagePath>
@@ -91,11 +91,103 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\DataModel\SampleData.json">
       <PackagePath>DataModel\SampleData.json</PackagePath>
-      <Modified>2014-03-30T19:09:28.101</Modified>
+      <Modified>2014-04-02T18:23:51.760</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
       <Modified>2014-04-02T09:47:57.174</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\InternetTest\ITQuestion20.xbf">
+      <PackagePath>Tests\InternetTest\ITQuestion20.xbf</PackagePath>
+      <Modified>2014-04-03T05:54:42.806</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\InternetTest\ITQuestion19.xbf">
+      <PackagePath>Tests\InternetTest\ITQuestion19.xbf</PackagePath>
+      <Modified>2014-04-03T05:54:42.806</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\InternetTest\ITQuestion18.xbf">
+      <PackagePath>Tests\InternetTest\ITQuestion18.xbf</PackagePath>
+      <Modified>2014-04-03T05:54:42.806</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\InternetTest\ITQuestion17.xbf">
+      <PackagePath>Tests\InternetTest\ITQuestion17.xbf</PackagePath>
+      <Modified>2014-04-03T05:54:42.807</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\InternetTest\ITQuestion16.xbf">
+      <PackagePath>Tests\InternetTest\ITQuestion16.xbf</PackagePath>
+      <Modified>2014-04-03T05:54:42.807</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\InternetTest\ITQuestion15.xbf">
+      <PackagePath>Tests\InternetTest\ITQuestion15.xbf</PackagePath>
+      <Modified>2014-04-03T05:09:34.615</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\InternetTest\ITQuestion14.xbf">
+      <PackagePath>Tests\InternetTest\ITQuestion14.xbf</PackagePath>
+      <Modified>2014-04-03T05:09:34.615</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\InternetTest\ITQuestion13.xbf">
+      <PackagePath>Tests\InternetTest\ITQuestion13.xbf</PackagePath>
+      <Modified>2014-04-03T05:07:28.112</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\InternetTest\ITQuestion12.xbf">
+      <PackagePath>Tests\InternetTest\ITQuestion12.xbf</PackagePath>
+      <Modified>2014-04-03T05:07:28.113</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\InternetTest\ITQuestion11.xbf">
+      <PackagePath>Tests\InternetTest\ITQuestion11.xbf</PackagePath>
+      <Modified>2014-04-03T05:07:28.113</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\InternetTest\Questions\ITQuestion10.xbf">
+      <PackagePath>Tests\InternetTest\Questions\ITQuestion10.xbf</PackagePath>
+      <Modified>2014-04-03T05:07:28.113</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\InternetTest\Questions\ITQuestion9.xbf">
+      <PackagePath>Tests\InternetTest\Questions\ITQuestion9.xbf</PackagePath>
+      <Modified>2014-04-03T05:07:28.113</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\InternetTest\Questions\ITQuestion8.xbf">
+      <PackagePath>Tests\InternetTest\Questions\ITQuestion8.xbf</PackagePath>
+      <Modified>2014-04-03T05:07:28.113</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\InternetTest\Questions\ITQuestion7.xbf">
+      <PackagePath>Tests\InternetTest\Questions\ITQuestion7.xbf</PackagePath>
+      <Modified>2014-04-03T05:07:28.113</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\InternetTest\Questions\ITQuestion6.xbf">
+      <PackagePath>Tests\InternetTest\Questions\ITQuestion6.xbf</PackagePath>
+      <Modified>2014-04-03T05:54:42.807</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\InternetTest\Questions\ITQuestion5.xbf">
+      <PackagePath>Tests\InternetTest\Questions\ITQuestion5.xbf</PackagePath>
+      <Modified>2014-04-03T05:54:42.808</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\InternetTest\Questions\ITQuestion4.xbf">
+      <PackagePath>Tests\InternetTest\Questions\ITQuestion4.xbf</PackagePath>
+      <Modified>2014-04-03T05:54:42.808</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\InternetTest\Questions\ITQuestion3.xbf">
+      <PackagePath>Tests\InternetTest\Questions\ITQuestion3.xbf</PackagePath>
+      <Modified>2014-04-03T05:07:28.114</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\InternetTest\Questions\ITQuestion2.xbf">
+      <PackagePath>Tests\InternetTest\Questions\ITQuestion2.xbf</PackagePath>
+      <Modified>2014-04-03T05:07:28.114</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\InternetTest\Questions\ITQuestion1.xbf">
+      <PackagePath>Tests\InternetTest\Questions\ITQuestion1.xbf</PackagePath>
+      <Modified>2014-04-03T05:54:42.808</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\InternetTest\ITResultPage.xbf">
+      <PackagePath>Tests\InternetTest\ITResultPage.xbf</PackagePath>
+      <Modified>2014-04-02T18:52:18.822</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\InternetTest\ITTestPage.xbf">
+      <PackagePath>Tests\InternetTest\ITTestPage.xbf</PackagePath>
+      <Modified>2014-04-02T18:52:18.822</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\InternetTest\ITDescriptionPage.xbf">
+      <PackagePath>Tests\InternetTest\ITDescriptionPage.xbf</PackagePath>
+      <Modified>2014-04-02T18:52:18.822</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Psihologists\Frade.xbf">
       <PackagePath>Psihologists\Frade.xbf</PackagePath>
@@ -103,7 +195,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Psihologists\Yung.xbf">
       <PackagePath>Psihologists\Yung.xbf</PackagePath>
-      <Modified>2014-04-02T11:49:25.841</Modified>
+      <Modified>2014-04-02T18:52:18.823</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\BlankPage1.xbf">
       <PackagePath>BlankPage1.xbf</PackagePath>
@@ -131,7 +223,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Templates\DescriptionPage.xbf">
       <PackagePath>Templates\DescriptionPage.xbf</PackagePath>
-      <Modified>2014-04-02T09:47:57.175</Modified>
+      <Modified>2014-04-02T12:14:30.427</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Templates\PsihologistPage1.xbf">
       <PackagePath>Templates\PsihologistPage1.xbf</PackagePath>
@@ -239,19 +331,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestYunga\TYDescriptionPage.xbf">
       <PackagePath>Tests\TestYunga\TYDescriptionPage.xbf</PackagePath>
-      <Modified>2014-04-02T09:47:57.180</Modified>
+      <Modified>2014-04-02T18:52:18.823</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestYunga\TYResultPage.xbf">
       <PackagePath>Tests\TestYunga\TYResultPage.xbf</PackagePath>
-      <Modified>2014-04-02T09:47:57.180</Modified>
+      <Modified>2014-04-02T18:52:18.823</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestYunga\TYTestPage.xbf">
       <PackagePath>Tests\TestYunga\TYTestPage.xbf</PackagePath>
-      <Modified>2014-04-02T09:47:57.180</Modified>
+      <Modified>2014-04-02T18:52:18.824</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2014-04-02T11:17:00.216</Modified>
+      <Modified>2014-04-03T05:54:43.941</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
