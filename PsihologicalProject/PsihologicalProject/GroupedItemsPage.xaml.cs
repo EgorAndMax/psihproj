@@ -1,11 +1,11 @@
 ﻿using PsihologicalProject.Common;
 using PsihologicalProject.Data;
-using PsihologicalProject.Psihologists;
 using PsihologicalProject.Templates;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Threading.Tasks;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
@@ -48,7 +48,7 @@ namespace PsihologicalProject
         public GroupedItemsPage()
         {
             this.InitializeComponent();
-            FramePsihologist.Navigate(typeof(PsihologistPage1));
+            FramePsihologist.Navigate(Psihologist.Get());
             this.navigationHelper = new NavigationHelper(this);
             this.navigationHelper.LoadState += navigationHelper_LoadState;
         }
@@ -70,7 +70,7 @@ namespace PsihologicalProject
             var sampleDataGroups = await SampleDataSource.GetGroupsAsync();
             this.DefaultViewModel["Groups"] = sampleDataGroups;
         }
-
+        
         /// <summary>
         /// Invoked when a group header is clicked.
         /// </summary>
@@ -101,6 +101,12 @@ namespace PsihologicalProject
             {
                 case "Group-1-Item-1":
                     this.Frame.Navigate(typeof(TYDescriptionPage));
+                    break;
+                case "Group-1-Item-2":
+                    this.Frame.Navigate(typeof(ITDescriptionPage));
+                    break;
+                case "Group-1-Item-3":
+                    this.Frame.Navigate(typeof(TGDecriptionPage));
                     break;
                 default:
                     this.Frame.Navigate(typeof(ItemDetailPage), itemId);

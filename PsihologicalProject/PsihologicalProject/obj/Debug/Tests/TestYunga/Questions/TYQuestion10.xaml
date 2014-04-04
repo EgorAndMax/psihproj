@@ -13,8 +13,8 @@
     		<Run Text="№10. "/>
     		<Run Text="Любите ли вы заниматься анализом своих переживаний?"/>
     	</TextBlock>
-    	<Button x:ConnectionId='1' Content="а) Да" HorizontalAlignment="Left" Height="60" Margin="56,282,0,0" VerticalAlignment="Top" Width="139" FontSize="24" FontFamily="Georgia"                     />
-    	<Button x:ConnectionId='2' Content="б) Нет" HorizontalAlignment="Left" Height="60" Margin="56,364,0,0" VerticalAlignment="Top" Width="157" FontSize="24" FontFamily="Georgia"                       />
+    	<Button x:ConnectionId='1' Content="а) Да" HorizontalAlignment="Left" Height="60" Margin="56,282,0,0" VerticalAlignment="Top" Width="118" FontSize="24" FontFamily="Georgia"                     />
+    	<Button x:ConnectionId='2' Content="б) Нет" HorizontalAlignment="Left" Height="60" Margin="56,364,0,0" VerticalAlignment="Top" Width="136" FontSize="24" FontFamily="Georgia"                       />
 
     </Grid>
 </Page>

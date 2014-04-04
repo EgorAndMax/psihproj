@@ -14,8 +14,8 @@
     		<Run Text="Любите ли вы "/>
     		<Run Text="убеждать других, навязывать свои взгляды?"/>
     	</TextBlock>
-    	<Button Content="а) Да" HorizontalAlignment="Left" Height="60" Margin="56,282,0,0" VerticalAlignment="Top" Width="144" FontSize="24" FontFamily="Georgia" Click="Button_Click"/>
-    	<Button Content="б) Нет" HorizontalAlignment="Left" Height="60" Margin="56,364,0,0" VerticalAlignment="Top" Width="166" FontSize="24" FontFamily="Georgia" Click="Button_Click_1"/>
+    	<Button Content="а) Да" HorizontalAlignment="Left" Height="60" Margin="56,282,0,0" VerticalAlignment="Top" Width="119" FontSize="24" FontFamily="Georgia" Click="Button_Click"/>
+    	<Button Content="б) Нет" HorizontalAlignment="Left" Height="60" Margin="56,364,0,0" VerticalAlignment="Top" Width="139" FontSize="24" FontFamily="Georgia" Click="Button_Click_1"/>
 
     </Grid>
 </Page>

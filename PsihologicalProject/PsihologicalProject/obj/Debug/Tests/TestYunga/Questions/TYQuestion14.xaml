@@ -13,8 +13,8 @@
     		<Run Text="№14. "/>
     		<Run Text="Хотелось ли вам вести интимный дневник?"/>
     	</TextBlock>
-    	<Button x:ConnectionId='1' Content="а) Да" HorizontalAlignment="Left" Height="60" Margin="56,282,0,0" VerticalAlignment="Top" Width="141" FontSize="24" FontFamily="Georgia"                     />
-    	<Button x:ConnectionId='2' Content="б) Нет" HorizontalAlignment="Left" Height="60" Margin="56,364,0,0" VerticalAlignment="Top" Width="160" FontSize="24" FontFamily="Georgia"                       />
+    	<Button x:ConnectionId='1' Content="а) Да" HorizontalAlignment="Left" Height="60" Margin="56,282,0,0" VerticalAlignment="Top" Width="125" FontSize="24" FontFamily="Georgia"                     />
+    	<Button x:ConnectionId='2' Content="б) Нет" HorizontalAlignment="Left" Height="60" Margin="56,364,0,0" VerticalAlignment="Top" Width="142" FontSize="24" FontFamily="Georgia"                       />
 
     </Grid>
 </Page>

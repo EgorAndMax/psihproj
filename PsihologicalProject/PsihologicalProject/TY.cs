@@ -8,11 +8,6 @@ namespace PsihologicalProject
 {
     class TY
     {
-        TY()
-        {
-            for (int i = 0; i < ArrayOfResults.Length; i++)
-                ArrayOfResults[i] = -1;
-        }
         public static int Result
         {
             get

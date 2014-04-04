@@ -13,8 +13,8 @@
     		<Run Text="№4. "/>
     		<Run Text="Если вы совершаете дурной поступок, то:"/>
     	</TextBlock>
-    	<Button Content="а) Остро переживаете" HorizontalAlignment="Left" Height="60" Margin="56,282,0,0" VerticalAlignment="Top" Width="345" FontSize="24" FontFamily="Georgia" Click="Button_Click"/>
-    	<Button Content="б) Острых переживаний нет" HorizontalAlignment="Left" Height="60" Margin="56,359,0,0" VerticalAlignment="Top" Width="430" FontSize="24" FontFamily="Georgia" Click="Button_Click_1"/>
+    	<Button Content="а) Остро переживаете" HorizontalAlignment="Left" Height="60" Margin="56,282,0,0" VerticalAlignment="Top" Width="333" FontSize="24" FontFamily="Georgia" Click="Button_Click"/>
+    	<Button Content="б) Острых переживаний нет" HorizontalAlignment="Left" Height="60" Margin="56,359,0,0" VerticalAlignment="Top" Width="413" FontSize="24" FontFamily="Georgia" Click="Button_Click_1"/>
 
     </Grid>
 </Page>

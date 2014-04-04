@@ -13,8 +13,8 @@
     		<Run Text="№3. "/>
     		<Run Text="Что вы скорее можете допустить в разговоре?"/>
     	</TextBlock>
-    	<Button x:ConnectionId='1' Content="а) Опоздание" HorizontalAlignment="Left" Height="60" Margin="56,282,0,0" VerticalAlignment="Top" Width="234" FontSize="24" FontFamily="Georgia"                     />
-    	<Button x:ConnectionId='2' Content="б) Ошибки" HorizontalAlignment="Left" Height="60" Margin="56,364,0,0" VerticalAlignment="Top" Width="201" FontSize="24" FontFamily="Georgia"                       />
+    	<Button x:ConnectionId='1' Content="а) Опоздание" HorizontalAlignment="Left" Height="60" Margin="56,282,0,0" VerticalAlignment="Top" Width="225" FontSize="24" FontFamily="Georgia"                     />
+    	<Button x:ConnectionId='2' Content="б) Ошибки" HorizontalAlignment="Left" Height="60" Margin="56,364,0,0" VerticalAlignment="Top" Width="192" FontSize="24" FontFamily="Georgia"                       />
 
     </Grid>
 </Page>

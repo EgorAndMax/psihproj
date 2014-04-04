@@ -1,0 +1,49 @@
+﻿<Page
+    x:Class="PsihologicalProject.Gardner"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PsihologicalProject.Psihologists"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Height="508" Width="800">
+
+    <Page.Resources>
+        <DataTemplate x:Key="DataTemplate1">
+            <TextBlock Height="60" TextWrapping="Wrap" Width="400" FontSize="46.667" TextAlignment="Center" Margin="0,310,0,0" FontFamily="Georgia" Foreground="White" Text="Говард Гарднер"/>
+        </DataTemplate>
+
+    </Page.Resources>
+
+    <!--
+        Эта сетка выступает в роли корневой области страницы.
+    -->
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+
+        <Image HorizontalAlignment="Left" Height="508" VerticalAlignment="Top" Width="480" Source="ms-appx:///Assets/FamousPsihologists/Gardner.jpg"/>
+
+        <Hub Margin="-300,0,0,0" Width="480">
+            <HubSection Margin="0,0,80,0" ContentTemplate="{StaticResource DataTemplate1}">
+                <HubSection.Background>
+                    <ImageBrush Stretch="None" />
+                </HubSection.Background>
+            </HubSection>
+            <HubSection Width="520">
+                <DataTemplate>
+                    <Grid  Width="650" Height="508" Margin="0,-100,-50,-50">
+                        <Grid.Background>
+                            <ImageBrush ImageSource="ms-appx:/Assets/FamousPsihologists/PsihologistBackground.png"/>
+                        </Grid.Background>
+                        <TextBlock HorizontalAlignment="Left" Height="65" Margin="45,50,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="380" FontSize="40" Foreground="#FFFBF0F0" Text="Говард Гарднер" FontFamily="Georgia"/>
+                        <TextBlock HorizontalAlignment="Left" Height="320" Margin="45,140,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="380" FontSize="28" TextAlignment="Justify" Foreground="#FFF9F3F3" FontFamily="Georgia" Text="Говард Гарднер — амери-канский психолог, извест-ный как автор понятия множественный интеллект, специалист в области клинической психологии и нейропсихологии."/>
+                    </Grid>
+                </DataTemplate>
+            </HubSection>
+        </Hub>
+    </Grid>
+</Page>
+

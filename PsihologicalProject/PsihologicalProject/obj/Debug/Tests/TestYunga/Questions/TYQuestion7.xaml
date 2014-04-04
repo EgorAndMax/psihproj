@@ -13,8 +13,8 @@
     		<Run Text="№7. "/>
     		<Run Text="Склонны ли вы хохотать, смеяться от души?"/>
     	</TextBlock>
-    	<Button x:ConnectionId='1' Content="а) да" HorizontalAlignment="Left" Height="60" Margin="56,282,0,0" VerticalAlignment="Top" Width="127" FontSize="24" FontFamily="Georgia"                     />
-    	<Button x:ConnectionId='2' Content="б) нет" HorizontalAlignment="Left" Height="60" Margin="56,364,0,0" VerticalAlignment="Top" Width="149" FontSize="24" FontFamily="Georgia"                       />
+    	<Button x:ConnectionId='1' Content="а) Да" HorizontalAlignment="Left" Height="60" Margin="56,282,0,0" VerticalAlignment="Top" Width="112" FontSize="24" FontFamily="Georgia"                     />
+    	<Button x:ConnectionId='2' Content="б) Нет" HorizontalAlignment="Left" Height="60" Margin="56,364,0,0" VerticalAlignment="Top" Width="128" FontSize="24" FontFamily="Georgia"                       />
 
     </Grid>
 </Page>

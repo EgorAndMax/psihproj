@@ -13,8 +13,8 @@
     		<Run Text="№11."/>
     		<Run Text=" Находясь в обществе вы предпочитаете:"/>
     	</TextBlock>
-    	<Button Content="а) Говорить" HorizontalAlignment="Left" Height="60" Margin="56,282,0,0" VerticalAlignment="Top" Width="223" FontSize="24" FontFamily="Georgia" Click="Button_Click"/>
-    	<Button Content="б) Слушать" HorizontalAlignment="Left" Height="60" Margin="56,364,0,0" VerticalAlignment="Top" Width="223" FontSize="24" FontFamily="Georgia" Click="Button_Click_1"/>
+    	<Button Content="а) Говорить" HorizontalAlignment="Left" Height="60" Margin="56,282,0,0" VerticalAlignment="Top" Width="201" FontSize="24" FontFamily="Georgia" Click="Button_Click"/>
+    	<Button Content="б) Слушать" HorizontalAlignment="Left" Height="60" Margin="56,364,0,0" VerticalAlignment="Top" Width="191" FontSize="24" FontFamily="Georgia" Click="Button_Click_1"/>
 
     </Grid>
 </Page>

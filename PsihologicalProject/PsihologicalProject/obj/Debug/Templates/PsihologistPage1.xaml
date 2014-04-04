@@ -15,11 +15,11 @@
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
     	<Image HorizontalAlignment="Left" Height="510" VerticalAlignment="Top" Width="480" Source="ms-appx:///Assets/FamousPsihologists/HansEysenck.jpg"/>
-    	<Ellipse Fill="#FF0B0B0C" HorizontalAlignment="Left" Height="12" Margin="231,480,0,0" VerticalAlignment="Top" Width="12" StrokeDashCap="Round" Stroke="#FFFBF9F9" RequestedTheme="Dark" StrokeStartLineCap="Triangle" StrokeThickness="3"/>
-    	<Ellipse Fill="#FFF1F1F7" HorizontalAlignment="Left" Height="12" Margin="140,480,0,0" VerticalAlignment="Top" Width="12" StrokeDashCap="Round" Stroke="#FFFBF9F9" RequestedTheme="Dark" StrokeStartLineCap="Triangle" StrokeThickness="5"/>
-    	<Ellipse Fill="#FF0B0B0C" HorizontalAlignment="Left" Height="12" Margin="322,480,0,0" VerticalAlignment="Top" Width="12" StrokeDashCap="Round" Stroke="#FFFBF9F9" RequestedTheme="Dark" StrokeStartLineCap="Triangle" StrokeThickness="3"/>
     	<Image HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100"/>
     	<TextBlock HorizontalAlignment="Center" Height="45" Margin="68,419,67,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="345" FontSize="45" FontFamily="Georgia" Text="Ганс Айзенк" Foreground="#FFFBF9F9" TextAlignment="Center" FontWeight="Medium"/>
+    	<Rectangle Fill="#FFF1F1F7" HorizontalAlignment="Left" Height="13" Margin="139,480,0,0" StrokeStartLineCap="Triangle" Stroke="#FFFBF9F9" StrokeThickness="5" VerticalAlignment="Top" Width="13" RenderTransformOrigin="0.056,-2.15"/>
+    	<Rectangle Fill="{ThemeResource AppBarBackgroundThemeBrush}" HorizontalAlignment="Left" Height="13" Margin="231,480,0,0" StrokeStartLineCap="Triangle" Stroke="#FFFBF9F9" StrokeThickness="3" VerticalAlignment="Top" Width="13" RenderTransformOrigin="0.056,-2.15"/>
+    	<Rectangle Fill="{ThemeResource AppBarBackgroundThemeBrush}" HorizontalAlignment="Left" Height="13" Margin="321,480,0,0" StrokeStartLineCap="Triangle" Stroke="#FFFBF9F9" StrokeThickness="3" VerticalAlignment="Top" Width="13" RenderTransformOrigin="0.056,-2.15"/>
     </Grid>
 </Page>
 

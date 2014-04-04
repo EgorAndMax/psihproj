@@ -13,8 +13,8 @@
     		<Run Text="№18"/>
     		<Run Text=". Ваши движения:"/>
     	</TextBlock>
-    	<Button Content="а) Быстры" HorizontalAlignment="Left" Height="60" Margin="56,282,0,0" VerticalAlignment="Top" Width="200" FontSize="24" FontFamily="Georgia" Click="Button_Click"/>
-    	<Button Content="б) Замедленны" HorizontalAlignment="Left" Height="60" Margin="56,364,0,0" VerticalAlignment="Top" Width="263" FontSize="24" FontFamily="Georgia" Click="Button_Click_1"/>
+    	<Button Content="а) Быстры" HorizontalAlignment="Left" Height="60" Margin="56,282,0,0" VerticalAlignment="Top" Width="186" FontSize="24" FontFamily="Georgia" Click="Button_Click"/>
+    	<Button Content="б) Замедленны" HorizontalAlignment="Left" Height="60" Margin="56,364,0,0" VerticalAlignment="Top" Width="248" FontSize="24" FontFamily="Georgia" Click="Button_Click_1"/>
 
     </Grid>
 </Page>

@@ -113,12 +113,12 @@ namespace PsihologicalProject
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(TYResultPage));
+            this.Frame.Navigate(typeof(TGResultPage));
         }
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(TYResultPage));
+            this.Frame.Navigate(typeof(TGResultPage));
         }
     }
 }
