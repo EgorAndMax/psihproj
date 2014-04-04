@@ -12,6 +12,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using PsihologicalProject.Common;
 
 // Шаблон элемента пустой страницы задокументирован по адресу http://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -25,7 +26,9 @@ namespace PsihologicalProject
         public ITDescriptionPage()
         {
             this.InitializeComponent();
+            IT.Counter = 0;
         }
+
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
@@ -33,6 +36,11 @@ namespace PsihologicalProject
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(GroupedItemsPage));
+        }
+
+        private void backButton_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(GroupedItemsPage));
         }

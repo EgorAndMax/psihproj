@@ -37,17 +37,17 @@
                         VerticalAlignment="Top"
                         AutomationProperties.Name="Back"
                         AutomationProperties.AutomationId="BackButton"
-                        AutomationProperties.ItemType="Navigation Button"/>
+                        AutomationProperties.ItemType="Navigation Button" Click="backButton_Click"/>
             <TextBlock x:Name="pageTitle" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
                         IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="0,0,30,40" Text="Результат теста" FontFamily="Gabriola" FontSize="75"/>
         </Grid>
         <Button Content="На главную" HorizontalAlignment="Left" Height="45" Margin="1058,560,0,0" Grid.Row="1" VerticalAlignment="Top" Width="250" FontSize="20" Click="Button_Click" FontFamily="Georgia"/>
-        <RichTextBlock x:Name="TYRTB" HorizontalAlignment="Left" Height="445" Margin="65,55,0,0" Grid.Row="1" VerticalAlignment="Top" Width="575" FontSize="30">
+        <RichTextBlock x:Name="ITRTB" HorizontalAlignment="Left" Height="445" Margin="65,55,0,0" Grid.Row="1" VerticalAlignment="Top" Width="575" FontSize="30">
             <Paragraph FontFamily="Georgia" TextAlignment="Justify" FontSize="24">
-                <Run x:Name="RunResult" Text="" FontSize="24"/>
+                <Run x:Name="RunScore" Text="" FontSize="24"/>
             </Paragraph>
             <Paragraph FontFamily="Georgia" TextAlignment="Justify">
-                <Run x:Name="RunWho" FontWeight="Bold" FontSize="26.667" FontFamily="Georgia" />
+                <Run x:Name="RunResult" FontWeight="Bold" FontSize="26.667" FontFamily="Georgia" />
             </Paragraph>
             <Paragraph FontFamily="Georgia" FontSize="24" TextAlignment="Justify">
                 <Run x:Name="RunDescription1"/>

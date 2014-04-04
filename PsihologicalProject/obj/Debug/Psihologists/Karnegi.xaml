@@ -1,0 +1,51 @@
+﻿<Page
+    x:Class="PsihologicalProject.Psihologists.Karnegi"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PsihologicalProject.Psihologists"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Height="508" Width="800">
+
+    <Page.Resources>
+        <x:String x:Key="ChevronGlyph">&#xE26B;</x:String>
+        <DataTemplate x:Key="DataTemplate1">
+            <TextBlock Height="60" TextWrapping="Wrap" Width="400" FontSize="46.667" TextAlignment="Center" Margin="0,310,0,0" FontFamily="Georgia" Foreground="White" Text="Дейл Карнеги"/>
+        </DataTemplate>
+
+    </Page.Resources>
+
+    <!--
+        Эта сетка выступает в роли корневой области страницы.
+    -->
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+
+        <Image HorizontalAlignment="Left" Height="508" VerticalAlignment="Top" Width="480" Source="ms-appx:///Assets/Karnegi.jpeg"/>
+
+        <Hub Margin="-300,0,0,0" Width="480">
+            <HubSection Margin="0,0,80,0" ContentTemplate="{StaticResource DataTemplate1}">
+                <HubSection.Background>
+                    <ImageBrush Stretch="None" />
+                </HubSection.Background>
+            </HubSection>
+            <HubSection Width="520">
+                <DataTemplate>
+                    <Grid  Width="650" Height="508" Margin="0,-100,-50,-50">
+                        <Grid.Background>
+                            <ImageBrush ImageSource="ms-appx:/Assets/FamousPsihologists/PsihologistBackground.png"/>
+                        </Grid.Background>
+                        <TextBlock HorizontalAlignment="Left" Height="65" Margin="45,50,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="380" FontSize="40" Foreground="#FFFBF0F0" Text="Дейл Карнеги" FontFamily="Georgia"/>
+                        <TextBlock HorizontalAlignment="Left" Height="320" Margin="45,140,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="380" FontSize="28" TextAlignment="Justify" Foreground="#FFF9F3F3" FontFamily="Georgia" Text="Дейл Карнеги — известный американский психолог, педагог. Автор бестселлера &quot;Как завоевать друзей и оказывать влияние на них&quot;, а также многих других практических работ по психологии."/>
+                    </Grid>
+                </DataTemplate>
+            </HubSection>
+        </Hub>
+    </Grid>
+</Page>
+
+

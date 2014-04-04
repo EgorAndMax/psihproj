@@ -124,145 +124,213 @@ namespace PsihologicalProject.PsihologicalProject_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[68];
-            _typeNameTable[0] = "PsihologicalProject.InternetTest.ITQuestion20";
+            _typeNameTable = new string[102];
+            _typeNameTable[0] = "PsihologicalProject.Behterev";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
-            _typeNameTable[3] = "PsihologicalProject.InternetTest.ITQuestion19";
-            _typeNameTable[4] = "PsihologicalProject.InternetTest.ITQuestion18";
-            _typeNameTable[5] = "PsihologicalProject.InternetTest.ITQuestion17";
-            _typeNameTable[6] = "PsihologicalProject.InternetTest.ITQuestion16";
-            _typeNameTable[7] = "PsihologicalProject.InternetTest.ITQuestion15";
-            _typeNameTable[8] = "PsihologicalProject.InternetTest.ITQuestion14";
-            _typeNameTable[9] = "PsihologicalProject.InternetTest.ITQuestion13";
-            _typeNameTable[10] = "PsihologicalProject.InternetTest.ITQuestion12";
-            _typeNameTable[11] = "PsihologicalProject.InternetTest.ITQuestion11";
-            _typeNameTable[12] = "PsihologicalProject.InternetTest.ITQuestion10";
-            _typeNameTable[13] = "PsihologicalProject.InternetTest.ITQuestion9";
-            _typeNameTable[14] = "PsihologicalProject.InternetTest.ITQuestion8";
-            _typeNameTable[15] = "PsihologicalProject.InternetTest.ITQuestion7";
-            _typeNameTable[16] = "PsihologicalProject.InternetTest.ITQuestion6";
-            _typeNameTable[17] = "PsihologicalProject.InternetTest.ITQuestion5";
-            _typeNameTable[18] = "PsihologicalProject.InternetTest.ITQuestion4";
-            _typeNameTable[19] = "PsihologicalProject.InternetTest.ITQuestion3";
-            _typeNameTable[20] = "PsihologicalProject.InternetTest.ITQuestion2";
-            _typeNameTable[21] = "PsihologicalProject.InternetTest.ITQuestion1";
-            _typeNameTable[22] = "PsihologicalProject.ITResultPage";
-            _typeNameTable[23] = "PsihologicalProject.ITTestPage";
-            _typeNameTable[24] = "PsihologicalProject.ITDescriptionPage";
-            _typeNameTable[25] = "PsihologicalProject.Frade";
-            _typeNameTable[26] = "PsihologicalProject.Common.ObservableDictionary";
-            _typeNameTable[27] = "Object";
-            _typeNameTable[28] = "String";
-            _typeNameTable[29] = "PsihologicalProject.Common.NavigationHelper";
-            _typeNameTable[30] = "Windows.UI.Xaml.DependencyObject";
-            _typeNameTable[31] = "PsihologicalProject.Yung";
-            _typeNameTable[32] = "PsihologicalProject.BlankPage1";
-            _typeNameTable[33] = "PsihologicalProject.HubPage1";
-            _typeNameTable[34] = "PsihologicalProject.Aizenk";
-            _typeNameTable[35] = "PsihologicalProject.GroupedItemsPage";
-            _typeNameTable[36] = "PsihologicalProject.GroupDetailPage";
-            _typeNameTable[37] = "PsihologicalProject.ItemDetailPage";
-            _typeNameTable[38] = "PsihologicalProject.Templates.DescriptionPage";
-            _typeNameTable[39] = "PsihologicalProject.Templates.PsihologistPage1";
-            _typeNameTable[40] = "PsihologicalProject.Templates.PsihologistPage2";
-            _typeNameTable[41] = "PsihologicalProject.Templates.PsihologistPage3";
-            _typeNameTable[42] = "PsihologicalProject.Templates.QuestionPage1";
-            _typeNameTable[43] = "PsihologicalProject.Templates.ResultPage";
-            _typeNameTable[44] = "PsihologicalProject.Templates.TestPage";
-            _typeNameTable[45] = "PsihologicalProject.TYQuestion9";
-            _typeNameTable[46] = "PsihologicalProject.TYQuestion20";
-            _typeNameTable[47] = "PsihologicalProject.TYQuestion19";
-            _typeNameTable[48] = "PsihologicalProject.TYQuestion18";
-            _typeNameTable[49] = "PsihologicalProject.TYQuestion17";
-            _typeNameTable[50] = "PsihologicalProject.TYQuestion16";
-            _typeNameTable[51] = "PsihologicalProject.TYQuestion15";
-            _typeNameTable[52] = "PsihologicalProject.TYQuestion14";
-            _typeNameTable[53] = "PsihologicalProject.TYQuestion13";
-            _typeNameTable[54] = "PsihologicalProject.TYQuestion12";
-            _typeNameTable[55] = "PsihologicalProject.TYQuestion11";
-            _typeNameTable[56] = "PsihologicalProject.TYQuestion10";
-            _typeNameTable[57] = "PsihologicalProject.TYQuestion8";
-            _typeNameTable[58] = "PsihologicalProject.TYQuestion7";
-            _typeNameTable[59] = "PsihologicalProject.TYQuestion6";
-            _typeNameTable[60] = "PsihologicalProject.TYQuestion5";
-            _typeNameTable[61] = "PsihologicalProject.TYQuestion4";
-            _typeNameTable[62] = "PsihologicalProject.TYQuestion3";
-            _typeNameTable[63] = "PsihologicalProject.TYQuestion2";
-            _typeNameTable[64] = "PsihologicalProject.TYQuestion1";
-            _typeNameTable[65] = "PsihologicalProject.TYDescriptionPage";
-            _typeNameTable[66] = "PsihologicalProject.TYResultPage";
-            _typeNameTable[67] = "PsihologicalProject.TYTestPage";
+            _typeNameTable[3] = "PsihologicalProject.Frankl";
+            _typeNameTable[4] = "PsihologicalProject.Psihologists.Karnegi";
+            _typeNameTable[5] = "PsihologicalProject.TestGardnera.TGQuestion28";
+            _typeNameTable[6] = "PsihologicalProject.TestGardnera.TGQuestion27";
+            _typeNameTable[7] = "PsihologicalProject.TestGardnera.TGQuestion26";
+            _typeNameTable[8] = "PsihologicalProject.TestGardnera.TGQuestion25";
+            _typeNameTable[9] = "PsihologicalProject.TestGardnera.TGQuestion24";
+            _typeNameTable[10] = "PsihologicalProject.TestGardnera.TGQuestion23";
+            _typeNameTable[11] = "PsihologicalProject.TestGardnera.TGQuestion22";
+            _typeNameTable[12] = "PsihologicalProject.TestGardnera.TGQuestion21";
+            _typeNameTable[13] = "PsihologicalProject.TestGardnera.TGQuestion20";
+            _typeNameTable[14] = "PsihologicalProject.TestGardnera.TGQuestion19";
+            _typeNameTable[15] = "PsihologicalProject.TestGardnera.TGQuestion18";
+            _typeNameTable[16] = "PsihologicalProject.TestGardnera.TGQuestion17";
+            _typeNameTable[17] = "PsihologicalProject.TestGardnera.TGQuestion16";
+            _typeNameTable[18] = "PsihologicalProject.TestGardnera.TGQuestion15";
+            _typeNameTable[19] = "PsihologicalProject.TestGardnera.TGQuestion14";
+            _typeNameTable[20] = "PsihologicalProject.TestGardnera.TGQuestion13";
+            _typeNameTable[21] = "PsihologicalProject.TestGardnera.TGQuestion12";
+            _typeNameTable[22] = "PsihologicalProject.TestGardnera.TGQuestion11";
+            _typeNameTable[23] = "PsihologicalProject.TestGardnera.TGQuestion10";
+            _typeNameTable[24] = "PsihologicalProject.TestGardnera.TGQuestion9";
+            _typeNameTable[25] = "PsihologicalProject.TestGardnera.TGQuestion8";
+            _typeNameTable[26] = "PsihologicalProject.TestGardnera.TGQuestion7";
+            _typeNameTable[27] = "PsihologicalProject.TestGardnera.TGQuestion6";
+            _typeNameTable[28] = "PsihologicalProject.TestGardnera.TGQuestion5";
+            _typeNameTable[29] = "PsihologicalProject.TestGardnera.TGQuestion4";
+            _typeNameTable[30] = "PsihologicalProject.TestGardnera.TGQuestion3";
+            _typeNameTable[31] = "PsihologicalProject.TestGardnera.TGQuestion2";
+            _typeNameTable[32] = "PsihologicalProject.TestGardnera.TGQuestion1";
+            _typeNameTable[33] = "PsihologicalProject.TGResultPage";
+            _typeNameTable[34] = "PsihologicalProject.TGTestPage";
+            _typeNameTable[35] = "PsihologicalProject.Gardner";
+            _typeNameTable[36] = "PsihologicalProject.InternetTest.ITQuestion20";
+            _typeNameTable[37] = "PsihologicalProject.InternetTest.ITQuestion19";
+            _typeNameTable[38] = "PsihologicalProject.InternetTest.ITQuestion18";
+            _typeNameTable[39] = "PsihologicalProject.InternetTest.ITQuestion17";
+            _typeNameTable[40] = "PsihologicalProject.InternetTest.ITQuestion16";
+            _typeNameTable[41] = "PsihologicalProject.InternetTest.ITQuestion15";
+            _typeNameTable[42] = "PsihologicalProject.InternetTest.ITQuestion14";
+            _typeNameTable[43] = "PsihologicalProject.InternetTest.ITQuestion13";
+            _typeNameTable[44] = "PsihologicalProject.InternetTest.ITQuestion12";
+            _typeNameTable[45] = "PsihologicalProject.InternetTest.ITQuestion11";
+            _typeNameTable[46] = "PsihologicalProject.InternetTest.ITQuestion10";
+            _typeNameTable[47] = "PsihologicalProject.InternetTest.ITQuestion9";
+            _typeNameTable[48] = "PsihologicalProject.InternetTest.ITQuestion8";
+            _typeNameTable[49] = "PsihologicalProject.InternetTest.ITQuestion7";
+            _typeNameTable[50] = "PsihologicalProject.InternetTest.ITQuestion6";
+            _typeNameTable[51] = "PsihologicalProject.InternetTest.ITQuestion5";
+            _typeNameTable[52] = "PsihologicalProject.InternetTest.ITQuestion4";
+            _typeNameTable[53] = "PsihologicalProject.InternetTest.ITQuestion3";
+            _typeNameTable[54] = "PsihologicalProject.InternetTest.ITQuestion2";
+            _typeNameTable[55] = "PsihologicalProject.InternetTest.ITQuestion1";
+            _typeNameTable[56] = "PsihologicalProject.ITResultPage";
+            _typeNameTable[57] = "PsihologicalProject.Common.NavigationHelper";
+            _typeNameTable[58] = "Windows.UI.Xaml.DependencyObject";
+            _typeNameTable[59] = "PsihologicalProject.ITTestPage";
+            _typeNameTable[60] = "PsihologicalProject.ITDescriptionPage";
+            _typeNameTable[61] = "PsihologicalProject.Frade";
+            _typeNameTable[62] = "PsihologicalProject.Common.ObservableDictionary";
+            _typeNameTable[63] = "Object";
+            _typeNameTable[64] = "String";
+            _typeNameTable[65] = "PsihologicalProject.Yung";
+            _typeNameTable[66] = "PsihologicalProject.BlankPage1";
+            _typeNameTable[67] = "PsihologicalProject.Aizenk";
+            _typeNameTable[68] = "PsihologicalProject.GroupedItemsPage";
+            _typeNameTable[69] = "PsihologicalProject.GroupDetailPage";
+            _typeNameTable[70] = "PsihologicalProject.ItemDetailPage";
+            _typeNameTable[71] = "PsihologicalProject.Templates.DescriptionPage";
+            _typeNameTable[72] = "PsihologicalProject.Templates.PsihologistPage1";
+            _typeNameTable[73] = "PsihologicalProject.Templates.PsihologistPage2";
+            _typeNameTable[74] = "PsihologicalProject.Templates.PsihologistPage3";
+            _typeNameTable[75] = "PsihologicalProject.Templates.QuestionPage1";
+            _typeNameTable[76] = "PsihologicalProject.Templates.ResultPage";
+            _typeNameTable[77] = "PsihologicalProject.Templates.TestPage";
+            _typeNameTable[78] = "PsihologicalProject.TGDecriptionPage";
+            _typeNameTable[79] = "PsihologicalProject.TYQuestion9";
+            _typeNameTable[80] = "PsihologicalProject.TYQuestion20";
+            _typeNameTable[81] = "PsihologicalProject.TYQuestion19";
+            _typeNameTable[82] = "PsihologicalProject.TYQuestion18";
+            _typeNameTable[83] = "PsihologicalProject.TYQuestion17";
+            _typeNameTable[84] = "PsihologicalProject.TYQuestion16";
+            _typeNameTable[85] = "PsihologicalProject.TYQuestion15";
+            _typeNameTable[86] = "PsihologicalProject.TYQuestion14";
+            _typeNameTable[87] = "PsihologicalProject.TYQuestion13";
+            _typeNameTable[88] = "PsihologicalProject.TYQuestion12";
+            _typeNameTable[89] = "PsihologicalProject.TYQuestion11";
+            _typeNameTable[90] = "PsihologicalProject.TYQuestion10";
+            _typeNameTable[91] = "PsihologicalProject.TYQuestion8";
+            _typeNameTable[92] = "PsihologicalProject.TYQuestion7";
+            _typeNameTable[93] = "PsihologicalProject.TYQuestion6";
+            _typeNameTable[94] = "PsihologicalProject.TYQuestion5";
+            _typeNameTable[95] = "PsihologicalProject.TYQuestion4";
+            _typeNameTable[96] = "PsihologicalProject.TYQuestion3";
+            _typeNameTable[97] = "PsihologicalProject.TYQuestion2";
+            _typeNameTable[98] = "PsihologicalProject.TYQuestion1";
+            _typeNameTable[99] = "PsihologicalProject.TYDescriptionPage";
+            _typeNameTable[100] = "PsihologicalProject.TYResultPage";
+            _typeNameTable[101] = "PsihologicalProject.TYTestPage";
 
-            _typeTable = new global::System.Type[68];
-            _typeTable[0] = typeof(global::PsihologicalProject.InternetTest.ITQuestion20);
+            _typeTable = new global::System.Type[102];
+            _typeTable[0] = typeof(global::PsihologicalProject.Behterev);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
-            _typeTable[3] = typeof(global::PsihologicalProject.InternetTest.ITQuestion19);
-            _typeTable[4] = typeof(global::PsihologicalProject.InternetTest.ITQuestion18);
-            _typeTable[5] = typeof(global::PsihologicalProject.InternetTest.ITQuestion17);
-            _typeTable[6] = typeof(global::PsihologicalProject.InternetTest.ITQuestion16);
-            _typeTable[7] = typeof(global::PsihologicalProject.InternetTest.ITQuestion15);
-            _typeTable[8] = typeof(global::PsihologicalProject.InternetTest.ITQuestion14);
-            _typeTable[9] = typeof(global::PsihologicalProject.InternetTest.ITQuestion13);
-            _typeTable[10] = typeof(global::PsihologicalProject.InternetTest.ITQuestion12);
-            _typeTable[11] = typeof(global::PsihologicalProject.InternetTest.ITQuestion11);
-            _typeTable[12] = typeof(global::PsihologicalProject.InternetTest.ITQuestion10);
-            _typeTable[13] = typeof(global::PsihologicalProject.InternetTest.ITQuestion9);
-            _typeTable[14] = typeof(global::PsihologicalProject.InternetTest.ITQuestion8);
-            _typeTable[15] = typeof(global::PsihologicalProject.InternetTest.ITQuestion7);
-            _typeTable[16] = typeof(global::PsihologicalProject.InternetTest.ITQuestion6);
-            _typeTable[17] = typeof(global::PsihologicalProject.InternetTest.ITQuestion5);
-            _typeTable[18] = typeof(global::PsihologicalProject.InternetTest.ITQuestion4);
-            _typeTable[19] = typeof(global::PsihologicalProject.InternetTest.ITQuestion3);
-            _typeTable[20] = typeof(global::PsihologicalProject.InternetTest.ITQuestion2);
-            _typeTable[21] = typeof(global::PsihologicalProject.InternetTest.ITQuestion1);
-            _typeTable[22] = typeof(global::PsihologicalProject.ITResultPage);
-            _typeTable[23] = typeof(global::PsihologicalProject.ITTestPage);
-            _typeTable[24] = typeof(global::PsihologicalProject.ITDescriptionPage);
-            _typeTable[25] = typeof(global::PsihologicalProject.Frade);
-            _typeTable[26] = typeof(global::PsihologicalProject.Common.ObservableDictionary);
-            _typeTable[27] = typeof(global::System.Object);
-            _typeTable[28] = typeof(global::System.String);
-            _typeTable[29] = typeof(global::PsihologicalProject.Common.NavigationHelper);
-            _typeTable[30] = typeof(global::Windows.UI.Xaml.DependencyObject);
-            _typeTable[31] = typeof(global::PsihologicalProject.Yung);
-            _typeTable[32] = typeof(global::PsihologicalProject.BlankPage1);
-            _typeTable[33] = typeof(global::PsihologicalProject.HubPage1);
-            _typeTable[34] = typeof(global::PsihologicalProject.Aizenk);
-            _typeTable[35] = typeof(global::PsihologicalProject.GroupedItemsPage);
-            _typeTable[36] = typeof(global::PsihologicalProject.GroupDetailPage);
-            _typeTable[37] = typeof(global::PsihologicalProject.ItemDetailPage);
-            _typeTable[38] = typeof(global::PsihologicalProject.Templates.DescriptionPage);
-            _typeTable[39] = typeof(global::PsihologicalProject.Templates.PsihologistPage1);
-            _typeTable[40] = typeof(global::PsihologicalProject.Templates.PsihologistPage2);
-            _typeTable[41] = typeof(global::PsihologicalProject.Templates.PsihologistPage3);
-            _typeTable[42] = typeof(global::PsihologicalProject.Templates.QuestionPage1);
-            _typeTable[43] = typeof(global::PsihologicalProject.Templates.ResultPage);
-            _typeTable[44] = typeof(global::PsihologicalProject.Templates.TestPage);
-            _typeTable[45] = typeof(global::PsihologicalProject.TYQuestion9);
-            _typeTable[46] = typeof(global::PsihologicalProject.TYQuestion20);
-            _typeTable[47] = typeof(global::PsihologicalProject.TYQuestion19);
-            _typeTable[48] = typeof(global::PsihologicalProject.TYQuestion18);
-            _typeTable[49] = typeof(global::PsihologicalProject.TYQuestion17);
-            _typeTable[50] = typeof(global::PsihologicalProject.TYQuestion16);
-            _typeTable[51] = typeof(global::PsihologicalProject.TYQuestion15);
-            _typeTable[52] = typeof(global::PsihologicalProject.TYQuestion14);
-            _typeTable[53] = typeof(global::PsihologicalProject.TYQuestion13);
-            _typeTable[54] = typeof(global::PsihologicalProject.TYQuestion12);
-            _typeTable[55] = typeof(global::PsihologicalProject.TYQuestion11);
-            _typeTable[56] = typeof(global::PsihologicalProject.TYQuestion10);
-            _typeTable[57] = typeof(global::PsihologicalProject.TYQuestion8);
-            _typeTable[58] = typeof(global::PsihologicalProject.TYQuestion7);
-            _typeTable[59] = typeof(global::PsihologicalProject.TYQuestion6);
-            _typeTable[60] = typeof(global::PsihologicalProject.TYQuestion5);
-            _typeTable[61] = typeof(global::PsihologicalProject.TYQuestion4);
-            _typeTable[62] = typeof(global::PsihologicalProject.TYQuestion3);
-            _typeTable[63] = typeof(global::PsihologicalProject.TYQuestion2);
-            _typeTable[64] = typeof(global::PsihologicalProject.TYQuestion1);
-            _typeTable[65] = typeof(global::PsihologicalProject.TYDescriptionPage);
-            _typeTable[66] = typeof(global::PsihologicalProject.TYResultPage);
-            _typeTable[67] = typeof(global::PsihologicalProject.TYTestPage);
+            _typeTable[3] = typeof(global::PsihologicalProject.Frankl);
+            _typeTable[4] = typeof(global::PsihologicalProject.Psihologists.Karnegi);
+            _typeTable[5] = typeof(global::PsihologicalProject.TestGardnera.TGQuestion28);
+            _typeTable[6] = typeof(global::PsihologicalProject.TestGardnera.TGQuestion27);
+            _typeTable[7] = typeof(global::PsihologicalProject.TestGardnera.TGQuestion26);
+            _typeTable[8] = typeof(global::PsihologicalProject.TestGardnera.TGQuestion25);
+            _typeTable[9] = typeof(global::PsihologicalProject.TestGardnera.TGQuestion24);
+            _typeTable[10] = typeof(global::PsihologicalProject.TestGardnera.TGQuestion23);
+            _typeTable[11] = typeof(global::PsihologicalProject.TestGardnera.TGQuestion22);
+            _typeTable[12] = typeof(global::PsihologicalProject.TestGardnera.TGQuestion21);
+            _typeTable[13] = typeof(global::PsihologicalProject.TestGardnera.TGQuestion20);
+            _typeTable[14] = typeof(global::PsihologicalProject.TestGardnera.TGQuestion19);
+            _typeTable[15] = typeof(global::PsihologicalProject.TestGardnera.TGQuestion18);
+            _typeTable[16] = typeof(global::PsihologicalProject.TestGardnera.TGQuestion17);
+            _typeTable[17] = typeof(global::PsihologicalProject.TestGardnera.TGQuestion16);
+            _typeTable[18] = typeof(global::PsihologicalProject.TestGardnera.TGQuestion15);
+            _typeTable[19] = typeof(global::PsihologicalProject.TestGardnera.TGQuestion14);
+            _typeTable[20] = typeof(global::PsihologicalProject.TestGardnera.TGQuestion13);
+            _typeTable[21] = typeof(global::PsihologicalProject.TestGardnera.TGQuestion12);
+            _typeTable[22] = typeof(global::PsihologicalProject.TestGardnera.TGQuestion11);
+            _typeTable[23] = typeof(global::PsihologicalProject.TestGardnera.TGQuestion10);
+            _typeTable[24] = typeof(global::PsihologicalProject.TestGardnera.TGQuestion9);
+            _typeTable[25] = typeof(global::PsihologicalProject.TestGardnera.TGQuestion8);
+            _typeTable[26] = typeof(global::PsihologicalProject.TestGardnera.TGQuestion7);
+            _typeTable[27] = typeof(global::PsihologicalProject.TestGardnera.TGQuestion6);
+            _typeTable[28] = typeof(global::PsihologicalProject.TestGardnera.TGQuestion5);
+            _typeTable[29] = typeof(global::PsihologicalProject.TestGardnera.TGQuestion4);
+            _typeTable[30] = typeof(global::PsihologicalProject.TestGardnera.TGQuestion3);
+            _typeTable[31] = typeof(global::PsihologicalProject.TestGardnera.TGQuestion2);
+            _typeTable[32] = typeof(global::PsihologicalProject.TestGardnera.TGQuestion1);
+            _typeTable[33] = typeof(global::PsihologicalProject.TGResultPage);
+            _typeTable[34] = typeof(global::PsihologicalProject.TGTestPage);
+            _typeTable[35] = typeof(global::PsihologicalProject.Gardner);
+            _typeTable[36] = typeof(global::PsihologicalProject.InternetTest.ITQuestion20);
+            _typeTable[37] = typeof(global::PsihologicalProject.InternetTest.ITQuestion19);
+            _typeTable[38] = typeof(global::PsihologicalProject.InternetTest.ITQuestion18);
+            _typeTable[39] = typeof(global::PsihologicalProject.InternetTest.ITQuestion17);
+            _typeTable[40] = typeof(global::PsihologicalProject.InternetTest.ITQuestion16);
+            _typeTable[41] = typeof(global::PsihologicalProject.InternetTest.ITQuestion15);
+            _typeTable[42] = typeof(global::PsihologicalProject.InternetTest.ITQuestion14);
+            _typeTable[43] = typeof(global::PsihologicalProject.InternetTest.ITQuestion13);
+            _typeTable[44] = typeof(global::PsihologicalProject.InternetTest.ITQuestion12);
+            _typeTable[45] = typeof(global::PsihologicalProject.InternetTest.ITQuestion11);
+            _typeTable[46] = typeof(global::PsihologicalProject.InternetTest.ITQuestion10);
+            _typeTable[47] = typeof(global::PsihologicalProject.InternetTest.ITQuestion9);
+            _typeTable[48] = typeof(global::PsihologicalProject.InternetTest.ITQuestion8);
+            _typeTable[49] = typeof(global::PsihologicalProject.InternetTest.ITQuestion7);
+            _typeTable[50] = typeof(global::PsihologicalProject.InternetTest.ITQuestion6);
+            _typeTable[51] = typeof(global::PsihologicalProject.InternetTest.ITQuestion5);
+            _typeTable[52] = typeof(global::PsihologicalProject.InternetTest.ITQuestion4);
+            _typeTable[53] = typeof(global::PsihologicalProject.InternetTest.ITQuestion3);
+            _typeTable[54] = typeof(global::PsihologicalProject.InternetTest.ITQuestion2);
+            _typeTable[55] = typeof(global::PsihologicalProject.InternetTest.ITQuestion1);
+            _typeTable[56] = typeof(global::PsihologicalProject.ITResultPage);
+            _typeTable[57] = typeof(global::PsihologicalProject.Common.NavigationHelper);
+            _typeTable[58] = typeof(global::Windows.UI.Xaml.DependencyObject);
+            _typeTable[59] = typeof(global::PsihologicalProject.ITTestPage);
+            _typeTable[60] = typeof(global::PsihologicalProject.ITDescriptionPage);
+            _typeTable[61] = typeof(global::PsihologicalProject.Frade);
+            _typeTable[62] = typeof(global::PsihologicalProject.Common.ObservableDictionary);
+            _typeTable[63] = typeof(global::System.Object);
+            _typeTable[64] = typeof(global::System.String);
+            _typeTable[65] = typeof(global::PsihologicalProject.Yung);
+            _typeTable[66] = typeof(global::PsihologicalProject.BlankPage1);
+            _typeTable[67] = typeof(global::PsihologicalProject.Aizenk);
+            _typeTable[68] = typeof(global::PsihologicalProject.GroupedItemsPage);
+            _typeTable[69] = typeof(global::PsihologicalProject.GroupDetailPage);
+            _typeTable[70] = typeof(global::PsihologicalProject.ItemDetailPage);
+            _typeTable[71] = typeof(global::PsihologicalProject.Templates.DescriptionPage);
+            _typeTable[72] = typeof(global::PsihologicalProject.Templates.PsihologistPage1);
+            _typeTable[73] = typeof(global::PsihologicalProject.Templates.PsihologistPage2);
+            _typeTable[74] = typeof(global::PsihologicalProject.Templates.PsihologistPage3);
+            _typeTable[75] = typeof(global::PsihologicalProject.Templates.QuestionPage1);
+            _typeTable[76] = typeof(global::PsihologicalProject.Templates.ResultPage);
+            _typeTable[77] = typeof(global::PsihologicalProject.Templates.TestPage);
+            _typeTable[78] = typeof(global::PsihologicalProject.TGDecriptionPage);
+            _typeTable[79] = typeof(global::PsihologicalProject.TYQuestion9);
+            _typeTable[80] = typeof(global::PsihologicalProject.TYQuestion20);
+            _typeTable[81] = typeof(global::PsihologicalProject.TYQuestion19);
+            _typeTable[82] = typeof(global::PsihologicalProject.TYQuestion18);
+            _typeTable[83] = typeof(global::PsihologicalProject.TYQuestion17);
+            _typeTable[84] = typeof(global::PsihologicalProject.TYQuestion16);
+            _typeTable[85] = typeof(global::PsihologicalProject.TYQuestion15);
+            _typeTable[86] = typeof(global::PsihologicalProject.TYQuestion14);
+            _typeTable[87] = typeof(global::PsihologicalProject.TYQuestion13);
+            _typeTable[88] = typeof(global::PsihologicalProject.TYQuestion12);
+            _typeTable[89] = typeof(global::PsihologicalProject.TYQuestion11);
+            _typeTable[90] = typeof(global::PsihologicalProject.TYQuestion10);
+            _typeTable[91] = typeof(global::PsihologicalProject.TYQuestion8);
+            _typeTable[92] = typeof(global::PsihologicalProject.TYQuestion7);
+            _typeTable[93] = typeof(global::PsihologicalProject.TYQuestion6);
+            _typeTable[94] = typeof(global::PsihologicalProject.TYQuestion5);
+            _typeTable[95] = typeof(global::PsihologicalProject.TYQuestion4);
+            _typeTable[96] = typeof(global::PsihologicalProject.TYQuestion3);
+            _typeTable[97] = typeof(global::PsihologicalProject.TYQuestion2);
+            _typeTable[98] = typeof(global::PsihologicalProject.TYQuestion1);
+            _typeTable[99] = typeof(global::PsihologicalProject.TYDescriptionPage);
+            _typeTable[100] = typeof(global::PsihologicalProject.TYResultPage);
+            _typeTable[101] = typeof(global::PsihologicalProject.TYTestPage);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -297,69 +365,103 @@ namespace PsihologicalProject.PsihologicalProject_XamlTypeInfo
             return -1;
         }
 
-        private object Activate_0_ITQuestion20() { return new global::PsihologicalProject.InternetTest.ITQuestion20(); }
-        private object Activate_3_ITQuestion19() { return new global::PsihologicalProject.InternetTest.ITQuestion19(); }
-        private object Activate_4_ITQuestion18() { return new global::PsihologicalProject.InternetTest.ITQuestion18(); }
-        private object Activate_5_ITQuestion17() { return new global::PsihologicalProject.InternetTest.ITQuestion17(); }
-        private object Activate_6_ITQuestion16() { return new global::PsihologicalProject.InternetTest.ITQuestion16(); }
-        private object Activate_7_ITQuestion15() { return new global::PsihologicalProject.InternetTest.ITQuestion15(); }
-        private object Activate_8_ITQuestion14() { return new global::PsihologicalProject.InternetTest.ITQuestion14(); }
-        private object Activate_9_ITQuestion13() { return new global::PsihologicalProject.InternetTest.ITQuestion13(); }
-        private object Activate_10_ITQuestion12() { return new global::PsihologicalProject.InternetTest.ITQuestion12(); }
-        private object Activate_11_ITQuestion11() { return new global::PsihologicalProject.InternetTest.ITQuestion11(); }
-        private object Activate_12_ITQuestion10() { return new global::PsihologicalProject.InternetTest.ITQuestion10(); }
-        private object Activate_13_ITQuestion9() { return new global::PsihologicalProject.InternetTest.ITQuestion9(); }
-        private object Activate_14_ITQuestion8() { return new global::PsihologicalProject.InternetTest.ITQuestion8(); }
-        private object Activate_15_ITQuestion7() { return new global::PsihologicalProject.InternetTest.ITQuestion7(); }
-        private object Activate_16_ITQuestion6() { return new global::PsihologicalProject.InternetTest.ITQuestion6(); }
-        private object Activate_17_ITQuestion5() { return new global::PsihologicalProject.InternetTest.ITQuestion5(); }
-        private object Activate_18_ITQuestion4() { return new global::PsihologicalProject.InternetTest.ITQuestion4(); }
-        private object Activate_19_ITQuestion3() { return new global::PsihologicalProject.InternetTest.ITQuestion3(); }
-        private object Activate_20_ITQuestion2() { return new global::PsihologicalProject.InternetTest.ITQuestion2(); }
-        private object Activate_21_ITQuestion1() { return new global::PsihologicalProject.InternetTest.ITQuestion1(); }
-        private object Activate_22_ITResultPage() { return new global::PsihologicalProject.ITResultPage(); }
-        private object Activate_23_ITTestPage() { return new global::PsihologicalProject.ITTestPage(); }
-        private object Activate_24_ITDescriptionPage() { return new global::PsihologicalProject.ITDescriptionPage(); }
-        private object Activate_25_Frade() { return new global::PsihologicalProject.Frade(); }
-        private object Activate_26_ObservableDictionary() { return new global::PsihologicalProject.Common.ObservableDictionary(); }
-        private object Activate_31_Yung() { return new global::PsihologicalProject.Yung(); }
-        private object Activate_32_BlankPage1() { return new global::PsihologicalProject.BlankPage1(); }
-        private object Activate_33_HubPage1() { return new global::PsihologicalProject.HubPage1(); }
-        private object Activate_34_Aizenk() { return new global::PsihologicalProject.Aizenk(); }
-        private object Activate_35_GroupedItemsPage() { return new global::PsihologicalProject.GroupedItemsPage(); }
-        private object Activate_36_GroupDetailPage() { return new global::PsihologicalProject.GroupDetailPage(); }
-        private object Activate_37_ItemDetailPage() { return new global::PsihologicalProject.ItemDetailPage(); }
-        private object Activate_38_DescriptionPage() { return new global::PsihologicalProject.Templates.DescriptionPage(); }
-        private object Activate_39_PsihologistPage1() { return new global::PsihologicalProject.Templates.PsihologistPage1(); }
-        private object Activate_40_PsihologistPage2() { return new global::PsihologicalProject.Templates.PsihologistPage2(); }
-        private object Activate_41_PsihologistPage3() { return new global::PsihologicalProject.Templates.PsihologistPage3(); }
-        private object Activate_42_QuestionPage1() { return new global::PsihologicalProject.Templates.QuestionPage1(); }
-        private object Activate_43_ResultPage() { return new global::PsihologicalProject.Templates.ResultPage(); }
-        private object Activate_44_TestPage() { return new global::PsihologicalProject.Templates.TestPage(); }
-        private object Activate_45_TYQuestion9() { return new global::PsihologicalProject.TYQuestion9(); }
-        private object Activate_46_TYQuestion20() { return new global::PsihologicalProject.TYQuestion20(); }
-        private object Activate_47_TYQuestion19() { return new global::PsihologicalProject.TYQuestion19(); }
-        private object Activate_48_TYQuestion18() { return new global::PsihologicalProject.TYQuestion18(); }
-        private object Activate_49_TYQuestion17() { return new global::PsihologicalProject.TYQuestion17(); }
-        private object Activate_50_TYQuestion16() { return new global::PsihologicalProject.TYQuestion16(); }
-        private object Activate_51_TYQuestion15() { return new global::PsihologicalProject.TYQuestion15(); }
-        private object Activate_52_TYQuestion14() { return new global::PsihologicalProject.TYQuestion14(); }
-        private object Activate_53_TYQuestion13() { return new global::PsihologicalProject.TYQuestion13(); }
-        private object Activate_54_TYQuestion12() { return new global::PsihologicalProject.TYQuestion12(); }
-        private object Activate_55_TYQuestion11() { return new global::PsihologicalProject.TYQuestion11(); }
-        private object Activate_56_TYQuestion10() { return new global::PsihologicalProject.TYQuestion10(); }
-        private object Activate_57_TYQuestion8() { return new global::PsihologicalProject.TYQuestion8(); }
-        private object Activate_58_TYQuestion7() { return new global::PsihologicalProject.TYQuestion7(); }
-        private object Activate_59_TYQuestion6() { return new global::PsihologicalProject.TYQuestion6(); }
-        private object Activate_60_TYQuestion5() { return new global::PsihologicalProject.TYQuestion5(); }
-        private object Activate_61_TYQuestion4() { return new global::PsihologicalProject.TYQuestion4(); }
-        private object Activate_62_TYQuestion3() { return new global::PsihologicalProject.TYQuestion3(); }
-        private object Activate_63_TYQuestion2() { return new global::PsihologicalProject.TYQuestion2(); }
-        private object Activate_64_TYQuestion1() { return new global::PsihologicalProject.TYQuestion1(); }
-        private object Activate_65_TYDescriptionPage() { return new global::PsihologicalProject.TYDescriptionPage(); }
-        private object Activate_66_TYResultPage() { return new global::PsihologicalProject.TYResultPage(); }
-        private object Activate_67_TYTestPage() { return new global::PsihologicalProject.TYTestPage(); }
-        private void MapAdd_26_ObservableDictionary(object instance, object key, object item)
+        private object Activate_0_Behterev() { return new global::PsihologicalProject.Behterev(); }
+        private object Activate_3_Frankl() { return new global::PsihologicalProject.Frankl(); }
+        private object Activate_4_Karnegi() { return new global::PsihologicalProject.Psihologists.Karnegi(); }
+        private object Activate_5_TGQuestion28() { return new global::PsihologicalProject.TestGardnera.TGQuestion28(); }
+        private object Activate_6_TGQuestion27() { return new global::PsihologicalProject.TestGardnera.TGQuestion27(); }
+        private object Activate_7_TGQuestion26() { return new global::PsihologicalProject.TestGardnera.TGQuestion26(); }
+        private object Activate_8_TGQuestion25() { return new global::PsihologicalProject.TestGardnera.TGQuestion25(); }
+        private object Activate_9_TGQuestion24() { return new global::PsihologicalProject.TestGardnera.TGQuestion24(); }
+        private object Activate_10_TGQuestion23() { return new global::PsihologicalProject.TestGardnera.TGQuestion23(); }
+        private object Activate_11_TGQuestion22() { return new global::PsihologicalProject.TestGardnera.TGQuestion22(); }
+        private object Activate_12_TGQuestion21() { return new global::PsihologicalProject.TestGardnera.TGQuestion21(); }
+        private object Activate_13_TGQuestion20() { return new global::PsihologicalProject.TestGardnera.TGQuestion20(); }
+        private object Activate_14_TGQuestion19() { return new global::PsihologicalProject.TestGardnera.TGQuestion19(); }
+        private object Activate_15_TGQuestion18() { return new global::PsihologicalProject.TestGardnera.TGQuestion18(); }
+        private object Activate_16_TGQuestion17() { return new global::PsihologicalProject.TestGardnera.TGQuestion17(); }
+        private object Activate_17_TGQuestion16() { return new global::PsihologicalProject.TestGardnera.TGQuestion16(); }
+        private object Activate_18_TGQuestion15() { return new global::PsihologicalProject.TestGardnera.TGQuestion15(); }
+        private object Activate_19_TGQuestion14() { return new global::PsihologicalProject.TestGardnera.TGQuestion14(); }
+        private object Activate_20_TGQuestion13() { return new global::PsihologicalProject.TestGardnera.TGQuestion13(); }
+        private object Activate_21_TGQuestion12() { return new global::PsihologicalProject.TestGardnera.TGQuestion12(); }
+        private object Activate_22_TGQuestion11() { return new global::PsihologicalProject.TestGardnera.TGQuestion11(); }
+        private object Activate_23_TGQuestion10() { return new global::PsihologicalProject.TestGardnera.TGQuestion10(); }
+        private object Activate_24_TGQuestion9() { return new global::PsihologicalProject.TestGardnera.TGQuestion9(); }
+        private object Activate_25_TGQuestion8() { return new global::PsihologicalProject.TestGardnera.TGQuestion8(); }
+        private object Activate_26_TGQuestion7() { return new global::PsihologicalProject.TestGardnera.TGQuestion7(); }
+        private object Activate_27_TGQuestion6() { return new global::PsihologicalProject.TestGardnera.TGQuestion6(); }
+        private object Activate_28_TGQuestion5() { return new global::PsihologicalProject.TestGardnera.TGQuestion5(); }
+        private object Activate_29_TGQuestion4() { return new global::PsihologicalProject.TestGardnera.TGQuestion4(); }
+        private object Activate_30_TGQuestion3() { return new global::PsihologicalProject.TestGardnera.TGQuestion3(); }
+        private object Activate_31_TGQuestion2() { return new global::PsihologicalProject.TestGardnera.TGQuestion2(); }
+        private object Activate_32_TGQuestion1() { return new global::PsihologicalProject.TestGardnera.TGQuestion1(); }
+        private object Activate_33_TGResultPage() { return new global::PsihologicalProject.TGResultPage(); }
+        private object Activate_34_TGTestPage() { return new global::PsihologicalProject.TGTestPage(); }
+        private object Activate_35_Gardner() { return new global::PsihologicalProject.Gardner(); }
+        private object Activate_36_ITQuestion20() { return new global::PsihologicalProject.InternetTest.ITQuestion20(); }
+        private object Activate_37_ITQuestion19() { return new global::PsihologicalProject.InternetTest.ITQuestion19(); }
+        private object Activate_38_ITQuestion18() { return new global::PsihologicalProject.InternetTest.ITQuestion18(); }
+        private object Activate_39_ITQuestion17() { return new global::PsihologicalProject.InternetTest.ITQuestion17(); }
+        private object Activate_40_ITQuestion16() { return new global::PsihologicalProject.InternetTest.ITQuestion16(); }
+        private object Activate_41_ITQuestion15() { return new global::PsihologicalProject.InternetTest.ITQuestion15(); }
+        private object Activate_42_ITQuestion14() { return new global::PsihologicalProject.InternetTest.ITQuestion14(); }
+        private object Activate_43_ITQuestion13() { return new global::PsihologicalProject.InternetTest.ITQuestion13(); }
+        private object Activate_44_ITQuestion12() { return new global::PsihologicalProject.InternetTest.ITQuestion12(); }
+        private object Activate_45_ITQuestion11() { return new global::PsihologicalProject.InternetTest.ITQuestion11(); }
+        private object Activate_46_ITQuestion10() { return new global::PsihologicalProject.InternetTest.ITQuestion10(); }
+        private object Activate_47_ITQuestion9() { return new global::PsihologicalProject.InternetTest.ITQuestion9(); }
+        private object Activate_48_ITQuestion8() { return new global::PsihologicalProject.InternetTest.ITQuestion8(); }
+        private object Activate_49_ITQuestion7() { return new global::PsihologicalProject.InternetTest.ITQuestion7(); }
+        private object Activate_50_ITQuestion6() { return new global::PsihologicalProject.InternetTest.ITQuestion6(); }
+        private object Activate_51_ITQuestion5() { return new global::PsihologicalProject.InternetTest.ITQuestion5(); }
+        private object Activate_52_ITQuestion4() { return new global::PsihologicalProject.InternetTest.ITQuestion4(); }
+        private object Activate_53_ITQuestion3() { return new global::PsihologicalProject.InternetTest.ITQuestion3(); }
+        private object Activate_54_ITQuestion2() { return new global::PsihologicalProject.InternetTest.ITQuestion2(); }
+        private object Activate_55_ITQuestion1() { return new global::PsihologicalProject.InternetTest.ITQuestion1(); }
+        private object Activate_56_ITResultPage() { return new global::PsihologicalProject.ITResultPage(); }
+        private object Activate_59_ITTestPage() { return new global::PsihologicalProject.ITTestPage(); }
+        private object Activate_60_ITDescriptionPage() { return new global::PsihologicalProject.ITDescriptionPage(); }
+        private object Activate_61_Frade() { return new global::PsihologicalProject.Frade(); }
+        private object Activate_62_ObservableDictionary() { return new global::PsihologicalProject.Common.ObservableDictionary(); }
+        private object Activate_65_Yung() { return new global::PsihologicalProject.Yung(); }
+        private object Activate_66_BlankPage1() { return new global::PsihologicalProject.BlankPage1(); }
+        private object Activate_67_Aizenk() { return new global::PsihologicalProject.Aizenk(); }
+        private object Activate_68_GroupedItemsPage() { return new global::PsihologicalProject.GroupedItemsPage(); }
+        private object Activate_69_GroupDetailPage() { return new global::PsihologicalProject.GroupDetailPage(); }
+        private object Activate_70_ItemDetailPage() { return new global::PsihologicalProject.ItemDetailPage(); }
+        private object Activate_71_DescriptionPage() { return new global::PsihologicalProject.Templates.DescriptionPage(); }
+        private object Activate_72_PsihologistPage1() { return new global::PsihologicalProject.Templates.PsihologistPage1(); }
+        private object Activate_73_PsihologistPage2() { return new global::PsihologicalProject.Templates.PsihologistPage2(); }
+        private object Activate_74_PsihologistPage3() { return new global::PsihologicalProject.Templates.PsihologistPage3(); }
+        private object Activate_75_QuestionPage1() { return new global::PsihologicalProject.Templates.QuestionPage1(); }
+        private object Activate_76_ResultPage() { return new global::PsihologicalProject.Templates.ResultPage(); }
+        private object Activate_77_TestPage() { return new global::PsihologicalProject.Templates.TestPage(); }
+        private object Activate_78_TGDecriptionPage() { return new global::PsihologicalProject.TGDecriptionPage(); }
+        private object Activate_79_TYQuestion9() { return new global::PsihologicalProject.TYQuestion9(); }
+        private object Activate_80_TYQuestion20() { return new global::PsihologicalProject.TYQuestion20(); }
+        private object Activate_81_TYQuestion19() { return new global::PsihologicalProject.TYQuestion19(); }
+        private object Activate_82_TYQuestion18() { return new global::PsihologicalProject.TYQuestion18(); }
+        private object Activate_83_TYQuestion17() { return new global::PsihologicalProject.TYQuestion17(); }
+        private object Activate_84_TYQuestion16() { return new global::PsihologicalProject.TYQuestion16(); }
+        private object Activate_85_TYQuestion15() { return new global::PsihologicalProject.TYQuestion15(); }
+        private object Activate_86_TYQuestion14() { return new global::PsihologicalProject.TYQuestion14(); }
+        private object Activate_87_TYQuestion13() { return new global::PsihologicalProject.TYQuestion13(); }
+        private object Activate_88_TYQuestion12() { return new global::PsihologicalProject.TYQuestion12(); }
+        private object Activate_89_TYQuestion11() { return new global::PsihologicalProject.TYQuestion11(); }
+        private object Activate_90_TYQuestion10() { return new global::PsihologicalProject.TYQuestion10(); }
+        private object Activate_91_TYQuestion8() { return new global::PsihologicalProject.TYQuestion8(); }
+        private object Activate_92_TYQuestion7() { return new global::PsihologicalProject.TYQuestion7(); }
+        private object Activate_93_TYQuestion6() { return new global::PsihologicalProject.TYQuestion6(); }
+        private object Activate_94_TYQuestion5() { return new global::PsihologicalProject.TYQuestion5(); }
+        private object Activate_95_TYQuestion4() { return new global::PsihologicalProject.TYQuestion4(); }
+        private object Activate_96_TYQuestion3() { return new global::PsihologicalProject.TYQuestion3(); }
+        private object Activate_97_TYQuestion2() { return new global::PsihologicalProject.TYQuestion2(); }
+        private object Activate_98_TYQuestion1() { return new global::PsihologicalProject.TYQuestion1(); }
+        private object Activate_99_TYDescriptionPage() { return new global::PsihologicalProject.TYDescriptionPage(); }
+        private object Activate_100_TYResultPage() { return new global::PsihologicalProject.TYResultPage(); }
+        private object Activate_101_TYTestPage() { return new global::PsihologicalProject.TYTestPage(); }
+        private void MapAdd_62_ObservableDictionary(object instance, object key, object item)
         {
             var collection = (global::System.Collections.Generic.IDictionary<global::System.String, global::System.Object>)instance;
             var newKey = (global::System.String)key;
@@ -377,9 +479,9 @@ namespace PsihologicalProject.PsihologicalProject_XamlTypeInfo
             switch (typeIndex)
             {
 
-            case 0:   //  PsihologicalProject.InternetTest.ITQuestion20
+            case 0:   //  PsihologicalProject.Behterev
                 userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_0_ITQuestion20;
+                userType.Activator = Activate_0_Behterev;
                 xamlType = userType;
                 break;
 
@@ -391,412 +493,615 @@ namespace PsihologicalProject.PsihologicalProject_XamlTypeInfo
                 xamlType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 3:   //  PsihologicalProject.InternetTest.ITQuestion19
+            case 3:   //  PsihologicalProject.Frankl
                 userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_3_ITQuestion19;
+                userType.Activator = Activate_3_Frankl;
                 xamlType = userType;
                 break;
 
-            case 4:   //  PsihologicalProject.InternetTest.ITQuestion18
+            case 4:   //  PsihologicalProject.Psihologists.Karnegi
                 userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_4_ITQuestion18;
+                userType.Activator = Activate_4_Karnegi;
                 xamlType = userType;
                 break;
 
-            case 5:   //  PsihologicalProject.InternetTest.ITQuestion17
+            case 5:   //  PsihologicalProject.TestGardnera.TGQuestion28
                 userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_5_ITQuestion17;
+                userType.Activator = Activate_5_TGQuestion28;
                 xamlType = userType;
                 break;
 
-            case 6:   //  PsihologicalProject.InternetTest.ITQuestion16
+            case 6:   //  PsihologicalProject.TestGardnera.TGQuestion27
                 userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_6_ITQuestion16;
+                userType.Activator = Activate_6_TGQuestion27;
                 xamlType = userType;
                 break;
 
-            case 7:   //  PsihologicalProject.InternetTest.ITQuestion15
+            case 7:   //  PsihologicalProject.TestGardnera.TGQuestion26
                 userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_7_ITQuestion15;
+                userType.Activator = Activate_7_TGQuestion26;
                 xamlType = userType;
                 break;
 
-            case 8:   //  PsihologicalProject.InternetTest.ITQuestion14
+            case 8:   //  PsihologicalProject.TestGardnera.TGQuestion25
                 userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_8_ITQuestion14;
+                userType.Activator = Activate_8_TGQuestion25;
                 xamlType = userType;
                 break;
 
-            case 9:   //  PsihologicalProject.InternetTest.ITQuestion13
+            case 9:   //  PsihologicalProject.TestGardnera.TGQuestion24
                 userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_9_ITQuestion13;
+                userType.Activator = Activate_9_TGQuestion24;
                 xamlType = userType;
                 break;
 
-            case 10:   //  PsihologicalProject.InternetTest.ITQuestion12
+            case 10:   //  PsihologicalProject.TestGardnera.TGQuestion23
                 userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_10_ITQuestion12;
+                userType.Activator = Activate_10_TGQuestion23;
                 xamlType = userType;
                 break;
 
-            case 11:   //  PsihologicalProject.InternetTest.ITQuestion11
+            case 11:   //  PsihologicalProject.TestGardnera.TGQuestion22
                 userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_11_ITQuestion11;
+                userType.Activator = Activate_11_TGQuestion22;
                 xamlType = userType;
                 break;
 
-            case 12:   //  PsihologicalProject.InternetTest.ITQuestion10
+            case 12:   //  PsihologicalProject.TestGardnera.TGQuestion21
                 userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_12_ITQuestion10;
+                userType.Activator = Activate_12_TGQuestion21;
                 xamlType = userType;
                 break;
 
-            case 13:   //  PsihologicalProject.InternetTest.ITQuestion9
+            case 13:   //  PsihologicalProject.TestGardnera.TGQuestion20
                 userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_13_ITQuestion9;
+                userType.Activator = Activate_13_TGQuestion20;
                 xamlType = userType;
                 break;
 
-            case 14:   //  PsihologicalProject.InternetTest.ITQuestion8
+            case 14:   //  PsihologicalProject.TestGardnera.TGQuestion19
                 userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_14_ITQuestion8;
+                userType.Activator = Activate_14_TGQuestion19;
                 xamlType = userType;
                 break;
 
-            case 15:   //  PsihologicalProject.InternetTest.ITQuestion7
+            case 15:   //  PsihologicalProject.TestGardnera.TGQuestion18
                 userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_15_ITQuestion7;
+                userType.Activator = Activate_15_TGQuestion18;
                 xamlType = userType;
                 break;
 
-            case 16:   //  PsihologicalProject.InternetTest.ITQuestion6
+            case 16:   //  PsihologicalProject.TestGardnera.TGQuestion17
                 userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_16_ITQuestion6;
+                userType.Activator = Activate_16_TGQuestion17;
                 xamlType = userType;
                 break;
 
-            case 17:   //  PsihologicalProject.InternetTest.ITQuestion5
+            case 17:   //  PsihologicalProject.TestGardnera.TGQuestion16
                 userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_17_ITQuestion5;
+                userType.Activator = Activate_17_TGQuestion16;
                 xamlType = userType;
                 break;
 
-            case 18:   //  PsihologicalProject.InternetTest.ITQuestion4
+            case 18:   //  PsihologicalProject.TestGardnera.TGQuestion15
                 userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_18_ITQuestion4;
+                userType.Activator = Activate_18_TGQuestion15;
                 xamlType = userType;
                 break;
 
-            case 19:   //  PsihologicalProject.InternetTest.ITQuestion3
+            case 19:   //  PsihologicalProject.TestGardnera.TGQuestion14
                 userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_19_ITQuestion3;
+                userType.Activator = Activate_19_TGQuestion14;
                 xamlType = userType;
                 break;
 
-            case 20:   //  PsihologicalProject.InternetTest.ITQuestion2
+            case 20:   //  PsihologicalProject.TestGardnera.TGQuestion13
                 userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_20_ITQuestion2;
+                userType.Activator = Activate_20_TGQuestion13;
                 xamlType = userType;
                 break;
 
-            case 21:   //  PsihologicalProject.InternetTest.ITQuestion1
+            case 21:   //  PsihologicalProject.TestGardnera.TGQuestion12
                 userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_21_ITQuestion1;
+                userType.Activator = Activate_21_TGQuestion12;
                 xamlType = userType;
                 break;
 
-            case 22:   //  PsihologicalProject.ITResultPage
+            case 22:   //  PsihologicalProject.TestGardnera.TGQuestion11
                 userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_22_ITResultPage;
+                userType.Activator = Activate_22_TGQuestion11;
                 xamlType = userType;
                 break;
 
-            case 23:   //  PsihologicalProject.ITTestPage
+            case 23:   //  PsihologicalProject.TestGardnera.TGQuestion10
                 userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_23_ITTestPage;
+                userType.Activator = Activate_23_TGQuestion10;
                 xamlType = userType;
                 break;
 
-            case 24:   //  PsihologicalProject.ITDescriptionPage
+            case 24:   //  PsihologicalProject.TestGardnera.TGQuestion9
                 userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_24_ITDescriptionPage;
+                userType.Activator = Activate_24_TGQuestion9;
                 xamlType = userType;
                 break;
 
-            case 25:   //  PsihologicalProject.Frade
+            case 25:   //  PsihologicalProject.TestGardnera.TGQuestion8
                 userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_25_Frade;
-                userType.AddMemberName("DefaultViewModel");
+                userType.Activator = Activate_25_TGQuestion8;
+                xamlType = userType;
+                break;
+
+            case 26:   //  PsihologicalProject.TestGardnera.TGQuestion7
+                userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_26_TGQuestion7;
+                xamlType = userType;
+                break;
+
+            case 27:   //  PsihologicalProject.TestGardnera.TGQuestion6
+                userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_27_TGQuestion6;
+                xamlType = userType;
+                break;
+
+            case 28:   //  PsihologicalProject.TestGardnera.TGQuestion5
+                userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_28_TGQuestion5;
+                xamlType = userType;
+                break;
+
+            case 29:   //  PsihologicalProject.TestGardnera.TGQuestion4
+                userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_29_TGQuestion4;
+                xamlType = userType;
+                break;
+
+            case 30:   //  PsihologicalProject.TestGardnera.TGQuestion3
+                userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_30_TGQuestion3;
+                xamlType = userType;
+                break;
+
+            case 31:   //  PsihologicalProject.TestGardnera.TGQuestion2
+                userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_31_TGQuestion2;
+                xamlType = userType;
+                break;
+
+            case 32:   //  PsihologicalProject.TestGardnera.TGQuestion1
+                userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_32_TGQuestion1;
+                xamlType = userType;
+                break;
+
+            case 33:   //  PsihologicalProject.TGResultPage
+                userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_33_TGResultPage;
+                xamlType = userType;
+                break;
+
+            case 34:   //  PsihologicalProject.TGTestPage
+                userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_34_TGTestPage;
+                xamlType = userType;
+                break;
+
+            case 35:   //  PsihologicalProject.Gardner
+                userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_35_Gardner;
+                xamlType = userType;
+                break;
+
+            case 36:   //  PsihologicalProject.InternetTest.ITQuestion20
+                userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_36_ITQuestion20;
+                xamlType = userType;
+                break;
+
+            case 37:   //  PsihologicalProject.InternetTest.ITQuestion19
+                userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_37_ITQuestion19;
+                xamlType = userType;
+                break;
+
+            case 38:   //  PsihologicalProject.InternetTest.ITQuestion18
+                userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_38_ITQuestion18;
+                xamlType = userType;
+                break;
+
+            case 39:   //  PsihologicalProject.InternetTest.ITQuestion17
+                userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_39_ITQuestion17;
+                xamlType = userType;
+                break;
+
+            case 40:   //  PsihologicalProject.InternetTest.ITQuestion16
+                userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_40_ITQuestion16;
+                xamlType = userType;
+                break;
+
+            case 41:   //  PsihologicalProject.InternetTest.ITQuestion15
+                userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_41_ITQuestion15;
+                xamlType = userType;
+                break;
+
+            case 42:   //  PsihologicalProject.InternetTest.ITQuestion14
+                userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_42_ITQuestion14;
+                xamlType = userType;
+                break;
+
+            case 43:   //  PsihologicalProject.InternetTest.ITQuestion13
+                userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_43_ITQuestion13;
+                xamlType = userType;
+                break;
+
+            case 44:   //  PsihologicalProject.InternetTest.ITQuestion12
+                userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_44_ITQuestion12;
+                xamlType = userType;
+                break;
+
+            case 45:   //  PsihologicalProject.InternetTest.ITQuestion11
+                userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_45_ITQuestion11;
+                xamlType = userType;
+                break;
+
+            case 46:   //  PsihologicalProject.InternetTest.ITQuestion10
+                userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_46_ITQuestion10;
+                xamlType = userType;
+                break;
+
+            case 47:   //  PsihologicalProject.InternetTest.ITQuestion9
+                userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_47_ITQuestion9;
+                xamlType = userType;
+                break;
+
+            case 48:   //  PsihologicalProject.InternetTest.ITQuestion8
+                userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_48_ITQuestion8;
+                xamlType = userType;
+                break;
+
+            case 49:   //  PsihologicalProject.InternetTest.ITQuestion7
+                userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_49_ITQuestion7;
+                xamlType = userType;
+                break;
+
+            case 50:   //  PsihologicalProject.InternetTest.ITQuestion6
+                userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_50_ITQuestion6;
+                xamlType = userType;
+                break;
+
+            case 51:   //  PsihologicalProject.InternetTest.ITQuestion5
+                userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_51_ITQuestion5;
+                xamlType = userType;
+                break;
+
+            case 52:   //  PsihologicalProject.InternetTest.ITQuestion4
+                userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_52_ITQuestion4;
+                xamlType = userType;
+                break;
+
+            case 53:   //  PsihologicalProject.InternetTest.ITQuestion3
+                userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_53_ITQuestion3;
+                xamlType = userType;
+                break;
+
+            case 54:   //  PsihologicalProject.InternetTest.ITQuestion2
+                userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_54_ITQuestion2;
+                xamlType = userType;
+                break;
+
+            case 55:   //  PsihologicalProject.InternetTest.ITQuestion1
+                userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_55_ITQuestion1;
+                xamlType = userType;
+                break;
+
+            case 56:   //  PsihologicalProject.ITResultPage
+                userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_56_ITResultPage;
                 userType.AddMemberName("NavigationHelper");
                 xamlType = userType;
                 break;
 
-            case 26:   //  PsihologicalProject.Common.ObservableDictionary
-                userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.DictionaryAdd = MapAdd_26_ObservableDictionary;
-                userType.SetIsReturnTypeStub();
-                xamlType = userType;
-                break;
-
-            case 27:   //  Object
-                xamlType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 28:   //  String
-                xamlType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 29:   //  PsihologicalProject.Common.NavigationHelper
+            case 57:   //  PsihologicalProject.Common.NavigationHelper
                 userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 30:   //  Windows.UI.Xaml.DependencyObject
+            case 58:   //  Windows.UI.Xaml.DependencyObject
                 xamlType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 31:   //  PsihologicalProject.Yung
+            case 59:   //  PsihologicalProject.ITTestPage
                 userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_31_Yung;
+                userType.Activator = Activate_59_ITTestPage;
+                xamlType = userType;
+                break;
+
+            case 60:   //  PsihologicalProject.ITDescriptionPage
+                userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_60_ITDescriptionPage;
+                xamlType = userType;
+                break;
+
+            case 61:   //  PsihologicalProject.Frade
+                userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_61_Frade;
                 userType.AddMemberName("DefaultViewModel");
                 userType.AddMemberName("NavigationHelper");
                 xamlType = userType;
                 break;
 
-            case 32:   //  PsihologicalProject.BlankPage1
-                userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_32_BlankPage1;
+            case 62:   //  PsihologicalProject.Common.ObservableDictionary
+                userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.DictionaryAdd = MapAdd_62_ObservableDictionary;
+                userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 33:   //  PsihologicalProject.HubPage1
+            case 63:   //  Object
+                xamlType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 64:   //  String
+                xamlType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 65:   //  PsihologicalProject.Yung
                 userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_33_HubPage1;
+                userType.Activator = Activate_65_Yung;
                 userType.AddMemberName("DefaultViewModel");
                 userType.AddMemberName("NavigationHelper");
                 xamlType = userType;
                 break;
 
-            case 34:   //  PsihologicalProject.Aizenk
+            case 66:   //  PsihologicalProject.BlankPage1
                 userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_34_Aizenk;
+                userType.Activator = Activate_66_BlankPage1;
+                xamlType = userType;
+                break;
+
+            case 67:   //  PsihologicalProject.Aizenk
+                userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_67_Aizenk;
                 userType.AddMemberName("DefaultViewModel");
                 userType.AddMemberName("NavigationHelper");
                 xamlType = userType;
                 break;
 
-            case 35:   //  PsihologicalProject.GroupedItemsPage
+            case 68:   //  PsihologicalProject.GroupedItemsPage
                 userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_35_GroupedItemsPage;
+                userType.Activator = Activate_68_GroupedItemsPage;
                 userType.AddMemberName("NavigationHelper");
                 userType.AddMemberName("DefaultViewModel");
                 xamlType = userType;
                 break;
 
-            case 36:   //  PsihologicalProject.GroupDetailPage
+            case 69:   //  PsihologicalProject.GroupDetailPage
                 userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_36_GroupDetailPage;
+                userType.Activator = Activate_69_GroupDetailPage;
                 userType.AddMemberName("NavigationHelper");
                 userType.AddMemberName("DefaultViewModel");
                 xamlType = userType;
                 break;
 
-            case 37:   //  PsihologicalProject.ItemDetailPage
+            case 70:   //  PsihologicalProject.ItemDetailPage
                 userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_37_ItemDetailPage;
+                userType.Activator = Activate_70_ItemDetailPage;
                 userType.AddMemberName("NavigationHelper");
                 userType.AddMemberName("DefaultViewModel");
                 xamlType = userType;
                 break;
 
-            case 38:   //  PsihologicalProject.Templates.DescriptionPage
+            case 71:   //  PsihologicalProject.Templates.DescriptionPage
                 userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_38_DescriptionPage;
+                userType.Activator = Activate_71_DescriptionPage;
                 userType.AddMemberName("DefaultViewModel");
                 userType.AddMemberName("NavigationHelper");
                 xamlType = userType;
                 break;
 
-            case 39:   //  PsihologicalProject.Templates.PsihologistPage1
+            case 72:   //  PsihologicalProject.Templates.PsihologistPage1
                 userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_39_PsihologistPage1;
+                userType.Activator = Activate_72_PsihologistPage1;
                 xamlType = userType;
                 break;
 
-            case 40:   //  PsihologicalProject.Templates.PsihologistPage2
+            case 73:   //  PsihologicalProject.Templates.PsihologistPage2
                 userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_40_PsihologistPage2;
+                userType.Activator = Activate_73_PsihologistPage2;
                 xamlType = userType;
                 break;
 
-            case 41:   //  PsihologicalProject.Templates.PsihologistPage3
+            case 74:   //  PsihologicalProject.Templates.PsihologistPage3
                 userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_41_PsihologistPage3;
+                userType.Activator = Activate_74_PsihologistPage3;
                 xamlType = userType;
                 break;
 
-            case 42:   //  PsihologicalProject.Templates.QuestionPage1
+            case 75:   //  PsihologicalProject.Templates.QuestionPage1
                 userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_42_QuestionPage1;
+                userType.Activator = Activate_75_QuestionPage1;
                 xamlType = userType;
                 break;
 
-            case 43:   //  PsihologicalProject.Templates.ResultPage
+            case 76:   //  PsihologicalProject.Templates.ResultPage
                 userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_43_ResultPage;
+                userType.Activator = Activate_76_ResultPage;
                 userType.AddMemberName("DefaultViewModel");
                 userType.AddMemberName("NavigationHelper");
                 xamlType = userType;
                 break;
 
-            case 44:   //  PsihologicalProject.Templates.TestPage
+            case 77:   //  PsihologicalProject.Templates.TestPage
                 userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_44_TestPage;
+                userType.Activator = Activate_77_TestPage;
                 userType.AddMemberName("DefaultViewModel");
                 userType.AddMemberName("NavigationHelper");
                 xamlType = userType;
                 break;
 
-            case 45:   //  PsihologicalProject.TYQuestion9
+            case 78:   //  PsihologicalProject.TGDecriptionPage
                 userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_45_TYQuestion9;
+                userType.Activator = Activate_78_TGDecriptionPage;
                 xamlType = userType;
                 break;
 
-            case 46:   //  PsihologicalProject.TYQuestion20
+            case 79:   //  PsihologicalProject.TYQuestion9
                 userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_46_TYQuestion20;
+                userType.Activator = Activate_79_TYQuestion9;
                 xamlType = userType;
                 break;
 
-            case 47:   //  PsihologicalProject.TYQuestion19
+            case 80:   //  PsihologicalProject.TYQuestion20
                 userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_47_TYQuestion19;
+                userType.Activator = Activate_80_TYQuestion20;
                 xamlType = userType;
                 break;
 
-            case 48:   //  PsihologicalProject.TYQuestion18
+            case 81:   //  PsihologicalProject.TYQuestion19
                 userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_48_TYQuestion18;
+                userType.Activator = Activate_81_TYQuestion19;
                 xamlType = userType;
                 break;
 
-            case 49:   //  PsihologicalProject.TYQuestion17
+            case 82:   //  PsihologicalProject.TYQuestion18
                 userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_49_TYQuestion17;
+                userType.Activator = Activate_82_TYQuestion18;
                 xamlType = userType;
                 break;
 
-            case 50:   //  PsihologicalProject.TYQuestion16
+            case 83:   //  PsihologicalProject.TYQuestion17
                 userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_50_TYQuestion16;
+                userType.Activator = Activate_83_TYQuestion17;
                 xamlType = userType;
                 break;
 
-            case 51:   //  PsihologicalProject.TYQuestion15
+            case 84:   //  PsihologicalProject.TYQuestion16
                 userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_51_TYQuestion15;
+                userType.Activator = Activate_84_TYQuestion16;
                 xamlType = userType;
                 break;
 
-            case 52:   //  PsihologicalProject.TYQuestion14
+            case 85:   //  PsihologicalProject.TYQuestion15
                 userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_52_TYQuestion14;
+                userType.Activator = Activate_85_TYQuestion15;
                 xamlType = userType;
                 break;
 
-            case 53:   //  PsihologicalProject.TYQuestion13
+            case 86:   //  PsihologicalProject.TYQuestion14
                 userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_53_TYQuestion13;
+                userType.Activator = Activate_86_TYQuestion14;
                 xamlType = userType;
                 break;
 
-            case 54:   //  PsihologicalProject.TYQuestion12
+            case 87:   //  PsihologicalProject.TYQuestion13
                 userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_54_TYQuestion12;
+                userType.Activator = Activate_87_TYQuestion13;
                 xamlType = userType;
                 break;
 
-            case 55:   //  PsihologicalProject.TYQuestion11
+            case 88:   //  PsihologicalProject.TYQuestion12
                 userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_55_TYQuestion11;
+                userType.Activator = Activate_88_TYQuestion12;
                 xamlType = userType;
                 break;
 
-            case 56:   //  PsihologicalProject.TYQuestion10
+            case 89:   //  PsihologicalProject.TYQuestion11
                 userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_56_TYQuestion10;
+                userType.Activator = Activate_89_TYQuestion11;
                 xamlType = userType;
                 break;
 
-            case 57:   //  PsihologicalProject.TYQuestion8
+            case 90:   //  PsihologicalProject.TYQuestion10
                 userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_57_TYQuestion8;
+                userType.Activator = Activate_90_TYQuestion10;
                 xamlType = userType;
                 break;
 
-            case 58:   //  PsihologicalProject.TYQuestion7
+            case 91:   //  PsihologicalProject.TYQuestion8
                 userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_58_TYQuestion7;
+                userType.Activator = Activate_91_TYQuestion8;
                 xamlType = userType;
                 break;
 
-            case 59:   //  PsihologicalProject.TYQuestion6
+            case 92:   //  PsihologicalProject.TYQuestion7
                 userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_59_TYQuestion6;
+                userType.Activator = Activate_92_TYQuestion7;
                 xamlType = userType;
                 break;
 
-            case 60:   //  PsihologicalProject.TYQuestion5
+            case 93:   //  PsihologicalProject.TYQuestion6
                 userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_60_TYQuestion5;
+                userType.Activator = Activate_93_TYQuestion6;
                 xamlType = userType;
                 break;
 
-            case 61:   //  PsihologicalProject.TYQuestion4
+            case 94:   //  PsihologicalProject.TYQuestion5
                 userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_61_TYQuestion4;
+                userType.Activator = Activate_94_TYQuestion5;
                 xamlType = userType;
                 break;
 
-            case 62:   //  PsihologicalProject.TYQuestion3
+            case 95:   //  PsihologicalProject.TYQuestion4
                 userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_62_TYQuestion3;
+                userType.Activator = Activate_95_TYQuestion4;
                 xamlType = userType;
                 break;
 
-            case 63:   //  PsihologicalProject.TYQuestion2
+            case 96:   //  PsihologicalProject.TYQuestion3
                 userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_63_TYQuestion2;
+                userType.Activator = Activate_96_TYQuestion3;
                 xamlType = userType;
                 break;
 
-            case 64:   //  PsihologicalProject.TYQuestion1
+            case 97:   //  PsihologicalProject.TYQuestion2
                 userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_64_TYQuestion1;
+                userType.Activator = Activate_97_TYQuestion2;
                 xamlType = userType;
                 break;
 
-            case 65:   //  PsihologicalProject.TYDescriptionPage
+            case 98:   //  PsihologicalProject.TYQuestion1
                 userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_65_TYDescriptionPage;
+                userType.Activator = Activate_98_TYQuestion1;
+                xamlType = userType;
+                break;
+
+            case 99:   //  PsihologicalProject.TYDescriptionPage
+                userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_99_TYDescriptionPage;
                 userType.AddMemberName("DefaultViewModel");
                 userType.AddMemberName("NavigationHelper");
                 xamlType = userType;
                 break;
 
-            case 66:   //  PsihologicalProject.TYResultPage
+            case 100:   //  PsihologicalProject.TYResultPage
                 userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_66_TYResultPage;
+                userType.Activator = Activate_100_TYResultPage;
                 userType.AddMemberName("DefaultViewModel");
                 userType.AddMemberName("NavigationHelper");
                 xamlType = userType;
                 break;
 
-            case 67:   //  PsihologicalProject.TYTestPage
+            case 101:   //  PsihologicalProject.TYTestPage
                 userType = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_67_TYTestPage;
+                userType.Activator = Activate_101_TYTestPage;
                 userType.AddMemberName("DefaultViewModel");
                 userType.AddMemberName("NavigationHelper");
                 xamlType = userType;
@@ -806,132 +1111,127 @@ namespace PsihologicalProject.PsihologicalProject_XamlTypeInfo
         }
 
 
-        private object get_0_Frade_DefaultViewModel(object instance)
+        private object get_0_ITResultPage_NavigationHelper(object instance)
+        {
+            var that = (global::PsihologicalProject.ITResultPage)instance;
+            return that.NavigationHelper;
+        }
+        private object get_1_Frade_DefaultViewModel(object instance)
         {
             var that = (global::PsihologicalProject.Frade)instance;
             return that.DefaultViewModel;
         }
-        private object get_1_Frade_NavigationHelper(object instance)
+        private object get_2_Frade_NavigationHelper(object instance)
         {
             var that = (global::PsihologicalProject.Frade)instance;
             return that.NavigationHelper;
         }
-        private object get_2_Yung_DefaultViewModel(object instance)
+        private object get_3_Yung_DefaultViewModel(object instance)
         {
             var that = (global::PsihologicalProject.Yung)instance;
             return that.DefaultViewModel;
         }
-        private object get_3_Yung_NavigationHelper(object instance)
+        private object get_4_Yung_NavigationHelper(object instance)
         {
             var that = (global::PsihologicalProject.Yung)instance;
             return that.NavigationHelper;
         }
-        private object get_4_HubPage1_DefaultViewModel(object instance)
-        {
-            var that = (global::PsihologicalProject.HubPage1)instance;
-            return that.DefaultViewModel;
-        }
-        private object get_5_HubPage1_NavigationHelper(object instance)
-        {
-            var that = (global::PsihologicalProject.HubPage1)instance;
-            return that.NavigationHelper;
-        }
-        private object get_6_Aizenk_DefaultViewModel(object instance)
+        private object get_5_Aizenk_DefaultViewModel(object instance)
         {
             var that = (global::PsihologicalProject.Aizenk)instance;
             return that.DefaultViewModel;
         }
-        private object get_7_Aizenk_NavigationHelper(object instance)
+        private object get_6_Aizenk_NavigationHelper(object instance)
         {
             var that = (global::PsihologicalProject.Aizenk)instance;
             return that.NavigationHelper;
         }
-        private object get_8_GroupedItemsPage_NavigationHelper(object instance)
+        private object get_7_GroupedItemsPage_NavigationHelper(object instance)
         {
             var that = (global::PsihologicalProject.GroupedItemsPage)instance;
             return that.NavigationHelper;
         }
-        private object get_9_GroupedItemsPage_DefaultViewModel(object instance)
+        private object get_8_GroupedItemsPage_DefaultViewModel(object instance)
         {
             var that = (global::PsihologicalProject.GroupedItemsPage)instance;
             return that.DefaultViewModel;
         }
-        private object get_10_GroupDetailPage_NavigationHelper(object instance)
+        private object get_9_GroupDetailPage_NavigationHelper(object instance)
         {
             var that = (global::PsihologicalProject.GroupDetailPage)instance;
             return that.NavigationHelper;
         }
-        private object get_11_GroupDetailPage_DefaultViewModel(object instance)
+        private object get_10_GroupDetailPage_DefaultViewModel(object instance)
         {
             var that = (global::PsihologicalProject.GroupDetailPage)instance;
             return that.DefaultViewModel;
         }
-        private object get_12_ItemDetailPage_NavigationHelper(object instance)
+        private object get_11_ItemDetailPage_NavigationHelper(object instance)
         {
             var that = (global::PsihologicalProject.ItemDetailPage)instance;
             return that.NavigationHelper;
         }
-        private object get_13_ItemDetailPage_DefaultViewModel(object instance)
+        private object get_12_ItemDetailPage_DefaultViewModel(object instance)
         {
             var that = (global::PsihologicalProject.ItemDetailPage)instance;
             return that.DefaultViewModel;
         }
-        private object get_14_DescriptionPage_DefaultViewModel(object instance)
+        private object get_13_DescriptionPage_DefaultViewModel(object instance)
         {
             var that = (global::PsihologicalProject.Templates.DescriptionPage)instance;
             return that.DefaultViewModel;
         }
-        private object get_15_DescriptionPage_NavigationHelper(object instance)
+        private object get_14_DescriptionPage_NavigationHelper(object instance)
         {
             var that = (global::PsihologicalProject.Templates.DescriptionPage)instance;
             return that.NavigationHelper;
         }
-        private object get_16_ResultPage_DefaultViewModel(object instance)
+        private object get_15_ResultPage_DefaultViewModel(object instance)
         {
             var that = (global::PsihologicalProject.Templates.ResultPage)instance;
             return that.DefaultViewModel;
         }
-        private object get_17_ResultPage_NavigationHelper(object instance)
+        private object get_16_ResultPage_NavigationHelper(object instance)
         {
             var that = (global::PsihologicalProject.Templates.ResultPage)instance;
             return that.NavigationHelper;
         }
-        private object get_18_TestPage_DefaultViewModel(object instance)
+        private object get_17_TestPage_DefaultViewModel(object instance)
         {
             var that = (global::PsihologicalProject.Templates.TestPage)instance;
             return that.DefaultViewModel;
         }
-        private object get_19_TestPage_NavigationHelper(object instance)
+        private object get_18_TestPage_NavigationHelper(object instance)
         {
             var that = (global::PsihologicalProject.Templates.TestPage)instance;
             return that.NavigationHelper;
         }
-        private object get_20_TYDescriptionPage_DefaultViewModel(object instance)
+        private object get_19_TYDescriptionPage_DefaultViewModel(object instance)
         {
             var that = (global::PsihologicalProject.TYDescriptionPage)instance;
             return that.DefaultViewModel;
         }
-        private object get_21_TYDescriptionPage_NavigationHelper(object instance)
+        private object get_20_TYDescriptionPage_NavigationHelper(object instance)
         {
             var that = (global::PsihologicalProject.TYDescriptionPage)instance;
             return that.NavigationHelper;
         }
-        private object get_22_TYResultPage_DefaultViewModel(object instance)
+        private object get_21_TYResultPage_DefaultViewModel(object instance)
         {
             var that = (global::PsihologicalProject.TYResultPage)instance;
             return that.DefaultViewModel;
         }
-        private object get_23_TYResultPage_NavigationHelper(object instance)
+        private object get_22_TYResultPage_NavigationHelper(object instance)
         {
             var that = (global::PsihologicalProject.TYResultPage)instance;
             return that.NavigationHelper;
         }
-        private object get_24_TYTestPage_DefaultViewModel(object instance)
+        private object get_23_TYTestPage_DefaultViewModel(object instance)
         {
             var that = (global::PsihologicalProject.TYTestPage)instance;
             return that.DefaultViewModel;
         }
-        private object get_25_TYTestPage_NavigationHelper(object instance)
+        private object get_24_TYTestPage_NavigationHelper(object instance)
         {
             var that = (global::PsihologicalProject.TYTestPage)instance;
             return that.NavigationHelper;
@@ -944,160 +1244,154 @@ namespace PsihologicalProject.PsihologicalProject_XamlTypeInfo
 
             switch (longMemberName)
             {
+            case "PsihologicalProject.ITResultPage.NavigationHelper":
+                userType = (global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType)GetXamlTypeByName("PsihologicalProject.ITResultPage");
+                xamlMember = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlMember(this, "NavigationHelper", "PsihologicalProject.Common.NavigationHelper");
+                xamlMember.Getter = get_0_ITResultPage_NavigationHelper;
+                xamlMember.SetIsReadOnly();
+                break;
             case "PsihologicalProject.Frade.DefaultViewModel":
                 userType = (global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType)GetXamlTypeByName("PsihologicalProject.Frade");
                 xamlMember = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "PsihologicalProject.Common.ObservableDictionary");
-                xamlMember.Getter = get_0_Frade_DefaultViewModel;
+                xamlMember.Getter = get_1_Frade_DefaultViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
             case "PsihologicalProject.Frade.NavigationHelper":
                 userType = (global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType)GetXamlTypeByName("PsihologicalProject.Frade");
                 xamlMember = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlMember(this, "NavigationHelper", "PsihologicalProject.Common.NavigationHelper");
-                xamlMember.Getter = get_1_Frade_NavigationHelper;
+                xamlMember.Getter = get_2_Frade_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
             case "PsihologicalProject.Yung.DefaultViewModel":
                 userType = (global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType)GetXamlTypeByName("PsihologicalProject.Yung");
                 xamlMember = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "PsihologicalProject.Common.ObservableDictionary");
-                xamlMember.Getter = get_2_Yung_DefaultViewModel;
+                xamlMember.Getter = get_3_Yung_DefaultViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
             case "PsihologicalProject.Yung.NavigationHelper":
                 userType = (global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType)GetXamlTypeByName("PsihologicalProject.Yung");
                 xamlMember = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlMember(this, "NavigationHelper", "PsihologicalProject.Common.NavigationHelper");
-                xamlMember.Getter = get_3_Yung_NavigationHelper;
-                xamlMember.SetIsReadOnly();
-                break;
-            case "PsihologicalProject.HubPage1.DefaultViewModel":
-                userType = (global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType)GetXamlTypeByName("PsihologicalProject.HubPage1");
-                xamlMember = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "PsihologicalProject.Common.ObservableDictionary");
-                xamlMember.Getter = get_4_HubPage1_DefaultViewModel;
-                xamlMember.SetIsReadOnly();
-                break;
-            case "PsihologicalProject.HubPage1.NavigationHelper":
-                userType = (global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType)GetXamlTypeByName("PsihologicalProject.HubPage1");
-                xamlMember = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlMember(this, "NavigationHelper", "PsihologicalProject.Common.NavigationHelper");
-                xamlMember.Getter = get_5_HubPage1_NavigationHelper;
+                xamlMember.Getter = get_4_Yung_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
             case "PsihologicalProject.Aizenk.DefaultViewModel":
                 userType = (global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType)GetXamlTypeByName("PsihologicalProject.Aizenk");
                 xamlMember = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "PsihologicalProject.Common.ObservableDictionary");
-                xamlMember.Getter = get_6_Aizenk_DefaultViewModel;
+                xamlMember.Getter = get_5_Aizenk_DefaultViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
             case "PsihologicalProject.Aizenk.NavigationHelper":
                 userType = (global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType)GetXamlTypeByName("PsihologicalProject.Aizenk");
                 xamlMember = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlMember(this, "NavigationHelper", "PsihologicalProject.Common.NavigationHelper");
-                xamlMember.Getter = get_7_Aizenk_NavigationHelper;
+                xamlMember.Getter = get_6_Aizenk_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
             case "PsihologicalProject.GroupedItemsPage.NavigationHelper":
                 userType = (global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType)GetXamlTypeByName("PsihologicalProject.GroupedItemsPage");
                 xamlMember = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlMember(this, "NavigationHelper", "PsihologicalProject.Common.NavigationHelper");
-                xamlMember.Getter = get_8_GroupedItemsPage_NavigationHelper;
+                xamlMember.Getter = get_7_GroupedItemsPage_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
             case "PsihologicalProject.GroupedItemsPage.DefaultViewModel":
                 userType = (global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType)GetXamlTypeByName("PsihologicalProject.GroupedItemsPage");
                 xamlMember = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "PsihologicalProject.Common.ObservableDictionary");
-                xamlMember.Getter = get_9_GroupedItemsPage_DefaultViewModel;
+                xamlMember.Getter = get_8_GroupedItemsPage_DefaultViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
             case "PsihologicalProject.GroupDetailPage.NavigationHelper":
                 userType = (global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType)GetXamlTypeByName("PsihologicalProject.GroupDetailPage");
                 xamlMember = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlMember(this, "NavigationHelper", "PsihologicalProject.Common.NavigationHelper");
-                xamlMember.Getter = get_10_GroupDetailPage_NavigationHelper;
+                xamlMember.Getter = get_9_GroupDetailPage_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
             case "PsihologicalProject.GroupDetailPage.DefaultViewModel":
                 userType = (global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType)GetXamlTypeByName("PsihologicalProject.GroupDetailPage");
                 xamlMember = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "PsihologicalProject.Common.ObservableDictionary");
-                xamlMember.Getter = get_11_GroupDetailPage_DefaultViewModel;
+                xamlMember.Getter = get_10_GroupDetailPage_DefaultViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
             case "PsihologicalProject.ItemDetailPage.NavigationHelper":
                 userType = (global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType)GetXamlTypeByName("PsihologicalProject.ItemDetailPage");
                 xamlMember = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlMember(this, "NavigationHelper", "PsihologicalProject.Common.NavigationHelper");
-                xamlMember.Getter = get_12_ItemDetailPage_NavigationHelper;
+                xamlMember.Getter = get_11_ItemDetailPage_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
             case "PsihologicalProject.ItemDetailPage.DefaultViewModel":
                 userType = (global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType)GetXamlTypeByName("PsihologicalProject.ItemDetailPage");
                 xamlMember = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "PsihologicalProject.Common.ObservableDictionary");
-                xamlMember.Getter = get_13_ItemDetailPage_DefaultViewModel;
+                xamlMember.Getter = get_12_ItemDetailPage_DefaultViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
             case "PsihologicalProject.Templates.DescriptionPage.DefaultViewModel":
                 userType = (global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType)GetXamlTypeByName("PsihologicalProject.Templates.DescriptionPage");
                 xamlMember = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "PsihologicalProject.Common.ObservableDictionary");
-                xamlMember.Getter = get_14_DescriptionPage_DefaultViewModel;
+                xamlMember.Getter = get_13_DescriptionPage_DefaultViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
             case "PsihologicalProject.Templates.DescriptionPage.NavigationHelper":
                 userType = (global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType)GetXamlTypeByName("PsihologicalProject.Templates.DescriptionPage");
                 xamlMember = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlMember(this, "NavigationHelper", "PsihologicalProject.Common.NavigationHelper");
-                xamlMember.Getter = get_15_DescriptionPage_NavigationHelper;
+                xamlMember.Getter = get_14_DescriptionPage_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
             case "PsihologicalProject.Templates.ResultPage.DefaultViewModel":
                 userType = (global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType)GetXamlTypeByName("PsihologicalProject.Templates.ResultPage");
                 xamlMember = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "PsihologicalProject.Common.ObservableDictionary");
-                xamlMember.Getter = get_16_ResultPage_DefaultViewModel;
+                xamlMember.Getter = get_15_ResultPage_DefaultViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
             case "PsihologicalProject.Templates.ResultPage.NavigationHelper":
                 userType = (global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType)GetXamlTypeByName("PsihologicalProject.Templates.ResultPage");
                 xamlMember = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlMember(this, "NavigationHelper", "PsihologicalProject.Common.NavigationHelper");
-                xamlMember.Getter = get_17_ResultPage_NavigationHelper;
+                xamlMember.Getter = get_16_ResultPage_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
             case "PsihologicalProject.Templates.TestPage.DefaultViewModel":
                 userType = (global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType)GetXamlTypeByName("PsihologicalProject.Templates.TestPage");
                 xamlMember = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "PsihologicalProject.Common.ObservableDictionary");
-                xamlMember.Getter = get_18_TestPage_DefaultViewModel;
+                xamlMember.Getter = get_17_TestPage_DefaultViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
             case "PsihologicalProject.Templates.TestPage.NavigationHelper":
                 userType = (global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType)GetXamlTypeByName("PsihologicalProject.Templates.TestPage");
                 xamlMember = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlMember(this, "NavigationHelper", "PsihologicalProject.Common.NavigationHelper");
-                xamlMember.Getter = get_19_TestPage_NavigationHelper;
+                xamlMember.Getter = get_18_TestPage_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
             case "PsihologicalProject.TYDescriptionPage.DefaultViewModel":
                 userType = (global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType)GetXamlTypeByName("PsihologicalProject.TYDescriptionPage");
                 xamlMember = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "PsihologicalProject.Common.ObservableDictionary");
-                xamlMember.Getter = get_20_TYDescriptionPage_DefaultViewModel;
+                xamlMember.Getter = get_19_TYDescriptionPage_DefaultViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
             case "PsihologicalProject.TYDescriptionPage.NavigationHelper":
                 userType = (global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType)GetXamlTypeByName("PsihologicalProject.TYDescriptionPage");
                 xamlMember = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlMember(this, "NavigationHelper", "PsihologicalProject.Common.NavigationHelper");
-                xamlMember.Getter = get_21_TYDescriptionPage_NavigationHelper;
+                xamlMember.Getter = get_20_TYDescriptionPage_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
             case "PsihologicalProject.TYResultPage.DefaultViewModel":
                 userType = (global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType)GetXamlTypeByName("PsihologicalProject.TYResultPage");
                 xamlMember = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "PsihologicalProject.Common.ObservableDictionary");
-                xamlMember.Getter = get_22_TYResultPage_DefaultViewModel;
+                xamlMember.Getter = get_21_TYResultPage_DefaultViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
             case "PsihologicalProject.TYResultPage.NavigationHelper":
                 userType = (global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType)GetXamlTypeByName("PsihologicalProject.TYResultPage");
                 xamlMember = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlMember(this, "NavigationHelper", "PsihologicalProject.Common.NavigationHelper");
-                xamlMember.Getter = get_23_TYResultPage_NavigationHelper;
+                xamlMember.Getter = get_22_TYResultPage_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
             case "PsihologicalProject.TYTestPage.DefaultViewModel":
                 userType = (global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType)GetXamlTypeByName("PsihologicalProject.TYTestPage");
                 xamlMember = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "PsihologicalProject.Common.ObservableDictionary");
-                xamlMember.Getter = get_24_TYTestPage_DefaultViewModel;
+                xamlMember.Getter = get_23_TYTestPage_DefaultViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
             case "PsihologicalProject.TYTestPage.NavigationHelper":
                 userType = (global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlUserType)GetXamlTypeByName("PsihologicalProject.TYTestPage");
                 xamlMember = new global::PsihologicalProject.PsihologicalProject_XamlTypeInfo.XamlMember(this, "NavigationHelper", "PsihologicalProject.Common.NavigationHelper");
-                xamlMember.Getter = get_25_TYTestPage_NavigationHelper;
+                xamlMember.Getter = get_24_TYTestPage_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
             }

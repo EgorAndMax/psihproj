@@ -119,9 +119,6 @@
     <Compile Include="GroupDetailPage.xaml.cs">
       <DependentUpon>GroupDetailPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="HubPage1.xaml.cs">
-      <DependentUpon>HubPage1.xaml</DependentUpon>
-    </Compile>
     <Compile Include="ItemDetailPage.xaml.cs">
       <DependentUpon>ItemDetailPage.xaml</DependentUpon>
     </Compile>
@@ -133,8 +130,20 @@
     <Compile Include="Common\RelayCommand.cs" />
     <Compile Include="Common\ObservableDictionary.cs" />
     <Compile Include="Psihologist.cs" />
+    <Compile Include="Psihologists\Behterev.xaml.cs">
+      <DependentUpon>Behterev.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Psihologists\Frade.xaml.cs">
       <DependentUpon>Frade.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Psihologists\Frankl.xaml.cs">
+      <DependentUpon>Frankl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Psihologists\Gardner.xaml.cs">
+      <DependentUpon>Gardner.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Psihologists\Karnegi.xaml.cs">
+      <DependentUpon>Karnegi.xaml</DependentUpon>
     </Compile>
     <Compile Include="Psihologists\Yung.xaml.cs">
       <DependentUpon>Yung.xaml</DependentUpon>
@@ -164,34 +173,34 @@
     <Compile Include="Tests\InternetTest\ITDescriptionPage.xaml.cs">
       <DependentUpon>ITDescriptionPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Tests\InternetTest\ITQuestion11.xaml.cs">
+    <Compile Include="Tests\InternetTest\Questions\ITQuestion11.xaml.cs">
       <DependentUpon>ITQuestion11.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Tests\InternetTest\ITQuestion12.xaml.cs">
+    <Compile Include="Tests\InternetTest\Questions\ITQuestion12.xaml.cs">
       <DependentUpon>ITQuestion12.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Tests\InternetTest\ITQuestion13.xaml.cs">
+    <Compile Include="Tests\InternetTest\Questions\ITQuestion13.xaml.cs">
       <DependentUpon>ITQuestion13.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Tests\InternetTest\ITQuestion14.xaml.cs">
+    <Compile Include="Tests\InternetTest\Questions\ITQuestion14.xaml.cs">
       <DependentUpon>ITQuestion14.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Tests\InternetTest\ITQuestion15.xaml.cs">
+    <Compile Include="Tests\InternetTest\Questions\ITQuestion15.xaml.cs">
       <DependentUpon>ITQuestion15.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Tests\InternetTest\ITQuestion16.xaml.cs">
+    <Compile Include="Tests\InternetTest\Questions\ITQuestion16.xaml.cs">
       <DependentUpon>ITQuestion16.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Tests\InternetTest\ITQuestion17.xaml.cs">
+    <Compile Include="Tests\InternetTest\Questions\ITQuestion17.xaml.cs">
       <DependentUpon>ITQuestion17.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Tests\InternetTest\ITQuestion18.xaml.cs">
+    <Compile Include="Tests\InternetTest\Questions\ITQuestion18.xaml.cs">
       <DependentUpon>ITQuestion18.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Tests\InternetTest\ITQuestion19.xaml.cs">
+    <Compile Include="Tests\InternetTest\Questions\ITQuestion19.xaml.cs">
       <DependentUpon>ITQuestion19.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Tests\InternetTest\ITQuestion20.xaml.cs">
+    <Compile Include="Tests\InternetTest\Questions\ITQuestion20.xaml.cs">
       <DependentUpon>ITQuestion20.xaml</DependentUpon>
     </Compile>
     <Compile Include="Tests\InternetTest\Questions\ITQuestion10.xaml.cs">
@@ -229,6 +238,99 @@
     </Compile>
     <Compile Include="Tests\InternetTest\Questions\ITQuestion3.xaml.cs">
       <DependentUpon>ITQuestion3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tests\TestGardnera\TGDecriptionPage.xaml.cs">
+      <DependentUpon>TGDecriptionPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tests\TestGardnera\Questions\TGQuestion1.xaml.cs">
+      <DependentUpon>TGQuestion1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tests\TestGardnera\Questions\TGQuestion2.xaml.cs">
+      <DependentUpon>TGQuestion2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tests\TestGardnera\Questions\TGQuestion3.xaml.cs">
+      <DependentUpon>TGQuestion3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tests\TestGardnera\Questions\TGQuestion4.xaml.cs">
+      <DependentUpon>TGQuestion4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tests\TestGardnera\Questions\TGQuestion10.xaml.cs">
+      <DependentUpon>TGQuestion10.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tests\TestGardnera\Questions\TGQuestion11.xaml.cs">
+      <DependentUpon>TGQuestion11.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tests\TestGardnera\Questions\TGQuestion12.xaml.cs">
+      <DependentUpon>TGQuestion12.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tests\TestGardnera\Questions\TGQuestion13.xaml.cs">
+      <DependentUpon>TGQuestion13.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tests\TestGardnera\Questions\TGQuestion14.xaml.cs">
+      <DependentUpon>TGQuestion14.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tests\TestGardnera\Questions\TGQuestion15.xaml.cs">
+      <DependentUpon>TGQuestion15.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tests\TestGardnera\Questions\TGQuestion16.xaml.cs">
+      <DependentUpon>TGQuestion16.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tests\TestGardnera\Questions\TGQuestion17.xaml.cs">
+      <DependentUpon>TGQuestion17.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tests\TestGardnera\Questions\TGQuestion18.xaml.cs">
+      <DependentUpon>TGQuestion18.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tests\TestGardnera\Questions\TGQuestion19.xaml.cs">
+      <DependentUpon>TGQuestion19.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tests\TestGardnera\Questions\TGQuestion20.xaml.cs">
+      <DependentUpon>TGQuestion20.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tests\TestGardnera\Questions\TGQuestion21.xaml.cs">
+      <DependentUpon>TGQuestion21.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tests\TestGardnera\Questions\TGQuestion22.xaml.cs">
+      <DependentUpon>TGQuestion22.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tests\TestGardnera\Questions\TGQuestion23.xaml.cs">
+      <DependentUpon>TGQuestion23.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tests\TestGardnera\Questions\TGQuestion5.xaml.cs">
+      <DependentUpon>TGQuestion5.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tests\TestGardnera\Questions\TGQuestion6.xaml.cs">
+      <DependentUpon>TGQuestion6.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tests\TestGardnera\Questions\TGQuestion7.xaml.cs">
+      <DependentUpon>TGQuestion7.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tests\TestGardnera\Questions\TGQuestion8.xaml.cs">
+      <DependentUpon>TGQuestion8.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tests\TestGardnera\Questions\TGQuestion9.xaml.cs">
+      <DependentUpon>TGQuestion9.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tests\TestGardnera\Questions\TGQuestion24.xaml.cs">
+      <DependentUpon>TGQuestion24.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tests\TestGardnera\Questions\TGQuestion25.xaml.cs">
+      <DependentUpon>TGQuestion25.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tests\TestGardnera\Questions\TGQuestion26.xaml.cs">
+      <DependentUpon>TGQuestion26.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tests\TestGardnera\Questions\TGQuestion27.xaml.cs">
+      <DependentUpon>TGQuestion27.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tests\TestGardnera\Questions\TGQuestion28.xaml.cs">
+      <DependentUpon>TGQuestion28.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tests\TestGardnera\TGResultPage.xaml.cs">
+      <DependentUpon>TGResultPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tests\TestGardnera\TGTestPage.xaml.cs">
+      <DependentUpon>TGTestPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Tests\TestYunga\Questions\TYQuestion9.xaml.cs">
       <DependentUpon>TYQuestion9.xaml</DependentUpon>
@@ -299,49 +401,186 @@
     <Compile Include="Tests\TestYunga\TYTestPage.xaml.cs">
       <DependentUpon>TYTestPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="TG.cs" />
     <Compile Include="TY.cs" />
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
-    <Page Include="Tests\InternetTest\ITQuestion20.xaml">
+    <Page Include="Psihologists\Behterev.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Psihologists\Frankl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Psihologists\Karnegi.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Tests\InternetTest\ITQuestion19.xaml">
+    <Page Include="Tests\TestGardnera\Questions\TGQuestion28.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Tests\InternetTest\ITQuestion18.xaml">
+    <Page Include="Tests\TestGardnera\Questions\TGQuestion27.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Tests\InternetTest\ITQuestion17.xaml">
+    <Page Include="Tests\TestGardnera\Questions\TGQuestion26.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Tests\InternetTest\ITQuestion16.xaml">
+    <Page Include="Tests\TestGardnera\Questions\TGQuestion25.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Tests\InternetTest\ITQuestion15.xaml">
+    <Page Include="Tests\TestGardnera\Questions\TGQuestion24.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Tests\InternetTest\ITQuestion14.xaml">
+    <Page Include="Tests\TestGardnera\Questions\TGQuestion23.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Tests\InternetTest\ITQuestion13.xaml">
+    <Page Include="Tests\TestGardnera\Questions\TGQuestion22.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Tests\InternetTest\ITQuestion12.xaml">
+    <Page Include="Tests\TestGardnera\Questions\TGQuestion21.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Tests\InternetTest\ITQuestion11.xaml">
+    <Page Include="Tests\TestGardnera\Questions\TGQuestion20.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tests\TestGardnera\Questions\TGQuestion19.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tests\TestGardnera\Questions\TGQuestion18.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tests\TestGardnera\Questions\TGQuestion17.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tests\TestGardnera\Questions\TGQuestion16.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tests\TestGardnera\Questions\TGQuestion15.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tests\TestGardnera\Questions\TGQuestion14.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tests\TestGardnera\Questions\TGQuestion13.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tests\TestGardnera\Questions\TGQuestion12.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tests\TestGardnera\Questions\TGQuestion11.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tests\TestGardnera\Questions\TGQuestion10.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tests\TestGardnera\Questions\TGQuestion9.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tests\TestGardnera\Questions\TGQuestion8.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tests\TestGardnera\Questions\TGQuestion7.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tests\TestGardnera\Questions\TGQuestion6.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tests\TestGardnera\Questions\TGQuestion5.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tests\TestGardnera\Questions\TGQuestion4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tests\TestGardnera\Questions\TGQuestion3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tests\TestGardnera\Questions\TGQuestion2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tests\TestGardnera\Questions\TGQuestion1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tests\TestGardnera\TGResultPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tests\TestGardnera\TGTestPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Psihologists\Gardner.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tests\InternetTest\Questions\ITQuestion20.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tests\InternetTest\Questions\ITQuestion19.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tests\InternetTest\Questions\ITQuestion18.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tests\InternetTest\Questions\ITQuestion17.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tests\InternetTest\Questions\ITQuestion16.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tests\InternetTest\Questions\ITQuestion15.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tests\InternetTest\Questions\ITQuestion14.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tests\InternetTest\Questions\ITQuestion13.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tests\InternetTest\Questions\ITQuestion12.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tests\InternetTest\Questions\ITQuestion11.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -409,24 +648,29 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="HubPage1.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
     <None Include="Common\ReadMe.txt" />
     <None Include="PsihologicalProject_TemporaryKey.pfx" />
     <Page Include="Psihologists\Aizenk.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Content Include="Assets\FamousPsihologists\Behterev.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Assets\FamousPsihologists\Frade.jpeg" />
+    <Content Include="Assets\FamousPsihologists\Gardner.jpg" />
     <Content Include="Assets\FamousPsihologists\HansEysenck.jpg" />
     <Content Include="Assets\FamousPsihologists\PsihologistBackground.png" />
     <Content Include="Assets\FamousPsihologists\UngKarlGustav.jpg" />
     <Content Include="Assets\FamousPsihologists\VictorEmilFrankl.jpg" />
     <Content Include="Assets\FamousPsihologists\WolfMessing.jpg" />
     <Content Include="Assets\FamousPsihologists\Yung.jpg" />
+    <Content Include="Assets\gardner.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\internet.jpg" />
     <Content Include="Assets\jung.jpg" />
+    <Content Include="Assets\Karnegi.jpeg" />
     <Content Include="DataModel\SampleData.json" />
   </ItemGroup>
   <ItemGroup>
@@ -480,6 +724,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Templates\TestPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Tests\TestGardnera\TGDecriptionPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>

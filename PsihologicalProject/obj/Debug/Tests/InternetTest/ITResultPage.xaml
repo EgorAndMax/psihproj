@@ -32,22 +32,22 @@
                 <ColumnDefinition Width="120"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
-            <Button x:Name="backButton" Margin="39,59,39,0" Command="{Binding NavigationHelper.GoBackCommand, ElementName=pageRoot}"
+            <Button x:ConnectionId='2' x:Name="backButton" Margin="39,59,39,0" Command="{Binding NavigationHelper.GoBackCommand, ElementName=pageRoot}"
                         Style="{StaticResource NavigationBackButtonNormalStyle}"
                         VerticalAlignment="Top"
                         AutomationProperties.Name="Back"
                         AutomationProperties.AutomationId="BackButton"
-                        AutomationProperties.ItemType="Navigation Button"/>
+                        AutomationProperties.ItemType="Navigation Button"                         />
             <TextBlock x:Name="pageTitle" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
                         IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="0,0,30,40" Text="Результат теста" FontFamily="Gabriola" FontSize="75"/>
         </Grid>
-        <Button x:ConnectionId='0' Content="На главную" HorizontalAlignment="Left" Height="45" Margin="1058,560,0,0" Grid.Row="1" VerticalAlignment="Top" Width="250" FontSize="20"                      FontFamily="Georgia"/>
-        <RichTextBlock x:Name="TYRTB" HorizontalAlignment="Left" Height="445" Margin="65,55,0,0" Grid.Row="1" VerticalAlignment="Top" Width="575" FontSize="30">
+        <Button x:ConnectionId='1' Content="На главную" HorizontalAlignment="Left" Height="45" Margin="1058,560,0,0" Grid.Row="1" VerticalAlignment="Top" Width="250" FontSize="20"                      FontFamily="Georgia"/>
+        <RichTextBlock x:Name="ITRTB" HorizontalAlignment="Left" Height="445" Margin="65,55,0,0" Grid.Row="1" VerticalAlignment="Top" Width="575" FontSize="30">
             <Paragraph FontFamily="Georgia" TextAlignment="Justify" FontSize="24">
-                <Run x:Name="RunResult" Text="" FontSize="24"/>
+                <Run x:Name="RunScore" Text="" FontSize="24"/>
             </Paragraph>
             <Paragraph FontFamily="Georgia" TextAlignment="Justify">
-                <Run x:Name="RunWho" FontWeight="Bold" FontSize="26.667" FontFamily="Georgia" />
+                <Run x:Name="RunResult" FontWeight="Bold" FontSize="26.667" FontFamily="Georgia" />
             </Paragraph>
             <Paragraph FontFamily="Georgia" FontSize="24" TextAlignment="Justify">
                 <Run x:Name="RunDescription1"/>

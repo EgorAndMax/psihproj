@@ -12,6 +12,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using PsihologicalProject.Common;
 
 namespace PsihologicalProject
 {
@@ -23,6 +24,7 @@ namespace PsihologicalProject
             this.Question.Navigate(typeof(InternetTest.ITQuestion1));
         }
 
+
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(GroupedItemsPage));
@@ -31,6 +33,11 @@ namespace PsihologicalProject
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(ITResultPage));
+        }
+
+        private void backButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(ITDescriptionPage));
         }
     }
 }

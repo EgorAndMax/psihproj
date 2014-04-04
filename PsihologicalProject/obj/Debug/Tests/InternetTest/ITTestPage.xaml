@@ -18,7 +18,7 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-        <Button x:ConnectionId='0' Content="Перейти к результату" HorizontalAlignment="Left" Height="130" Margin="50,220,0,0" VerticalAlignment="Top" Width="408" FontSize="29.333" FontFamily="Georgia" TabNavigation="Cycle" Grid.Row="1"                       />
+        <Button x:ConnectionId='1' Content="Перейти к результату" HorizontalAlignment="Left" Height="130" Margin="50,220,0,0" VerticalAlignment="Top" Width="408" FontSize="29.333" FontFamily="Georgia" TabNavigation="Cycle" Grid.Row="1"                       />
 
         <!-- Back button and page title -->
         <Grid>
@@ -26,18 +26,18 @@
                 <ColumnDefinition Width="120"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
-            <Button x:Name="backButton" Margin="39,59,39,0" Command="{Binding NavigationHelper.GoBackCommand, ElementName=pageRoot}"
+            <Button x:ConnectionId='3' x:Name="backButton" Margin="39,59,39,0" Command="{Binding NavigationHelper.GoBackCommand, ElementName=pageRoot}"
     			Style="{StaticResource NavigationBackButtonNormalStyle}"
     			VerticalAlignment="Top"
     			AutomationProperties.Name="Back"
     			AutomationProperties.AutomationId="BackButton"
-    			AutomationProperties.ItemType="Navigation Button"/>
+    			AutomationProperties.ItemType="Navigation Button"                         />
             <TextBlock x:Name="pageTitle" Text="Тест на Интернет-зависимость" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
     			IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="0,0,30,40" FontFamily="Gabriola" FontSize="75"/>
         </Grid>
         <Frame Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" x:Name="Question" Content="" HorizontalAlignment="Left" Height="500" Grid.Row="1" VerticalAlignment="Top" Width="1346" Margin="10,10,0,0">
         </Frame>
-        <Button x:ConnectionId='0' Content="На главную" HorizontalAlignment="Left" Height="45" Margin="1058,560,0,0" Grid.Row="1" VerticalAlignment="Top" Width="250" FontSize="20"                      FontFamily="Georgia"/>
+        <Button x:ConnectionId='2' Content="На главную" HorizontalAlignment="Left" Height="45" Margin="1058,560,0,0" Grid.Row="1" VerticalAlignment="Top" Width="250" FontSize="20"                      FontFamily="Georgia"/>
 
     </Grid>
 </Page>
