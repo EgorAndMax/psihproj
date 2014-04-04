@@ -1,0 +1,49 @@
+﻿<Page
+    x:Name="pageRoot"
+    x:Class="PsihologicalProject.NewTest"
+    DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Self}}"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PsihologicalProject"
+    xmlns:common="using:PsihologicalProject.Common"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="140"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Back button and page title -->
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="120"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="backButton" Margin="39,59,39,0" Command="{Binding NavigationHelper.GoBackCommand, ElementName=pageRoot}"
+                        Style="{StaticResource NavigationBackButtonNormalStyle}"
+                        VerticalAlignment="Top"
+                        AutomationProperties.Name="Back"
+                        AutomationProperties.AutomationId="BackButton"
+                        AutomationProperties.ItemType="Navigation Button"/>
+            <TextBlock x:Name="pageTitle" Text="Создать новый тест" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
+                        IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="0,0,30,40" FontFamily="Gabriola" FontSize="75"/>
+        </Grid>
+        <TextBlock HorizontalAlignment="Left" Height="50" Margin="50,35,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Введите вопросы теста:" VerticalAlignment="Top" Width="1250" FontSize="33.333" FontFamily="Georgia"/>
+        <TextBlock HorizontalAlignment="Left" Height="50" Margin="50,35,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Введите вопросы теста:" VerticalAlignment="Top" Width="1250" FontSize="33.333" FontFamily="Georgia"/>
+        <TextBlock HorizontalAlignment="Left" Height="85" Margin="50,435,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="420" FontSize="33.333" FontFamily="Georgia">
+        	<Run Text="Введите"/>
+        	<Run Text=" формулу для подсчета результата:"/>
+        </TextBlock>
+        <TextBox HorizontalAlignment="Left" Height="305" Margin="50,90,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Вопрос 1.&#xD;&#xA;Текст вопроса 1.&#xD;&#xA;&#xD;&#xA;Вопрос 2.&#xD;&#xA;Текст вопроса 2.&#xD;&#xA;&#xD;&#xA;Вопрос 3.&#xD;&#xA;Текст вопроса 3.&#xD;&#xA;&#xD;&#xA;...&#xD;&#xA;&#xD;&#xA;Вопрос N.&#xD;&#xA;Текст вопроса N." VerticalAlignment="Top" Width="1250" FontSize="24" FontFamily="Georgia"/>
+        <TextBox HorizontalAlignment="Left" Height="85" Margin="515,435,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="785"/>
+        <Button Content="Сгенерировать тест" HorizontalAlignment="Left" Height="58" Margin="880,547,0,0" Grid.Row="1" VerticalAlignment="Top" Width="420" FontSize="26.667" FontFamily="Georgia"/>
+    </Grid>
+</Page>

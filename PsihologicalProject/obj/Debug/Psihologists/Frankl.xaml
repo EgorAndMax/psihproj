@@ -5,10 +5,53 @@
     xmlns:local="using:PsihologicalProject"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    mc:Ignorable="d">
+    mc:Ignorable="d" Height="508" Width="800">
 
+    <Page.Resources>
+        <x:String x:Key="ChevronGlyph">&#xE26B;</x:String>
+        <DataTemplate x:Key="DataTemplate1">
+            <TextBlock Height="60" TextWrapping="Wrap" Width="400" FontSize="46.667" TextAlignment="Center" Margin="0,-125,0,0" FontFamily="Georgia" Foreground="White" Text="Виктор Франкл"/>
+        </DataTemplate>
+
+    </Page.Resources>
+
+    <!--
+        Эта сетка выступает в роли корневой области страницы.
+    -->
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
 
+        <Image HorizontalAlignment="Left" Height="508" VerticalAlignment="Top" Width="480" Source="ms-appx:///Assets/FamousPsihologists/Frankl.jpg"/>
+
+        <Hub Margin="-300,0,0,0" Width="480">
+            <HubSection Margin="0,0,80,0" ContentTemplate="{StaticResource DataTemplate1}">
+                <HubSection.Background>
+                    <ImageBrush Stretch="None" />
+                </HubSection.Background>
+            </HubSection>
+            <HubSection Width="520">
+                <DataTemplate>
+                    <Grid  Width="650" Height="508" Margin="0,-100,-50,-50">
+                        <Grid.Background>
+                            <ImageBrush ImageSource="ms-appx:/Assets/FamousPsihologists/PsihologistBackground.png"/>
+                        </Grid.Background>
+                        <TextBlock HorizontalAlignment="Left" Height="65" Margin="45,50,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="380" FontSize="40" Foreground="#FFFBF0F0" Text="Виктор Франкл" FontFamily="Georgia"/>
+                        <TextBlock HorizontalAlignment="Left" Height="320" Margin="45,140,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="380" FontSize="28" TextAlignment="Justify" Foreground="#FFF9F3F3" FontFamily="Georgia">
+                        	<Run Text="Виктор Эмиль Франкл — ав-стрийский психиатр и пси-холог, всемирно известный психиатр, психотерапевт, философ, создатель так на-зываемой Третьей Венской Школы психотерапии. Cоз"/>
+                        	<Run Text="-"/>
+                        	<Run Text="дал новый"/>
+                        	<Run Text=" метод экзистен"/>
+                        	<Run Text="-"/>
+                        	<Run Text="циальной психотерапии — логотерапии."/>
+                        </TextBlock>
+                    </Grid>
+                </DataTemplate>
+            </HubSection>
+        </Hub>
     </Grid>
 </Page>
 

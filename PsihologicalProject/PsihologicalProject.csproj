@@ -104,14 +104,15 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="IT.cs" />
+    <Compile Include="LT.cs" />
+    <Compile Include="NewTest.xaml.cs">
+      <DependentUpon>NewTest.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Psihologists\Aizenk.xaml.cs">
       <DependentUpon>Aizenk.xaml</DependentUpon>
     </Compile>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="BlankPage1.xaml.cs">
-      <DependentUpon>BlankPage1.xaml</DependentUpon>
     </Compile>
     <Compile Include="GroupedItemsPage.xaml.cs">
       <DependentUpon>GroupedItemsPage.xaml</DependentUpon>
@@ -238,6 +239,45 @@
     </Compile>
     <Compile Include="Tests\InternetTest\Questions\ITQuestion3.xaml.cs">
       <DependentUpon>ITQuestion3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tests\LazyTest\LTDescriptionPage.xaml.cs">
+      <DependentUpon>LTDescriptionPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tests\LazyTest\Questions\LTQuestion1.xaml.cs">
+      <DependentUpon>LTQuestion1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tests\LazyTest\Questions\LTQuestion10.xaml.cs">
+      <DependentUpon>LTQuestion10.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tests\LazyTest\Questions\LTQuestion2.xaml.cs">
+      <DependentUpon>LTQuestion2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tests\LazyTest\Questions\LTQuestion3.xaml.cs">
+      <DependentUpon>LTQuestion3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tests\LazyTest\Questions\LTQuestion4.xaml.cs">
+      <DependentUpon>LTQuestion4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tests\LazyTest\Questions\LTQuestion5.xaml.cs">
+      <DependentUpon>LTQuestion5.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tests\LazyTest\Questions\LTQuestion6.xaml.cs">
+      <DependentUpon>LTQuestion6.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tests\LazyTest\Questions\LTQuestion7.xaml.cs">
+      <DependentUpon>LTQuestion7.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tests\LazyTest\Questions\LTQuestion8.xaml.cs">
+      <DependentUpon>LTQuestion8.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tests\LazyTest\Questions\LTQuestion9.xaml.cs">
+      <DependentUpon>LTQuestion9.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tests\LazyTest\LTResultPage.xaml.cs">
+      <DependentUpon>LTResultPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tests\LazyTest\LTTestPage.xaml.cs">
+      <DependentUpon>LTTestPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Tests\TestGardnera\TGDecriptionPage.xaml.cs">
       <DependentUpon>TGDecriptionPage.xaml</DependentUpon>
@@ -408,6 +448,62 @@
     <AppxManifest Include="Package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
+    <Page Include="NewTest.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tests\LazyTest\Questions\LTQuestion10.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tests\LazyTest\Questions\LTQuestion9.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tests\LazyTest\Questions\LTQuestion8.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tests\LazyTest\Questions\LTQuestion7.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tests\LazyTest\Questions\LTQuestion6.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tests\LazyTest\Questions\LTQuestion5.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tests\LazyTest\Questions\LTQuestion4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tests\LazyTest\Questions\LTQuestion3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tests\LazyTest\Questions\LTQuestion2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tests\LazyTest\Questions\LTQuestion1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tests\LazyTest\LTResultPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tests\LazyTest\LTTestPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tests\LazyTest\LTDescriptionPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Psihologists\Behterev.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -644,10 +740,6 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="BlankPage1.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
     <None Include="Common\ReadMe.txt" />
     <None Include="PsihologicalProject_TemporaryKey.pfx" />
     <Page Include="Psihologists\Aizenk.xaml">
@@ -658,6 +750,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Assets\FamousPsihologists\Frade.jpeg" />
+    <Content Include="Assets\FamousPsihologists\Frankl.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Assets\FamousPsihologists\Gardner.jpg" />
     <Content Include="Assets\FamousPsihologists\HansEysenck.jpg" />
     <Content Include="Assets\FamousPsihologists\PsihologistBackground.png" />
@@ -671,6 +766,10 @@
     <Content Include="Assets\internet.jpg" />
     <Content Include="Assets\jung.jpg" />
     <Content Include="Assets\Karnegi.jpeg" />
+    <Content Include="Assets\lazy.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\newtest.png" />
     <Content Include="DataModel\SampleData.json" />
   </ItemGroup>
   <ItemGroup>

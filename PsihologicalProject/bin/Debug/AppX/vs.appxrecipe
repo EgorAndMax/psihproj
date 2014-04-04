@@ -17,17 +17,21 @@
     <AppXManifest Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-04-04T11:37:19.115</Modified>
+      <Modified>2014-04-04T17:22:56.180</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\PsihologicalProject.exe">
       <PackagePath>PsihologicalProject.exe</PackagePath>
-      <Modified>2014-04-04T11:37:18.360</Modified>
+      <Modified>2014-04-04T17:26:07.245</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\Assets\FamousPsihologists\Behterev.jpg">
       <PackagePath>Assets\FamousPsihologists\Behterev.jpg</PackagePath>
       <Modified>2014-04-04T07:41:30.610</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\Assets\FamousPsihologists\Frankl.jpg">
+      <PackagePath>Assets\FamousPsihologists\Frankl.jpg</PackagePath>
+      <Modified>2014-04-04T12:21:58.521</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\Assets\FamousPsihologists\Gardner.jpg">
       <PackagePath>Assets\FamousPsihologists\Gardner.jpg</PackagePath>
@@ -65,6 +69,10 @@
       <PackagePath>Assets\jung.jpg</PackagePath>
       <Modified>2014-03-30T19:12:10.360</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\Assets\lazy.jpg">
+      <PackagePath>Assets\lazy.jpg</PackagePath>
+      <Modified>2014-04-04T13:42:23.354</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\Assets\FamousPsihologists\Frade.jpeg">
       <PackagePath>Assets\FamousPsihologists\Frade.jpeg</PackagePath>
       <Modified>2014-04-02T11:11:34.731</Modified>
@@ -76,6 +84,10 @@
     <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\Assets\FamousPsihologists\PsihologistBackground.png">
       <PackagePath>Assets\FamousPsihologists\PsihologistBackground.png</PackagePath>
       <Modified>2014-04-01T17:41:01.285</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\Assets\newtest.png">
+      <PackagePath>Assets\newtest.png</PackagePath>
+      <Modified>2014-04-04T17:30:32.827</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
@@ -111,11 +123,67 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\DataModel\SampleData.json">
       <PackagePath>DataModel\SampleData.json</PackagePath>
-      <Modified>2014-04-03T19:21:34.666</Modified>
+      <Modified>2014-04-04T17:22:42.815</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
       <Modified>2014-04-02T09:47:57.174</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\NewTest.xbf">
+      <PackagePath>NewTest.xbf</PackagePath>
+      <Modified>2014-04-04T17:26:06.323</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\LazyTest\Questions\LTQuestion10.xbf">
+      <PackagePath>Tests\LazyTest\Questions\LTQuestion10.xbf</PackagePath>
+      <Modified>2014-04-04T15:36:02.030</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\LazyTest\Questions\LTQuestion9.xbf">
+      <PackagePath>Tests\LazyTest\Questions\LTQuestion9.xbf</PackagePath>
+      <Modified>2014-04-04T15:36:02.030</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\LazyTest\Questions\LTQuestion8.xbf">
+      <PackagePath>Tests\LazyTest\Questions\LTQuestion8.xbf</PackagePath>
+      <Modified>2014-04-04T15:36:02.030</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\LazyTest\Questions\LTQuestion7.xbf">
+      <PackagePath>Tests\LazyTest\Questions\LTQuestion7.xbf</PackagePath>
+      <Modified>2014-04-04T15:36:02.030</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\LazyTest\Questions\LTQuestion6.xbf">
+      <PackagePath>Tests\LazyTest\Questions\LTQuestion6.xbf</PackagePath>
+      <Modified>2014-04-04T15:36:02.030</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\LazyTest\Questions\LTQuestion5.xbf">
+      <PackagePath>Tests\LazyTest\Questions\LTQuestion5.xbf</PackagePath>
+      <Modified>2014-04-04T15:36:02.031</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\LazyTest\Questions\LTQuestion4.xbf">
+      <PackagePath>Tests\LazyTest\Questions\LTQuestion4.xbf</PackagePath>
+      <Modified>2014-04-04T15:36:02.031</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\LazyTest\Questions\LTQuestion3.xbf">
+      <PackagePath>Tests\LazyTest\Questions\LTQuestion3.xbf</PackagePath>
+      <Modified>2014-04-04T15:36:02.031</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\LazyTest\Questions\LTQuestion2.xbf">
+      <PackagePath>Tests\LazyTest\Questions\LTQuestion2.xbf</PackagePath>
+      <Modified>2014-04-04T15:46:09.804</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\LazyTest\Questions\LTQuestion1.xbf">
+      <PackagePath>Tests\LazyTest\Questions\LTQuestion1.xbf</PackagePath>
+      <Modified>2014-04-04T15:36:02.031</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\LazyTest\LTResultPage.xbf">
+      <PackagePath>Tests\LazyTest\LTResultPage.xbf</PackagePath>
+      <Modified>2014-04-04T15:46:09.804</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\LazyTest\LTTestPage.xbf">
+      <PackagePath>Tests\LazyTest\LTTestPage.xbf</PackagePath>
+      <Modified>2014-04-04T15:46:09.804</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\LazyTest\LTDescriptionPage.xbf">
+      <PackagePath>Tests\LazyTest\LTDescriptionPage.xbf</PackagePath>
+      <Modified>2014-04-04T13:37:15.075</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Psihologists\Behterev.xbf">
       <PackagePath>Psihologists\Behterev.xbf</PackagePath>
@@ -123,7 +191,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Psihologists\Frankl.xbf">
       <PackagePath>Psihologists\Frankl.xbf</PackagePath>
-      <Modified>2014-04-04T11:37:17.443</Modified>
+      <Modified>2014-04-04T12:25:00.168</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Psihologists\Karnegi.xbf">
       <PackagePath>Psihologists\Karnegi.xbf</PackagePath>
@@ -353,10 +421,6 @@
       <PackagePath>Psihologists\Yung.xbf</PackagePath>
       <Modified>2014-04-02T18:52:18.823</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\BlankPage1.xbf">
-      <PackagePath>BlankPage1.xbf</PackagePath>
-      <Modified>2014-04-02T09:47:57.174</Modified>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Psihologists\Aizenk.xbf">
       <PackagePath>Psihologists\Aizenk.xbf</PackagePath>
       <Modified>2014-04-02T09:56:40.093</Modified>
@@ -499,7 +563,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2014-04-04T11:37:18.712</Modified>
+      <Modified>2014-04-04T17:22:55.368</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

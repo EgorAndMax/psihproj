@@ -108,6 +108,12 @@ namespace PsihologicalProject
                 case "Group-1-Item-3":
                     this.Frame.Navigate(typeof(TGDecriptionPage));
                     break;
+                case "Group-1-Item-4":
+                    this.Frame.Navigate(typeof(LTDescriptionPage));
+                    break;
+                case "Group-1-Item-6":
+                    this.Frame.Navigate(typeof(NewTest));
+                    break;
                 default:
                     this.Frame.Navigate(typeof(ItemDetailPage), itemId);
                     break;

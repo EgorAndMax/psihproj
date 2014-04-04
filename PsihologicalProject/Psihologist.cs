@@ -6,7 +6,7 @@ namespace PsihologicalProject
 {
     class Psihologist
     {
-        private static Type[] List = { typeof(Aizenk), typeof(Frade), typeof(Yung), typeof(Gardner), typeof(Karnegi), typeof(Behterev) };
+        private static Type[] List = { typeof(Aizenk), typeof(Frade), typeof(Yung), typeof(Gardner), typeof(Karnegi), typeof(Behterev), typeof(Frankl) };
         private static Type[] Last = new Type[3];
         public static Type Get()
         {
