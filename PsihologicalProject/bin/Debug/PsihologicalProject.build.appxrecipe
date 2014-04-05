@@ -8,419 +8,419 @@
     <PackageIdentityName>8a1a85ca-478c-403c-af82-76cdd9452c48</PackageIdentityName>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\PsihologicalProject.exe">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\PsihologicalProject.exe">
       <PackagePath>PsihologicalProject.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\Assets\FamousPsihologists\Behterev.jpg">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\Assets\FamousPsihologists\Behterev.jpg">
       <PackagePath>Assets\FamousPsihologists\Behterev.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\Assets\FamousPsihologists\Frankl.jpg">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\Assets\FamousPsihologists\Frankl.jpg">
       <PackagePath>Assets\FamousPsihologists\Frankl.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\Assets\FamousPsihologists\Gardner.jpg">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\Assets\FamousPsihologists\Gardner.jpg">
       <PackagePath>Assets\FamousPsihologists\Gardner.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\Assets\FamousPsihologists\HansEysenck.jpg">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\Assets\FamousPsihologists\HansEysenck.jpg">
       <PackagePath>Assets\FamousPsihologists\HansEysenck.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\Assets\FamousPsihologists\UngKarlGustav.jpg">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\Assets\FamousPsihologists\UngKarlGustav.jpg">
       <PackagePath>Assets\FamousPsihologists\UngKarlGustav.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\Assets\FamousPsihologists\VictorEmilFrankl.jpg">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\Assets\FamousPsihologists\VictorEmilFrankl.jpg">
       <PackagePath>Assets\FamousPsihologists\VictorEmilFrankl.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\Assets\FamousPsihologists\WolfMessing.jpg">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\Assets\FamousPsihologists\WolfMessing.jpg">
       <PackagePath>Assets\FamousPsihologists\WolfMessing.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\Assets\FamousPsihologists\Yung.jpg">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\Assets\FamousPsihologists\Yung.jpg">
       <PackagePath>Assets\FamousPsihologists\Yung.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\Assets\gardner.jpg">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\Assets\gardner.jpg">
       <PackagePath>Assets\gardner.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\Assets\internet.jpg">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\Assets\internet.jpg">
       <PackagePath>Assets\internet.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\Assets\jung.jpg">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\Assets\jung.jpg">
       <PackagePath>Assets\jung.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\Assets\lazy.jpg">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\Assets\lazy.jpg">
       <PackagePath>Assets\lazy.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\Assets\FamousPsihologists\Frade.jpeg">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\Assets\FamousPsihologists\Frade.jpeg">
       <PackagePath>Assets\FamousPsihologists\Frade.jpeg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\Assets\Karnegi.jpeg">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\Assets\Karnegi.jpeg">
       <PackagePath>Assets\Karnegi.jpeg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\Assets\FamousPsihologists\PsihologistBackground.png">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\Assets\FamousPsihologists\PsihologistBackground.png">
       <PackagePath>Assets\FamousPsihologists\PsihologistBackground.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\Assets\newtest.png">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\Assets\newtest.png">
       <PackagePath>Assets\newtest.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\Assets\Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\Assets\SmallLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\Assets\SmallLogo.scale-100.png">
       <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\Assets\LightGray.png">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\Assets\LightGray.png">
       <PackagePath>Assets\LightGray.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\Assets\MediumGray.png">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\Assets\MediumGray.png">
       <PackagePath>Assets\MediumGray.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\Assets\DarkGray.png">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\Assets\DarkGray.png">
       <PackagePath>Assets\DarkGray.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\DataModel\SampleData.json">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\DataModel\SampleData.json">
       <PackagePath>DataModel\SampleData.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\NewTest.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\NewTest.xbf">
       <PackagePath>NewTest.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\LazyTest\Questions\LTQuestion10.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\LazyTest\Questions\LTQuestion10.xbf">
       <PackagePath>Tests\LazyTest\Questions\LTQuestion10.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\LazyTest\Questions\LTQuestion9.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\LazyTest\Questions\LTQuestion9.xbf">
       <PackagePath>Tests\LazyTest\Questions\LTQuestion9.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\LazyTest\Questions\LTQuestion8.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\LazyTest\Questions\LTQuestion8.xbf">
       <PackagePath>Tests\LazyTest\Questions\LTQuestion8.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\LazyTest\Questions\LTQuestion7.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\LazyTest\Questions\LTQuestion7.xbf">
       <PackagePath>Tests\LazyTest\Questions\LTQuestion7.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\LazyTest\Questions\LTQuestion6.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\LazyTest\Questions\LTQuestion6.xbf">
       <PackagePath>Tests\LazyTest\Questions\LTQuestion6.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\LazyTest\Questions\LTQuestion5.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\LazyTest\Questions\LTQuestion5.xbf">
       <PackagePath>Tests\LazyTest\Questions\LTQuestion5.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\LazyTest\Questions\LTQuestion4.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\LazyTest\Questions\LTQuestion4.xbf">
       <PackagePath>Tests\LazyTest\Questions\LTQuestion4.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\LazyTest\Questions\LTQuestion3.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\LazyTest\Questions\LTQuestion3.xbf">
       <PackagePath>Tests\LazyTest\Questions\LTQuestion3.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\LazyTest\Questions\LTQuestion2.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\LazyTest\Questions\LTQuestion2.xbf">
       <PackagePath>Tests\LazyTest\Questions\LTQuestion2.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\LazyTest\Questions\LTQuestion1.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\LazyTest\Questions\LTQuestion1.xbf">
       <PackagePath>Tests\LazyTest\Questions\LTQuestion1.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\LazyTest\LTResultPage.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\LazyTest\LTResultPage.xbf">
       <PackagePath>Tests\LazyTest\LTResultPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\LazyTest\LTTestPage.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\LazyTest\LTTestPage.xbf">
       <PackagePath>Tests\LazyTest\LTTestPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\LazyTest\LTDescriptionPage.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\LazyTest\LTDescriptionPage.xbf">
       <PackagePath>Tests\LazyTest\LTDescriptionPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Psihologists\Behterev.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Psihologists\Behterev.xbf">
       <PackagePath>Psihologists\Behterev.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Psihologists\Frankl.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Psihologists\Frankl.xbf">
       <PackagePath>Psihologists\Frankl.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Psihologists\Karnegi.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Psihologists\Karnegi.xbf">
       <PackagePath>Psihologists\Karnegi.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestGardnera\Questions\TGQuestion28.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\TestGardnera\Questions\TGQuestion28.xbf">
       <PackagePath>Tests\TestGardnera\Questions\TGQuestion28.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestGardnera\Questions\TGQuestion27.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\TestGardnera\Questions\TGQuestion27.xbf">
       <PackagePath>Tests\TestGardnera\Questions\TGQuestion27.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestGardnera\Questions\TGQuestion26.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\TestGardnera\Questions\TGQuestion26.xbf">
       <PackagePath>Tests\TestGardnera\Questions\TGQuestion26.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestGardnera\Questions\TGQuestion25.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\TestGardnera\Questions\TGQuestion25.xbf">
       <PackagePath>Tests\TestGardnera\Questions\TGQuestion25.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestGardnera\Questions\TGQuestion24.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\TestGardnera\Questions\TGQuestion24.xbf">
       <PackagePath>Tests\TestGardnera\Questions\TGQuestion24.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestGardnera\Questions\TGQuestion23.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\TestGardnera\Questions\TGQuestion23.xbf">
       <PackagePath>Tests\TestGardnera\Questions\TGQuestion23.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestGardnera\Questions\TGQuestion22.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\TestGardnera\Questions\TGQuestion22.xbf">
       <PackagePath>Tests\TestGardnera\Questions\TGQuestion22.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestGardnera\Questions\TGQuestion21.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\TestGardnera\Questions\TGQuestion21.xbf">
       <PackagePath>Tests\TestGardnera\Questions\TGQuestion21.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestGardnera\Questions\TGQuestion20.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\TestGardnera\Questions\TGQuestion20.xbf">
       <PackagePath>Tests\TestGardnera\Questions\TGQuestion20.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestGardnera\Questions\TGQuestion19.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\TestGardnera\Questions\TGQuestion19.xbf">
       <PackagePath>Tests\TestGardnera\Questions\TGQuestion19.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestGardnera\Questions\TGQuestion18.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\TestGardnera\Questions\TGQuestion18.xbf">
       <PackagePath>Tests\TestGardnera\Questions\TGQuestion18.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestGardnera\Questions\TGQuestion17.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\TestGardnera\Questions\TGQuestion17.xbf">
       <PackagePath>Tests\TestGardnera\Questions\TGQuestion17.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestGardnera\Questions\TGQuestion16.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\TestGardnera\Questions\TGQuestion16.xbf">
       <PackagePath>Tests\TestGardnera\Questions\TGQuestion16.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestGardnera\Questions\TGQuestion15.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\TestGardnera\Questions\TGQuestion15.xbf">
       <PackagePath>Tests\TestGardnera\Questions\TGQuestion15.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestGardnera\Questions\TGQuestion14.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\TestGardnera\Questions\TGQuestion14.xbf">
       <PackagePath>Tests\TestGardnera\Questions\TGQuestion14.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestGardnera\Questions\TGQuestion13.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\TestGardnera\Questions\TGQuestion13.xbf">
       <PackagePath>Tests\TestGardnera\Questions\TGQuestion13.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestGardnera\Questions\TGQuestion12.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\TestGardnera\Questions\TGQuestion12.xbf">
       <PackagePath>Tests\TestGardnera\Questions\TGQuestion12.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestGardnera\Questions\TGQuestion11.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\TestGardnera\Questions\TGQuestion11.xbf">
       <PackagePath>Tests\TestGardnera\Questions\TGQuestion11.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestGardnera\Questions\TGQuestion10.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\TestGardnera\Questions\TGQuestion10.xbf">
       <PackagePath>Tests\TestGardnera\Questions\TGQuestion10.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestGardnera\Questions\TGQuestion9.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\TestGardnera\Questions\TGQuestion9.xbf">
       <PackagePath>Tests\TestGardnera\Questions\TGQuestion9.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestGardnera\Questions\TGQuestion8.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\TestGardnera\Questions\TGQuestion8.xbf">
       <PackagePath>Tests\TestGardnera\Questions\TGQuestion8.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestGardnera\Questions\TGQuestion7.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\TestGardnera\Questions\TGQuestion7.xbf">
       <PackagePath>Tests\TestGardnera\Questions\TGQuestion7.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestGardnera\Questions\TGQuestion6.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\TestGardnera\Questions\TGQuestion6.xbf">
       <PackagePath>Tests\TestGardnera\Questions\TGQuestion6.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestGardnera\Questions\TGQuestion5.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\TestGardnera\Questions\TGQuestion5.xbf">
       <PackagePath>Tests\TestGardnera\Questions\TGQuestion5.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestGardnera\Questions\TGQuestion4.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\TestGardnera\Questions\TGQuestion4.xbf">
       <PackagePath>Tests\TestGardnera\Questions\TGQuestion4.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestGardnera\Questions\TGQuestion3.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\TestGardnera\Questions\TGQuestion3.xbf">
       <PackagePath>Tests\TestGardnera\Questions\TGQuestion3.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestGardnera\Questions\TGQuestion2.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\TestGardnera\Questions\TGQuestion2.xbf">
       <PackagePath>Tests\TestGardnera\Questions\TGQuestion2.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestGardnera\Questions\TGQuestion1.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\TestGardnera\Questions\TGQuestion1.xbf">
       <PackagePath>Tests\TestGardnera\Questions\TGQuestion1.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestGardnera\TGResultPage.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\TestGardnera\TGResultPage.xbf">
       <PackagePath>Tests\TestGardnera\TGResultPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestGardnera\TGTestPage.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\TestGardnera\TGTestPage.xbf">
       <PackagePath>Tests\TestGardnera\TGTestPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Psihologists\Gardner.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Psihologists\Gardner.xbf">
       <PackagePath>Psihologists\Gardner.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\InternetTest\Questions\ITQuestion20.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\InternetTest\Questions\ITQuestion20.xbf">
       <PackagePath>Tests\InternetTest\Questions\ITQuestion20.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\InternetTest\Questions\ITQuestion19.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\InternetTest\Questions\ITQuestion19.xbf">
       <PackagePath>Tests\InternetTest\Questions\ITQuestion19.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\InternetTest\Questions\ITQuestion18.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\InternetTest\Questions\ITQuestion18.xbf">
       <PackagePath>Tests\InternetTest\Questions\ITQuestion18.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\InternetTest\Questions\ITQuestion17.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\InternetTest\Questions\ITQuestion17.xbf">
       <PackagePath>Tests\InternetTest\Questions\ITQuestion17.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\InternetTest\Questions\ITQuestion16.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\InternetTest\Questions\ITQuestion16.xbf">
       <PackagePath>Tests\InternetTest\Questions\ITQuestion16.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\InternetTest\Questions\ITQuestion15.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\InternetTest\Questions\ITQuestion15.xbf">
       <PackagePath>Tests\InternetTest\Questions\ITQuestion15.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\InternetTest\Questions\ITQuestion14.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\InternetTest\Questions\ITQuestion14.xbf">
       <PackagePath>Tests\InternetTest\Questions\ITQuestion14.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\InternetTest\Questions\ITQuestion13.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\InternetTest\Questions\ITQuestion13.xbf">
       <PackagePath>Tests\InternetTest\Questions\ITQuestion13.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\InternetTest\Questions\ITQuestion12.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\InternetTest\Questions\ITQuestion12.xbf">
       <PackagePath>Tests\InternetTest\Questions\ITQuestion12.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\InternetTest\Questions\ITQuestion11.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\InternetTest\Questions\ITQuestion11.xbf">
       <PackagePath>Tests\InternetTest\Questions\ITQuestion11.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\InternetTest\Questions\ITQuestion10.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\InternetTest\Questions\ITQuestion10.xbf">
       <PackagePath>Tests\InternetTest\Questions\ITQuestion10.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\InternetTest\Questions\ITQuestion9.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\InternetTest\Questions\ITQuestion9.xbf">
       <PackagePath>Tests\InternetTest\Questions\ITQuestion9.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\InternetTest\Questions\ITQuestion8.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\InternetTest\Questions\ITQuestion8.xbf">
       <PackagePath>Tests\InternetTest\Questions\ITQuestion8.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\InternetTest\Questions\ITQuestion7.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\InternetTest\Questions\ITQuestion7.xbf">
       <PackagePath>Tests\InternetTest\Questions\ITQuestion7.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\InternetTest\Questions\ITQuestion6.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\InternetTest\Questions\ITQuestion6.xbf">
       <PackagePath>Tests\InternetTest\Questions\ITQuestion6.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\InternetTest\Questions\ITQuestion5.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\InternetTest\Questions\ITQuestion5.xbf">
       <PackagePath>Tests\InternetTest\Questions\ITQuestion5.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\InternetTest\Questions\ITQuestion4.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\InternetTest\Questions\ITQuestion4.xbf">
       <PackagePath>Tests\InternetTest\Questions\ITQuestion4.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\InternetTest\Questions\ITQuestion3.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\InternetTest\Questions\ITQuestion3.xbf">
       <PackagePath>Tests\InternetTest\Questions\ITQuestion3.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\InternetTest\Questions\ITQuestion2.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\InternetTest\Questions\ITQuestion2.xbf">
       <PackagePath>Tests\InternetTest\Questions\ITQuestion2.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\InternetTest\Questions\ITQuestion1.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\InternetTest\Questions\ITQuestion1.xbf">
       <PackagePath>Tests\InternetTest\Questions\ITQuestion1.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\InternetTest\ITResultPage.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\InternetTest\ITResultPage.xbf">
       <PackagePath>Tests\InternetTest\ITResultPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\InternetTest\ITTestPage.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\InternetTest\ITTestPage.xbf">
       <PackagePath>Tests\InternetTest\ITTestPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\InternetTest\ITDescriptionPage.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\InternetTest\ITDescriptionPage.xbf">
       <PackagePath>Tests\InternetTest\ITDescriptionPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Psihologists\Frade.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Psihologists\Frade.xbf">
       <PackagePath>Psihologists\Frade.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Psihologists\Yung.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Psihologists\Yung.xbf">
       <PackagePath>Psihologists\Yung.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Psihologists\Aizenk.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Psihologists\Aizenk.xbf">
       <PackagePath>Psihologists\Aizenk.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\GroupedItemsPage.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\GroupedItemsPage.xbf">
       <PackagePath>GroupedItemsPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\GroupDetailPage.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\GroupDetailPage.xbf">
       <PackagePath>GroupDetailPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\ItemDetailPage.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\ItemDetailPage.xbf">
       <PackagePath>ItemDetailPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Templates\DescriptionPage.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Templates\DescriptionPage.xbf">
       <PackagePath>Templates\DescriptionPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Templates\PsihologistPage1.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Templates\PsihologistPage1.xbf">
       <PackagePath>Templates\PsihologistPage1.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Templates\PsihologistPage2.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Templates\PsihologistPage2.xbf">
       <PackagePath>Templates\PsihologistPage2.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Templates\PsihologistPage3.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Templates\PsihologistPage3.xbf">
       <PackagePath>Templates\PsihologistPage3.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Templates\QuestionPage.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Templates\QuestionPage.xbf">
       <PackagePath>Templates\QuestionPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Templates\ResultPage.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Templates\ResultPage.xbf">
       <PackagePath>Templates\ResultPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Templates\TestPage.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Templates\TestPage.xbf">
       <PackagePath>Templates\TestPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestGardnera\TGDecriptionPage.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\TestGardnera\TGDecriptionPage.xbf">
       <PackagePath>Tests\TestGardnera\TGDecriptionPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion9.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion9.xbf">
       <PackagePath>Tests\TestYunga\Questions\TYQuestion9.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion20.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion20.xbf">
       <PackagePath>Tests\TestYunga\Questions\TYQuestion20.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion19.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion19.xbf">
       <PackagePath>Tests\TestYunga\Questions\TYQuestion19.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion18.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion18.xbf">
       <PackagePath>Tests\TestYunga\Questions\TYQuestion18.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion17.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion17.xbf">
       <PackagePath>Tests\TestYunga\Questions\TYQuestion17.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion16.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion16.xbf">
       <PackagePath>Tests\TestYunga\Questions\TYQuestion16.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion15.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion15.xbf">
       <PackagePath>Tests\TestYunga\Questions\TYQuestion15.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion14.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion14.xbf">
       <PackagePath>Tests\TestYunga\Questions\TYQuestion14.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion13.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion13.xbf">
       <PackagePath>Tests\TestYunga\Questions\TYQuestion13.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion12.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion12.xbf">
       <PackagePath>Tests\TestYunga\Questions\TYQuestion12.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion11.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion11.xbf">
       <PackagePath>Tests\TestYunga\Questions\TYQuestion11.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion10.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion10.xbf">
       <PackagePath>Tests\TestYunga\Questions\TYQuestion10.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion8.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion8.xbf">
       <PackagePath>Tests\TestYunga\Questions\TYQuestion8.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion7.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion7.xbf">
       <PackagePath>Tests\TestYunga\Questions\TYQuestion7.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion6.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion6.xbf">
       <PackagePath>Tests\TestYunga\Questions\TYQuestion6.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion5.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion5.xbf">
       <PackagePath>Tests\TestYunga\Questions\TYQuestion5.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion4.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion4.xbf">
       <PackagePath>Tests\TestYunga\Questions\TYQuestion4.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion3.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion3.xbf">
       <PackagePath>Tests\TestYunga\Questions\TYQuestion3.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion2.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion2.xbf">
       <PackagePath>Tests\TestYunga\Questions\TYQuestion2.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion1.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\TestYunga\Questions\TYQuestion1.xbf">
       <PackagePath>Tests\TestYunga\Questions\TYQuestion1.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestYunga\TYDescriptionPage.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\TestYunga\TYDescriptionPage.xbf">
       <PackagePath>Tests\TestYunga\TYDescriptionPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestYunga\TYResultPage.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\TestYunga\TYResultPage.xbf">
       <PackagePath>Tests\TestYunga\TYResultPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\Tests\TestYunga\TYTestPage.xbf">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\Tests\TestYunga\TYTestPage.xbf">
       <PackagePath>Tests\TestYunga\TYTestPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\GIT\PsihologicalProject\PsihologicalProject\bin\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\GIT\PsihProj\PsihologicalProject\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

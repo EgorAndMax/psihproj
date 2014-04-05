@@ -1,1 +1,1 @@
-C:\GIT\PsihologicalProject\PsihologicalProject\PsihologicalProject.csproj;neutral
+C:\GIT\PsihProj\PsihologicalProject\PsihologicalProject.csproj;neutral

@@ -20,6 +20,11 @@ namespace PsihologicalProject
         }
         private static int Count = 20;
         private static int[] _array = new int[Count];
+        public static void ToZero()
+        {
+            for (int i = 0; i < ArrayOfResults.Length; i++)
+                ArrayOfResults[i] = 0;
+        }
         public static int[] ArrayOfResults
         {
             get

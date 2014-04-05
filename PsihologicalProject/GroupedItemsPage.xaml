@@ -67,7 +67,7 @@
             SelectionMode="None"
             IsSwipeEnabled="False"
             IsItemClickEnabled="True"
-            ItemClick="ItemView_ItemClick" Margin="616,9,10,-9">
+            ItemClick="ItemView_ItemClick" Margin="616,37,10,-9">
             <GridView.ItemTemplate>
                 <DataTemplate>
                     <Grid HorizontalAlignment="Left" Width="250" Height="250">
@@ -93,11 +93,9 @@
                             <Grid Margin="0,0,0,2">
                                 <Button Foreground="{ThemeResource ApplicationHeaderForegroundThemeBrush}"
                                     AutomationProperties.Name="Group Title"
-                                    Click="Header_Click"
+                                    
                                     Style="{StaticResource TextBlockButtonStyle}" >
                                     <StackPanel Orientation="Horizontal">
-                                        <TextBlock Text="{Binding Title}" Margin="0,-11,10,10" Style="{StaticResource SubheaderTextBlockStyle}" TextWrapping="NoWrap" />
-                                        <TextBlock Text="{StaticResource ChevronGlyph}" FontFamily="Segoe UI Symbol" Margin="0,-11,0,10" Style="{StaticResource SubheaderTextBlockStyle}" TextWrapping="NoWrap" />
                                     </StackPanel>
                                 </Button>
                             </Grid>

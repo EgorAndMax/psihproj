@@ -9,11 +9,12 @@
 
     <Grid>
         <Grid.Background>
-            <LinearGradientBrush EndPoint="1.35,2.577" StartPoint="-0.362,0.816">
-                <GradientStop Color="Black"/>
-                <GradientStop Color="White" Offset="1"/>
-                <GradientStop Color="#FEA7A7A7" Offset="1"/>
-                <GradientStop Color="#FED2D2D2" Offset="0.871"/>
+            <LinearGradientBrush EndPoint="0.51,-0.095" StartPoint="0.511,1.123">
+                <GradientStop Color="#FFA5A5A5" Offset="0.757"/>
+                <GradientStop Color="#FF181818" Offset="0.828"/>
+                <GradientStop Color="White" Offset="0.707"/>
+                <GradientStop Color="#FFF1F1F1" Offset="0.204"/>
+                <GradientStop Color="Black" Offset="0.078"/>
             </LinearGradientBrush>
         </Grid.Background>
         <Grid.ChildrenTransitions>
@@ -28,6 +29,14 @@
 
         <!-- Back button and page title -->
         <Grid>
+            <Grid.Background>
+                <LinearGradientBrush EndPoint="0.448,-1.821" StartPoint="0.447,1.979">
+                    <GradientStop Color="White" Offset="0.69"/>
+                    <GradientStop Color="#FF8FB0D7" Offset="0.088"/>
+                    <GradientStop Color="#FF8FB0D7" Offset="0.967"/>
+                    <GradientStop Color="#FFF8FAFC" Offset="0.9"/>
+                </LinearGradientBrush>
+            </Grid.Background>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="120"/>
                 <ColumnDefinition Width="*"/>
@@ -37,11 +46,11 @@
                         VerticalAlignment="Top"
                         AutomationProperties.Name="Back"
                         AutomationProperties.AutomationId="BackButton"
-                        AutomationProperties.ItemType="Navigation Button" Click="backButton_Click"/>
+                        AutomationProperties.ItemType="Navigation Button" Click="backButton_Click" Foreground="#FFFBFBFB" BorderBrush="#FFFFFDFD"/>
             <TextBlock x:Name="pageTitle" Text="Тест на Интернет-зависимость" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
-                        IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="0,0,30,40" FontFamily="Gabriola" FontSize="75"/>
+                        IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="0,0,30,40" FontFamily="Gabriola" FontSize="75" Foreground="Black" />
         </Grid>
-        <TextBlock HorizontalAlignment="Left" Height="450" Margin="95,50,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="888" FontSize="25" FontFamily="Georgia" TextAlignment="Justify">
+        <TextBlock HorizontalAlignment="Left" Height="465" Margin="95,50,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="888" FontSize="25" FontFamily="Georgia" TextAlignment="Justify" Foreground="Black">
         	<Run Text="Интернет давно стал неотъемлемой частью жизни современного человека. Возможности Интернета облегчают поиск информации, общение и досуг. Однако есть люди, которые прибегают к услугам сети не только тогда, когда для этого есть объективная необходимость. Для некоторых людей Интернет стал местом, куда можно сбежать от реального мира."/>
         	<LineBreak/>
         	<Run/>
@@ -52,7 +61,7 @@
         	<LineBreak/>
             <Run Text='С.А. Кулаков, автор экспресс-теста на определение зависимости от Интернета или "сетеголизма", постарался учесть все факторы, по которым можно определить Интернет-зависимость.'/>
         </TextBlock>
-        <Button Content="На главную" HorizontalAlignment="Left" Height="45" Margin="1058,560,0,0" Grid.Row="1" VerticalAlignment="Top" Width="250" FontSize="20" Click="Button_Click_1" FontFamily="Georgia"/>
-        <Button Content="Начать тест" HorizontalAlignment="Left" Height="45" Margin="92,560,0,0" Grid.Row="1" VerticalAlignment="Top" Width="250" FontSize="20" Click="Button_Click" FontFamily="Georgia"/>
+        <Button Content="На главную" HorizontalAlignment="Left" Height="45" Margin="1058,560,0,0" Grid.Row="1" VerticalAlignment="Top" Width="250" FontSize="20" Click="Button_Click_1" FontFamily="Georgia" BorderBrush="Black" Foreground="White"/>
+        <Button Content="Начать тест" HorizontalAlignment="Left" Height="45" Margin="92,560,0,0" Grid.Row="1" VerticalAlignment="Top" Width="250" FontSize="20" Click="Button_Click" FontFamily="Georgia" Foreground="White" BorderBrush="Black"/>
     </Grid>
 </Page>
